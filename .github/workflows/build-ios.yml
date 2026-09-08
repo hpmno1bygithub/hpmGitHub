@@ -1,0 +1,63 @@
+name: Build iOS unsigned IPA
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Import initial source bundle if present
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f PytoRPG-source.zip ]; then
+            python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import zipfile
+          with zipfile.ZipFile('PytoRPG-source.zip') as archive:
+              for item in archive.infolist():
+                  path=PurePosixPath(item.filename)
+                  if item.is_dir(): continue
+                  if path.is_absolute() or '..' in path.parts or path.parts[0]!='PytoRPG_Godot': raise SystemExit('Unsafe source bundle path')
+                  target=Path(*path.parts[1:])
+                  if any(part in ('.git','.github','.godot','__pycache__') for part in target.parts): continue
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  target.write_bytes(archive.read(item))
+          PY
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add .
+            git rm PytoRPG-source.zip
+            git commit -m 'Import editable Godot Phase 6 project'
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+      - run: python3 tools/install_godot.py ios
+      - name: Verify scripts and gameplay
+        run: python3 tools/check_project.py
+      - name: Build iPhone and iPad IPA
+        run: python3 tools/build_ios.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PytoRPG-iOS-unsigned-${{ github.run_number }}
+          path: |
+            build/PytoRPG-unsigned.ipa
+            build/PytoRPG-unsigned.ipa.sha256
+            build/build-info.json
+          if-no-files-found: error
+          retention-days: 14
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: ios-debug-logs-${{ github.run_number }}
+          path: build/logs/*.log
