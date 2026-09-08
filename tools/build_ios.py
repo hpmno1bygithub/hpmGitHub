@@ -14,7 +14,7 @@ app=output/'derived/Build/Products/Release-iphoneos/PytoRPG.app'
 with (app/'Info.plist').open('rb') as file: info=plistlib.load(file)
 executable=app/info['CFBundleExecutable']
 if not executable.is_file(): raise SystemExit('Missing compiled app executable')
-run(['lipo','-verify_arch','arm64',executable])
+run(['lipo',executable,'-verify_arch','arm64'])
 if not {1,2}.issubset(set(info.get('UIDeviceFamily',[]))): raise SystemExit('iPhone/iPad device families missing')
 payload=output/'package/Payload'; payload.mkdir(parents=True,exist_ok=True)
 shutil.copytree(app,payload/app.name,dirs_exist_ok=True)
