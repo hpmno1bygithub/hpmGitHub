@@ -1,0 +1,28 @@
+name: Build Windows game
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/install_godot.py windows
+      - shell: bash
+        run: |
+          set -euo pipefail
+          python tools/check_project.py
+          mkdir -p build/windows
+          "$GODOT" --headless --export-release 'Windows Desktop' build/windows/PytoRPG.exe
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PytoRPG-Windows-${{ github.run_number }}
+          path: build/windows/
+          if-no-files-found: error

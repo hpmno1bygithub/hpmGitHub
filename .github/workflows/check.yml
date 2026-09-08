@@ -1,0 +1,27 @@
+name: Check Godot project
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/install_godot.py
+      - run: python tools/verify_import.py
+      - run: python tools/verify_gameplay.py
+      - name: Import and run integration tests
+        run: python tools/check_project.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-logs
+          path: build/logs/*.log
