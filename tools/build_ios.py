@@ -16,6 +16,10 @@ executable=app/info['CFBundleExecutable']
 if not executable.is_file(): raise SystemExit('Missing compiled app executable')
 run(['lipo',executable,'-verify_arch','arm64'])
 if not {1,2}.issubset(set(info.get('UIDeviceFamily',[]))): raise SystemExit('iPhone/iPad device families missing')
+# Keep the bundled font license with the installed app as well as the source.
+licenses=app/'Licenses'; licenses.mkdir(exist_ok=True)
+for name in ['OFL.txt','SOURCE.txt']:
+    shutil.copy2(root/'assets/fonts'/name,licenses/name)
 payload=output/'package/Payload'; payload.mkdir(parents=True,exist_ok=True)
 shutil.copytree(app,payload/app.name,dirs_exist_ok=True)
 ipa=output/'PytoRPG-unsigned.ipa'
