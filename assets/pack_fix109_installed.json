@@ -1,0 +1,16 @@
+{
+  "version": "0.7.7.7-FIX109-boss-signature-animation-sync",
+  "updated_bosses": [
+    "熔岩甲蟲皇",
+    "冰晶九尾狐",
+    "深海巨螯蟹王",
+    "雷霆巨鷹",
+    "地底鑽岩巨蟲",
+    "古樹魔神"
+  ],
+  "style": "minecraft_block_pixel_redraw",
+  "weapon_effect_frames": {
+    "normal": 16,
+    "heavy": 20
+  }
+}

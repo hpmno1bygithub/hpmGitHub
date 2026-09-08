@@ -1,0 +1,59 @@
+{
+  "CLIMATE_PROFILES": {
+    "polar": {
+      "base_temp_c": -18.0,
+      "solar_gain_c": 5.0,
+      "night_temp_c": -25.0,
+      "humidity": 0.45
+    },
+    "alpine": {
+      "base_temp_c": -4.0,
+      "solar_gain_c": 8.0,
+      "night_temp_c": -10.0,
+      "humidity": 0.4
+    },
+    "temperate": {
+      "base_temp_c": 18.0,
+      "solar_gain_c": 11.0,
+      "night_temp_c": 12.0,
+      "humidity": 0.55
+    },
+    "rainforest": {
+      "base_temp_c": 25.0,
+      "solar_gain_c": 7.0,
+      "night_temp_c": 22.0,
+      "humidity": 0.88
+    },
+    "desert": {
+      "base_temp_c": 32.0,
+      "solar_gain_c": 22.0,
+      "night_temp_c": 13.0,
+      "humidity": 0.12
+    }
+  },
+  "CLIMATE_ICE_MELT_MULTIPLIER": {
+    "desert": 3.4,
+    "temperate": 1.0,
+    "rainforest": 1.1,
+    "alpine": 0.2,
+    "polar": 0.06
+  },
+  "CLIMATE_WATER_EVAP_MULTIPLIER": {
+    "desert": 24.0,
+    "temperate": 1.0,
+    "rainforest": 24.0,
+    "alpine": 0.28,
+    "polar": 0.12
+  },
+  "ICE_MELT_PROGRESS_PER_C_PER_SEC": 0.018,
+  "ICE_STAGE_LOW_MAX_MASS": 0.34,
+  "ICE_STAGE_MID_MAX_MASS": 0.67,
+  "ICE_STAGE_LOW_HEIGHT_RATIO": 0.28,
+  "ICE_STAGE_MID_HEIGHT_RATIO": 0.58,
+  "ICE_STAGE_MIN_MASS": 0.04,
+  "BASE_EVAPORATION": 0.0035,
+  "EVAP_UPDRAFT_PER_WATER_UNIT": 8.0,
+  "EVAP_UPDRAFT_DECAY_PER_SECOND": 0.7,
+  "EVAP_UPDRAFT_MAX_SPEED": 120.0,
+  "WATER_MASS_UNITS_PER_TILE": 10.0
+}

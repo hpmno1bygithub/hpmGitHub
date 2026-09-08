@@ -1,0 +1,11 @@
+{
+  "version": "0.7.7.7-FIX128-fx-motion-compact-layout",
+  "base_version": "0.7.7.7-FIX127-fx-motion-authoring",
+  "installed_at": "2026-09-08 01:02:01",
+  "fx_motion_compact_landscape_layout": true,
+  "global_and_segment_controls_side_by_side": true,
+  "iphone_landscape_safe_height": true,
+  "preview_kept_fixed": true,
+  "ui_term_fx_renamed_to_effect": true,
+  "gameplay_motion_data_unchanged": true
+}

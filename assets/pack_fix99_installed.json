@@ -1,0 +1,28 @@
+{
+  "asset_ids": [
+    "creature.butterfly_backdrop",
+    "creature.congo_kong",
+    "creature.corrosive_slime",
+    "creature.exp99_chimpanzee",
+    "creature.goblin_lord",
+    "creature.goblin_priest",
+    "creature.goblin_redcap",
+    "creature.peregrine_falcon",
+    "creature.swan",
+    "creature.trihead_dragon",
+    "creature.vulture",
+    "effect.corrosive_splash",
+    "effect.tri_orb_electric",
+    "effect.tri_orb_fire",
+    "effect.tri_orb_ice",
+    "effect.tri_orb_water",
+    "effect.triple_storm_cloud",
+    "effect.triple_storm_lightning",
+    "effect.triple_storm_spark",
+    "weapon.kong_gauntlets",
+    "weapon.triple_staff"
+  ],
+  "pack_id": "FIX99-fauna-boss-pack",
+  "schema": 1,
+  "version": "0.7.7.7-FIX99-fauna-boss-pack"
+}

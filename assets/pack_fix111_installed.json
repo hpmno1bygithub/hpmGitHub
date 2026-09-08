@@ -1,0 +1,11 @@
+{
+  "version": "0.7.7.7-FIX111-logical-pixel-scale-fix",
+  "logical_pixel_pipeline": true,
+  "boss_logical_size": 24,
+  "boss_export_size": 96,
+  "weapon_logical_size": 16,
+  "weapon_export_size": 32,
+  "effect_logical_size": 16,
+  "effect_export_size": 64,
+  "renderer": "world box fit for boss/effect, fixed 2.5 world px for weapon"
+}

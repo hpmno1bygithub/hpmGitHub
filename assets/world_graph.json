@@ -1,0 +1,283 @@
+{
+  "format": 2,
+  "version": "FIX69",
+  "main": "editor_map.json",
+  "topology_catalog": "assets/world_topology.json",
+  "worlds": [
+    {
+      "id": "main_world",
+      "display_name": "主世界",
+      "entry_map": "editor_map.json"
+    },
+    {
+      "id": "glow_moss_cavern",
+      "display_name": "發光苔蘚洞窟",
+      "entry_map": "glow_moss_cavern.json"
+    },
+    {
+      "id": "crystal_mine",
+      "display_name": "巨大水晶礦區",
+      "entry_map": "crystal_mine.json"
+    },
+    {
+      "id": "underground_castle",
+      "display_name": "地下城堡",
+      "entry_map": "underground_castle.json"
+    },
+    {
+      "id": "boss_dungeon",
+      "display_name": "Boss 地城",
+      "entry_map": "boss_dungeon.json"
+    },
+    {
+      "id": "magma_hell",
+      "display_name": "地底熔岩地獄",
+      "entry_map": "magma_hell.json"
+    },
+    {
+      "id": "egyptian_pyramid",
+      "display_name": "古埃及金字塔",
+      "entry_map": "egyptian_pyramid.json"
+    },
+    {
+      "id": "wuxia_world",
+      "display_name": "武俠世界",
+      "entry_map": "wuxia_world.json"
+    },
+    {
+      "id": "biolume_sky_world",
+      "display_name": "生物發光異星世界",
+      "entry_map": "biolume_sky_world.json"
+    }
+  ],
+  "maps": {
+    "editor_map.json": {
+      "map_id": "main_world",
+      "world_id": "main_world",
+      "display_name": "主世界",
+      "theme": "main",
+      "background_profile": "",
+      "background_profile_mode": "underground_biome_bounds"
+    },
+    "glow_moss_cavern.json": {
+      "map_id": "glow_moss_cavern",
+      "world_id": "glow_moss_cavern",
+      "display_name": "發光苔蘚洞窟",
+      "theme": "glow_moss",
+      "background_profile": "underground.glow_moss",
+      "background_profile_mode": ""
+    },
+    "crystal_mine.json": {
+      "map_id": "crystal_mine",
+      "world_id": "crystal_mine",
+      "display_name": "巨大水晶礦區",
+      "theme": "crystal_mine",
+      "background_profile": "underground.crystal_mine",
+      "background_profile_mode": ""
+    },
+    "underground_castle.json": {
+      "map_id": "underground_castle",
+      "world_id": "underground_castle",
+      "display_name": "地下城堡",
+      "theme": "underground_castle",
+      "background_profile": "underground.underground_castle",
+      "background_profile_mode": ""
+    },
+    "boss_dungeon.json": {
+      "map_id": "boss_dungeon",
+      "world_id": "boss_dungeon",
+      "display_name": "Boss 地城",
+      "theme": "boss_dungeon",
+      "background_profile": "underground.boss_dungeon",
+      "background_profile_mode": ""
+    },
+    "magma_hell.json": {
+      "map_id": "magma_hell",
+      "world_id": "magma_hell",
+      "display_name": "地底熔岩地獄",
+      "theme": "magma_hell",
+      "background_profile": "underground.magma_hell",
+      "background_profile_mode": ""
+    },
+    "egyptian_pyramid.json": {
+      "map_id": "egyptian_pyramid",
+      "world_id": "egyptian_pyramid",
+      "display_name": "古埃及金字塔",
+      "theme": "egyptian_pyramid",
+      "background_profile": "underground.egyptian_pyramid",
+      "background_profile_mode": ""
+    },
+    "wuxia_world.json": {
+      "map_id": "wuxia_world",
+      "world_id": "wuxia_world",
+      "display_name": "武俠世界",
+      "theme": "wuxia_world",
+      "background_profile": "",
+      "background_profile_mode": ""
+    },
+    "biolume_sky_world.json": {
+      "map_id": "biolume_sky_world",
+      "world_id": "biolume_sky_world",
+      "display_name": "生物發光異星世界",
+      "theme": "biolume_sky",
+      "background_profile": "biolume.sky_depth",
+      "background_profile_mode": ""
+    }
+  },
+  "links": [
+    {
+      "route_id": "main_biolume",
+      "from": "biolume_sky_world.json",
+      "portal": "to_main_world",
+      "to": "editor_map.json",
+      "target_portal": "to_biolume"
+    },
+    {
+      "route_id": "wuxia_biolume",
+      "from": "biolume_sky_world.json",
+      "portal": "to_wuxia_world",
+      "to": "wuxia_world.json",
+      "target_portal": "to_biolume_world"
+    },
+    {
+      "route_id": "castle_boss",
+      "from": "boss_dungeon.json",
+      "portal": "to_castle",
+      "to": "underground_castle.json",
+      "target_portal": "to_boss"
+    },
+    {
+      "route_id": "boss_wuxia_graveyard",
+      "from": "boss_dungeon.json",
+      "portal": "to_wuxia_graveyard",
+      "to": "wuxia_world.json",
+      "target_portal": "to_boss_dungeon"
+    },
+    {
+      "route_id": "crystal_castle",
+      "from": "crystal_mine.json",
+      "portal": "to_castle",
+      "to": "underground_castle.json",
+      "target_portal": "to_crystal"
+    },
+    {
+      "route_id": "glow_crystal",
+      "from": "crystal_mine.json",
+      "portal": "to_glow",
+      "to": "glow_moss_cavern.json",
+      "target_portal": "to_crystal"
+    },
+    {
+      "route_id": "main_biolume",
+      "from": "editor_map.json",
+      "portal": "to_biolume",
+      "to": "biolume_sky_world.json",
+      "target_portal": "to_main_world"
+    },
+    {
+      "route_id": "main_castle",
+      "from": "editor_map.json",
+      "portal": "to_castle",
+      "to": "underground_castle.json",
+      "target_portal": "to_main"
+    },
+    {
+      "route_id": "main_glow_moss",
+      "from": "editor_map.json",
+      "portal": "to_glow",
+      "to": "glow_moss_cavern.json",
+      "target_portal": "to_main"
+    },
+    {
+      "route_id": "main_pyramid",
+      "from": "editor_map.json",
+      "portal": "to_pyramid",
+      "to": "egyptian_pyramid.json",
+      "target_portal": "to_desert"
+    },
+    {
+      "route_id": "main_wuxia",
+      "from": "editor_map.json",
+      "portal": "to_wuxia",
+      "to": "wuxia_world.json",
+      "target_portal": "to_main_world"
+    },
+    {
+      "route_id": "main_pyramid",
+      "from": "egyptian_pyramid.json",
+      "portal": "to_desert",
+      "to": "editor_map.json",
+      "target_portal": "to_pyramid"
+    },
+    {
+      "route_id": "glow_crystal",
+      "from": "glow_moss_cavern.json",
+      "portal": "to_crystal",
+      "to": "crystal_mine.json",
+      "target_portal": "to_glow"
+    },
+    {
+      "route_id": "main_glow_moss",
+      "from": "glow_moss_cavern.json",
+      "portal": "to_main",
+      "to": "editor_map.json",
+      "target_portal": "to_glow"
+    },
+    {
+      "route_id": "castle_magma",
+      "from": "magma_hell.json",
+      "portal": "to_castle",
+      "to": "underground_castle.json",
+      "target_portal": "to_magma"
+    },
+    {
+      "route_id": "castle_boss",
+      "from": "underground_castle.json",
+      "portal": "to_boss",
+      "to": "boss_dungeon.json",
+      "target_portal": "to_castle"
+    },
+    {
+      "route_id": "crystal_castle",
+      "from": "underground_castle.json",
+      "portal": "to_crystal",
+      "to": "crystal_mine.json",
+      "target_portal": "to_castle"
+    },
+    {
+      "route_id": "castle_magma",
+      "from": "underground_castle.json",
+      "portal": "to_magma",
+      "to": "magma_hell.json",
+      "target_portal": "to_castle"
+    },
+    {
+      "route_id": "main_castle",
+      "from": "underground_castle.json",
+      "portal": "to_main",
+      "to": "editor_map.json",
+      "target_portal": "to_castle"
+    },
+    {
+      "route_id": "wuxia_biolume",
+      "from": "wuxia_world.json",
+      "portal": "to_biolume_world",
+      "to": "biolume_sky_world.json",
+      "target_portal": "to_wuxia_world"
+    },
+    {
+      "route_id": "boss_wuxia_graveyard",
+      "from": "wuxia_world.json",
+      "portal": "to_boss_dungeon",
+      "to": "boss_dungeon.json",
+      "target_portal": "to_wuxia_graveyard"
+    },
+    {
+      "route_id": "main_wuxia",
+      "from": "wuxia_world.json",
+      "portal": "to_main_world",
+      "to": "editor_map.json",
+      "target_portal": "to_wuxia"
+    }
+  ]
+}

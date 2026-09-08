@@ -1,0 +1,37 @@
+{
+  "version": "0.7.7.7-FIX130-map-creature-ai-authoring",
+  "base_version": "0.7.7.7-FIX129-fx-distance-repeat-authoring",
+  "installed_at": "2026-09-08 01:46:52",
+  "map_editor_instance_ai": true,
+  "move_modes": [
+    "default",
+    "hold",
+    "patrol",
+    "chase",
+    "patrol_chase"
+  ],
+  "behavior_modes": [
+    "default",
+    "passive",
+    "retaliate",
+    "hostile"
+  ],
+  "attack_modes": [
+    "default",
+    "none",
+    "contact",
+    "normal",
+    "special",
+    "mixed"
+  ],
+  "instance_parameters": [
+    "patrol",
+    "detect_tiles",
+    "detect_vertical_tiles",
+    "speed_scale",
+    "attack_cooldown_scale"
+  ],
+  "legacy_spawn_ai_supported": true,
+  "runtime_override_ai_supported": true,
+  "old_maps_default_compatible": true
+}

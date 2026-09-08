@@ -1,0 +1,10 @@
+{
+  "version": "0.7.7.7-FIX116-native96-signature-bosses",
+  "base_version": "0.7.7.7-FIX115-boss-production-spec",
+  "installed_at": "2026-09-07 18:55:32",
+  "native_boss_canvas": 96,
+  "normal_vfx_canvas": 96,
+  "heavy_vfx_canvas": 128,
+  "boss_low_res_upscale": false,
+  "signature_attack_choreography": true
+}

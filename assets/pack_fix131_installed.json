@@ -1,0 +1,34 @@
+{
+  "version": "0.7.7.7-FIX131-creature-ecology-elements",
+  "base_version": "0.7.7.7-FIX130-map-creature-ai-authoring",
+  "installed_at": "2026-09-08 06:05:35",
+  "map_editor_habitat_modes": [
+    "default",
+    "fly_rest",
+    "aquatic",
+    "land",
+    "burrow"
+  ],
+  "fly_rest": "主要空中飛行，會落地休息",
+  "aquatic": "無水停止移動；沿用魚類離水處理",
+  "land": "地面行走／奔跑；MapEditor 明確選用時可跨越最高2格障礙",
+  "burrow": "藏於岩石／土壤；整格完全挖空才現身",
+  "elements": [
+    "water",
+    "fire",
+    "electric",
+    "earth",
+    "ice"
+  ],
+  "element_rules": {
+    "water>fire": 2.0,
+    "fire>earth": 2.0,
+    "earth>electric": 2.0,
+    "electric>water": 2.0,
+    "fire>ice": 2.0,
+    "reverse": 0.5,
+    "unrelated": 1.0
+  },
+  "shipped_creature_attribute_count": 89,
+  "custom_or_secondary_invalid_element_fallback": "earth"
+}

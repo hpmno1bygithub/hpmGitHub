@@ -1,0 +1,25 @@
+{
+  "version": "0.7.7.7-FIX124-fx-explicit-editor-panel",
+  "base_version": "0.7.7.7-FIX123-fx-timeline-direct-preview",
+  "installed_at": "2026-09-07 23:31:52",
+  "fx_explicit_mode_switch": true,
+  "fx_dedicated_bottom_panel": true,
+  "fx_panel_controls": [
+    "previous",
+    "frame_counter",
+    "next",
+    "play",
+    "done",
+    "duplicate",
+    "blank",
+    "delete",
+    "onion",
+    "damage_frame",
+    "fps_down",
+    "fps_up",
+    "loop",
+    "fit_canvas"
+  ],
+  "asset_editor_fresh_runtime_cache": ".runtime_cache_fix124_asset_editor",
+  "zipimport_ui_staleness_workaround": true
+}

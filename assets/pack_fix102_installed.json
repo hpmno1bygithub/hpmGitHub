@@ -1,0 +1,10 @@
+{
+  "asset_ids": [
+    "creature.giant_python",
+    "effect.python_whip_hit",
+    "weapon.python_whip"
+  ],
+  "pack_id": "FIX102-swamp-python",
+  "schema": 1,
+  "version": "0.7.7.7-FIX102-swamp-python"
+}

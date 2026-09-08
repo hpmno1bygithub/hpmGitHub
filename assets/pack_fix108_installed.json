@@ -1,0 +1,13 @@
+{
+  "version": "0.7.7.7-FIX108-minecraft-boss-asset-redraw",
+  "style": "minecraft_like_chunky_pixel",
+  "source": "FIX108 reference poster",
+  "updated_bosses": [
+    "creature_lava_beetle_emperor",
+    "creature_crystal_nine_tail",
+    "creature_abyss_crab_king",
+    "creature_thunder_roc",
+    "creature_drill_worm",
+    "creature_ancient_tree_demon"
+  ]
+}

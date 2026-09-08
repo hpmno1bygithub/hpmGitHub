@@ -1,0 +1,185 @@
+{
+  "ok": true,
+  "map_count": 9,
+  "portal_count": 22,
+  "pair_count": 11,
+  "links": [
+    {
+      "from_map": "biolume_sky_world.json",
+      "from_portal": "to_main_world",
+      "to_map": "editor_map.json",
+      "to_portal": "to_biolume",
+      "route_id": "main_biolume",
+      "reciprocal": true
+    },
+    {
+      "from_map": "biolume_sky_world.json",
+      "from_portal": "to_wuxia_world",
+      "to_map": "wuxia_world.json",
+      "to_portal": "to_biolume_world",
+      "route_id": "wuxia_biolume",
+      "reciprocal": true
+    },
+    {
+      "from_map": "boss_dungeon.json",
+      "from_portal": "to_castle",
+      "to_map": "underground_castle.json",
+      "to_portal": "to_boss",
+      "route_id": "castle_boss",
+      "reciprocal": true
+    },
+    {
+      "from_map": "boss_dungeon.json",
+      "from_portal": "to_wuxia_graveyard",
+      "to_map": "wuxia_world.json",
+      "to_portal": "to_boss_dungeon",
+      "route_id": "boss_wuxia_graveyard",
+      "reciprocal": true
+    },
+    {
+      "from_map": "crystal_mine.json",
+      "from_portal": "to_castle",
+      "to_map": "underground_castle.json",
+      "to_portal": "to_crystal",
+      "route_id": "crystal_castle",
+      "reciprocal": true
+    },
+    {
+      "from_map": "crystal_mine.json",
+      "from_portal": "to_glow",
+      "to_map": "glow_moss_cavern.json",
+      "to_portal": "to_crystal",
+      "route_id": "glow_crystal",
+      "reciprocal": true
+    },
+    {
+      "from_map": "editor_map.json",
+      "from_portal": "to_biolume",
+      "to_map": "biolume_sky_world.json",
+      "to_portal": "to_main_world",
+      "route_id": "main_biolume",
+      "reciprocal": true
+    },
+    {
+      "from_map": "editor_map.json",
+      "from_portal": "to_castle",
+      "to_map": "underground_castle.json",
+      "to_portal": "to_main",
+      "route_id": "main_castle",
+      "reciprocal": true
+    },
+    {
+      "from_map": "editor_map.json",
+      "from_portal": "to_glow",
+      "to_map": "glow_moss_cavern.json",
+      "to_portal": "to_main",
+      "route_id": "main_glow_moss",
+      "reciprocal": true
+    },
+    {
+      "from_map": "editor_map.json",
+      "from_portal": "to_pyramid",
+      "to_map": "egyptian_pyramid.json",
+      "to_portal": "to_desert",
+      "route_id": "main_pyramid",
+      "reciprocal": true
+    },
+    {
+      "from_map": "editor_map.json",
+      "from_portal": "to_wuxia",
+      "to_map": "wuxia_world.json",
+      "to_portal": "to_main_world",
+      "route_id": "main_wuxia",
+      "reciprocal": true
+    },
+    {
+      "from_map": "egyptian_pyramid.json",
+      "from_portal": "to_desert",
+      "to_map": "editor_map.json",
+      "to_portal": "to_pyramid",
+      "route_id": "main_pyramid",
+      "reciprocal": true
+    },
+    {
+      "from_map": "glow_moss_cavern.json",
+      "from_portal": "to_crystal",
+      "to_map": "crystal_mine.json",
+      "to_portal": "to_glow",
+      "route_id": "glow_crystal",
+      "reciprocal": true
+    },
+    {
+      "from_map": "glow_moss_cavern.json",
+      "from_portal": "to_main",
+      "to_map": "editor_map.json",
+      "to_portal": "to_glow",
+      "route_id": "main_glow_moss",
+      "reciprocal": true
+    },
+    {
+      "from_map": "magma_hell.json",
+      "from_portal": "to_castle",
+      "to_map": "underground_castle.json",
+      "to_portal": "to_magma",
+      "route_id": "castle_magma",
+      "reciprocal": true
+    },
+    {
+      "from_map": "underground_castle.json",
+      "from_portal": "to_boss",
+      "to_map": "boss_dungeon.json",
+      "to_portal": "to_castle",
+      "route_id": "castle_boss",
+      "reciprocal": true
+    },
+    {
+      "from_map": "underground_castle.json",
+      "from_portal": "to_crystal",
+      "to_map": "crystal_mine.json",
+      "to_portal": "to_castle",
+      "route_id": "crystal_castle",
+      "reciprocal": true
+    },
+    {
+      "from_map": "underground_castle.json",
+      "from_portal": "to_magma",
+      "to_map": "magma_hell.json",
+      "to_portal": "to_castle",
+      "route_id": "castle_magma",
+      "reciprocal": true
+    },
+    {
+      "from_map": "underground_castle.json",
+      "from_portal": "to_main",
+      "to_map": "editor_map.json",
+      "to_portal": "to_castle",
+      "route_id": "main_castle",
+      "reciprocal": true
+    },
+    {
+      "from_map": "wuxia_world.json",
+      "from_portal": "to_biolume_world",
+      "to_map": "biolume_sky_world.json",
+      "to_portal": "to_wuxia_world",
+      "route_id": "wuxia_biolume",
+      "reciprocal": true
+    },
+    {
+      "from_map": "wuxia_world.json",
+      "from_portal": "to_boss_dungeon",
+      "to_map": "boss_dungeon.json",
+      "to_portal": "to_wuxia_graveyard",
+      "route_id": "boss_wuxia_graveyard",
+      "reciprocal": true
+    },
+    {
+      "from_map": "wuxia_world.json",
+      "from_portal": "to_main_world",
+      "to_map": "editor_map.json",
+      "to_portal": "to_wuxia",
+      "route_id": "main_wuxia",
+      "reciprocal": true
+    }
+  ],
+  "errors": []
+}

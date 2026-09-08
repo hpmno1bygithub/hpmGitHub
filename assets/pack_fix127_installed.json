@@ -1,0 +1,23 @@
+{
+  "version": "0.7.7.7-FIX127-fx-motion-authoring",
+  "base_version": "0.7.7.7-FIX126-fx-integrated-timeline",
+  "installed_at": "2026-09-08 00:29:30",
+  "fx_motion_editor": true,
+  "editable_motion_fields": [
+    "mode",
+    "segment_count",
+    "start_delay",
+    "segment_interval",
+    "x_step",
+    "fps",
+    "segment_delay",
+    "segment_x",
+    "segment_y",
+    "segment_scale"
+  ],
+  "real_game_motion_preview": true,
+  "preview_overlapping_segments": 4,
+  "asset_registry_segment_playback_preserved": true,
+  "motion_and_frames_saved_together": true,
+  "metadata_migrated": []
+}

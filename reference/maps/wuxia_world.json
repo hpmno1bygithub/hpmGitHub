@@ -1,0 +1,1654 @@
+{
+  "format": "pyto_rpg_map",
+  "format_version": 2,
+  "size": [
+    384,
+    80
+  ],
+  "player_spawn": [
+    10,
+    49
+  ],
+  "metadata": {
+    "name": "武俠次世界",
+    "notes": "",
+    "map_id": "wuxia_world",
+    "map_type": "secondary_world",
+    "theme": "wuxia_world",
+    "generated": true,
+    "generator": "v0.7.7.5-fix69-wuxia-original",
+    "seed": 20261608,
+    "width": 384,
+    "height": 80,
+    "biome_version": 10,
+    "biome_spans": [
+      [
+        0,
+        96,
+        "rainforest"
+      ],
+      [
+        96,
+        192,
+        "lake"
+      ],
+      [
+        192,
+        288,
+        "plains"
+      ],
+      [
+        288,
+        384,
+        "snow_mountain"
+      ]
+    ],
+    "underground_only": false,
+    "population_mode": "authored_only",
+    "underground_population_mode": "authored_only",
+    "prototype_entities": false,
+    "portals": [
+      {
+        "id": "to_main_world",
+        "rect": [
+          4,
+          46,
+          3,
+          3
+        ],
+        "arrival": [
+          9,
+          49
+        ],
+        "target_map": "editor_map.json",
+        "target_portal": "to_wuxia",
+        "visual": "wuxia_ink_gate",
+        "requires_floor_entry": true,
+        "entry_floor": 49,
+        "entry_y_tolerance_px": 8
+      },
+      {
+        "id": "to_biolume_world",
+        "rect": [
+          183,
+          48,
+          3,
+          3
+        ],
+        "arrival": [
+          188,
+          51
+        ],
+        "target_map": "biolume_sky_world.json",
+        "target_portal": "to_wuxia_world",
+        "visual": "wuxia_ink_gate",
+        "requires_floor_entry": true,
+        "entry_floor": 51,
+        "entry_y_tolerance_px": 8
+      },
+      {
+        "id": "to_boss_dungeon",
+        "rect": [
+          317,
+          45,
+          3,
+          3
+        ],
+        "arrival": [
+          322,
+          48
+        ],
+        "target_map": "boss_dungeon.json",
+        "target_portal": "to_wuxia_graveyard",
+        "visual": "wuxia_ink_gate",
+        "requires_floor_entry": true,
+        "entry_floor": 48,
+        "entry_y_tolerance_px": 8
+      }
+    ],
+    "dungeon_traps": [
+      {
+        "id": "wuxia_spike_01",
+        "type": "hidden_spike",
+        "x": 35,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 49,
+        "trigger_width": 1.05,
+        "damage": 13.0,
+        "interval": 1.25,
+        "skin": "bamboo"
+      },
+      {
+        "id": "wuxia_spike_02",
+        "type": "hidden_spike",
+        "x": 82,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 49,
+        "trigger_width": 1.05,
+        "damage": 14.0,
+        "interval": 1.25,
+        "skin": "bamboo"
+      },
+      {
+        "id": "wuxia_spike_03",
+        "type": "hidden_spike",
+        "x": 108,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 52,
+        "trigger_width": 1.05,
+        "damage": 15.0,
+        "interval": 1.25,
+        "skin": "ink"
+      },
+      {
+        "id": "wuxia_spike_04",
+        "type": "hidden_spike",
+        "x": 181,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 52,
+        "trigger_width": 1.05,
+        "damage": 16.0,
+        "interval": 1.25,
+        "skin": "ink"
+      },
+      {
+        "id": "wuxia_spike_05",
+        "type": "hidden_spike",
+        "x": 218,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 43,
+        "trigger_width": 1.05,
+        "damage": 17.0,
+        "interval": 1.25,
+        "skin": "cave"
+      },
+      {
+        "id": "wuxia_spike_06",
+        "type": "hidden_spike",
+        "x": 250,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 54,
+        "trigger_width": 1.05,
+        "damage": 18.0,
+        "interval": 1.25,
+        "skin": "cave"
+      },
+      {
+        "id": "wuxia_spike_07",
+        "type": "hidden_spike",
+        "x": 304,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 50,
+        "trigger_width": 1.05,
+        "damage": 19.0,
+        "interval": 1.25,
+        "skin": "grave"
+      },
+      {
+        "id": "wuxia_spike_08",
+        "type": "hidden_spike",
+        "x": 331,
+        "layer": "background_hazard",
+        "diggable": false,
+        "floor": 48,
+        "trigger_width": 1.05,
+        "damage": 20.0,
+        "interval": 1.25,
+        "skin": "grave"
+      },
+      {
+        "id": "cave_dart_01",
+        "type": "wall_arrow",
+        "x": 226,
+        "layer": "background_hazard",
+        "diggable": false,
+        "y": 39,
+        "floor": 42,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "interval": 2.25,
+        "speed": 370.0,
+        "damage": 15.0,
+        "lifetime": 3.2,
+        "delay": 0.35,
+        "skin": "cave"
+      },
+      {
+        "id": "grave_soul_orb_01",
+        "type": "bouncing_fireball",
+        "x": 321,
+        "layer": "background_hazard",
+        "diggable": false,
+        "y": 44,
+        "floor": 49,
+        "direction": [
+          1.0,
+          -0.25
+        ],
+        "interval": 999.0,
+        "respawn": 1.35,
+        "speed": 230.0,
+        "damage": 18.0,
+        "lifetime": 5.4,
+        "delay": 0.8,
+        "skin": "grave"
+      }
+    ],
+    "trap_layer": "background_hazard",
+    "trap_cells_indestructible": true,
+    "creature_spawns": [
+      {
+        "species": "wuxia_jade_mantis",
+        "x": 26,
+        "floor": 49,
+        "count": 3,
+        "spacing": 8,
+        "patrol_tiles": 3.0,
+        "region": "bamboo_forest",
+        "underground": false
+      },
+      {
+        "species": "wuxia_bamboo_guard",
+        "x": 51,
+        "floor": 49,
+        "count": 2,
+        "spacing": 6,
+        "patrol_tiles": 3.4,
+        "region": "bamboo_forest",
+        "underground": false
+      },
+      {
+        "species": "wuxia_ink_crane",
+        "x": 144,
+        "floor": 48,
+        "count": 3,
+        "spacing": 8,
+        "patrol_tiles": 4.0,
+        "region": "karst_rivers",
+        "underground": false
+      },
+      {
+        "species": "wuxia_river_scale_beast",
+        "x": 152,
+        "floor": 49,
+        "count": 2,
+        "spacing": 16,
+        "patrol_tiles": 3.0,
+        "region": "karst_rivers",
+        "underground": false
+      },
+      {
+        "species": "wuxia_echo_sword_bat",
+        "x": 240,
+        "floor": 49,
+        "count": 3,
+        "spacing": 8,
+        "patrol_tiles": 4.2,
+        "region": "stalactite_cave",
+        "underground": true
+      },
+      {
+        "species": "wuxia_stone_salamander",
+        "x": 239,
+        "floor": 52,
+        "count": 3,
+        "spacing": 12,
+        "patrol_tiles": 3.0,
+        "region": "stalactite_cave",
+        "underground": true
+      },
+      {
+        "species": "wuxia_talisman_jiangshi",
+        "x": 296,
+        "floor": 50,
+        "count": 3,
+        "spacing": 8,
+        "patrol_tiles": 3.0,
+        "region": "graveyard",
+        "underground": false
+      },
+      {
+        "species": "wuxia_soul_lantern",
+        "x": 323,
+        "floor": 48,
+        "count": 2,
+        "spacing": 9,
+        "patrol_tiles": 3.2,
+        "region": "graveyard",
+        "underground": false
+      },
+      {
+        "species": "wuxia_sword_tomb_master",
+        "x": 362,
+        "floor": 48,
+        "count": 1,
+        "spacing": 1,
+        "patrol_tiles": 8.0,
+        "region": "graveyard",
+        "underground": false,
+        "unique_key": "wuxia.sword_tomb_master"
+      }
+    ],
+    "spawn_abyss_boss": false,
+    "secondary_world": {
+      "world_id": "wuxia",
+      "profile_id": "wuxia_world",
+      "roster_id": "wuxia_world",
+      "catalog": "assets/secondary_worlds/wuxia.json",
+      "population_mode": "authored_only",
+      "boss_unique": true,
+      "regions": [
+        {
+          "id": "bamboo_forest",
+          "bounds": [
+            0,
+            0,
+            96,
+            80
+          ],
+          "background_profile": "wuxia_bamboo"
+        },
+        {
+          "id": "karst_rivers",
+          "bounds": [
+            96,
+            0,
+            192,
+            80
+          ],
+          "background_profile": "wuxia_karst"
+        },
+        {
+          "id": "stalactite_cave",
+          "bounds": [
+            192,
+            0,
+            288,
+            80
+          ],
+          "background_profile": "wuxia_stalactite"
+        },
+        {
+          "id": "graveyard",
+          "bounds": [
+            288,
+            0,
+            384,
+            80
+          ],
+          "background_profile": "wuxia_graveyard"
+        }
+      ],
+      "max_background_quads": 120,
+      "max_attack_vfx_events": 24
+    },
+    "encounter_zones": [
+      {
+        "id": "bamboo_canopy",
+        "bounds": [
+          8,
+          24,
+          92,
+          55
+        ],
+        "role": "climb_and_ambush"
+      },
+      {
+        "id": "karst_river",
+        "bounds": [
+          96,
+          28,
+          192,
+          58
+        ],
+        "role": "bridges_and_aerial_pressure"
+      },
+      {
+        "id": "stalactite_loops",
+        "bounds": [
+          192,
+          16,
+          288,
+          62
+        ],
+        "role": "vertical_route_choice"
+      },
+      {
+        "id": "graveyard_approach",
+        "bounds": [
+          288,
+          35,
+          340,
+          61
+        ],
+        "role": "trap_gauntlet"
+      },
+      {
+        "id": "sword_tomb_arena",
+        "bounds": [
+          340,
+          34,
+          382,
+          50
+        ],
+        "role": "unique_boss"
+      }
+    ],
+    "style_guide": {
+      "original_setting": true,
+      "districts": {
+        "bamboo_forest": "high climbable bamboo, moon gate and canopy paths",
+        "karst_rivers": "layered ink peaks, river bridges, raft and cliff shrine",
+        "stalactite_cave": "rounded limestone chambers, echo route and luminous pool",
+        "graveyard": "ash hills, paper talismans, broken swords and moonlit boss tomb"
+      },
+      "route_language": "one continuous ground route plus optional canopy, water, cave and tomb loops"
+    },
+    "terrain_non_air": 14508,
+    "terrain_chunks": 86,
+    "initial_ground_layers": []
+  },
+  "layers": {
+    "terrain": [],
+    "ground_layer": [],
+    "water": [
+      [
+        112,
+        52,
+        0.72
+      ],
+      [
+        112,
+        53,
+        1.0
+      ],
+      [
+        112,
+        54,
+        1.0
+      ],
+      [
+        113,
+        52,
+        0.72
+      ],
+      [
+        113,
+        53,
+        1.0
+      ],
+      [
+        113,
+        54,
+        1.0
+      ],
+      [
+        114,
+        52,
+        0.72
+      ],
+      [
+        114,
+        53,
+        1.0
+      ],
+      [
+        114,
+        54,
+        1.0
+      ],
+      [
+        115,
+        52,
+        0.72
+      ],
+      [
+        115,
+        53,
+        1.0
+      ],
+      [
+        115,
+        54,
+        1.0
+      ],
+      [
+        116,
+        52,
+        0.72
+      ],
+      [
+        116,
+        53,
+        1.0
+      ],
+      [
+        116,
+        54,
+        1.0
+      ],
+      [
+        117,
+        52,
+        0.72
+      ],
+      [
+        117,
+        53,
+        1.0
+      ],
+      [
+        117,
+        54,
+        1.0
+      ],
+      [
+        118,
+        52,
+        0.72
+      ],
+      [
+        118,
+        53,
+        1.0
+      ],
+      [
+        118,
+        54,
+        1.0
+      ],
+      [
+        119,
+        52,
+        0.72
+      ],
+      [
+        119,
+        53,
+        1.0
+      ],
+      [
+        119,
+        54,
+        1.0
+      ],
+      [
+        120,
+        52,
+        0.72
+      ],
+      [
+        120,
+        53,
+        1.0
+      ],
+      [
+        120,
+        54,
+        1.0
+      ],
+      [
+        121,
+        52,
+        0.72
+      ],
+      [
+        121,
+        53,
+        1.0
+      ],
+      [
+        121,
+        54,
+        1.0
+      ],
+      [
+        122,
+        52,
+        0.72
+      ],
+      [
+        122,
+        53,
+        1.0
+      ],
+      [
+        122,
+        54,
+        1.0
+      ],
+      [
+        123,
+        52,
+        0.72
+      ],
+      [
+        123,
+        53,
+        1.0
+      ],
+      [
+        123,
+        54,
+        1.0
+      ],
+      [
+        124,
+        52,
+        0.72
+      ],
+      [
+        124,
+        53,
+        1.0
+      ],
+      [
+        124,
+        54,
+        1.0
+      ],
+      [
+        125,
+        52,
+        0.72
+      ],
+      [
+        125,
+        53,
+        1.0
+      ],
+      [
+        125,
+        54,
+        1.0
+      ],
+      [
+        126,
+        52,
+        0.72
+      ],
+      [
+        126,
+        53,
+        1.0
+      ],
+      [
+        126,
+        54,
+        1.0
+      ],
+      [
+        127,
+        52,
+        0.72
+      ],
+      [
+        127,
+        53,
+        1.0
+      ],
+      [
+        127,
+        54,
+        1.0
+      ],
+      [
+        128,
+        52,
+        0.72
+      ],
+      [
+        128,
+        53,
+        1.0
+      ],
+      [
+        128,
+        54,
+        1.0
+      ],
+      [
+        129,
+        52,
+        0.72
+      ],
+      [
+        129,
+        53,
+        1.0
+      ],
+      [
+        129,
+        54,
+        1.0
+      ],
+      [
+        130,
+        52,
+        0.72
+      ],
+      [
+        130,
+        53,
+        1.0
+      ],
+      [
+        130,
+        54,
+        1.0
+      ],
+      [
+        131,
+        52,
+        0.72
+      ],
+      [
+        131,
+        53,
+        1.0
+      ],
+      [
+        131,
+        54,
+        1.0
+      ],
+      [
+        132,
+        52,
+        0.72
+      ],
+      [
+        132,
+        53,
+        1.0
+      ],
+      [
+        132,
+        54,
+        1.0
+      ],
+      [
+        151,
+        52,
+        0.72
+      ],
+      [
+        151,
+        53,
+        1.0
+      ],
+      [
+        151,
+        54,
+        1.0
+      ],
+      [
+        152,
+        52,
+        0.72
+      ],
+      [
+        152,
+        53,
+        1.0
+      ],
+      [
+        152,
+        54,
+        1.0
+      ],
+      [
+        153,
+        52,
+        0.72
+      ],
+      [
+        153,
+        53,
+        1.0
+      ],
+      [
+        153,
+        54,
+        1.0
+      ],
+      [
+        154,
+        52,
+        0.72
+      ],
+      [
+        154,
+        53,
+        1.0
+      ],
+      [
+        154,
+        54,
+        1.0
+      ],
+      [
+        155,
+        52,
+        0.72
+      ],
+      [
+        155,
+        53,
+        1.0
+      ],
+      [
+        155,
+        54,
+        1.0
+      ],
+      [
+        156,
+        52,
+        0.72
+      ],
+      [
+        156,
+        53,
+        1.0
+      ],
+      [
+        156,
+        54,
+        1.0
+      ],
+      [
+        157,
+        52,
+        0.72
+      ],
+      [
+        157,
+        53,
+        1.0
+      ],
+      [
+        157,
+        54,
+        1.0
+      ],
+      [
+        158,
+        52,
+        0.72
+      ],
+      [
+        158,
+        53,
+        1.0
+      ],
+      [
+        158,
+        54,
+        1.0
+      ],
+      [
+        159,
+        52,
+        0.72
+      ],
+      [
+        159,
+        53,
+        1.0
+      ],
+      [
+        159,
+        54,
+        1.0
+      ],
+      [
+        160,
+        52,
+        0.72
+      ],
+      [
+        160,
+        53,
+        1.0
+      ],
+      [
+        160,
+        54,
+        1.0
+      ],
+      [
+        161,
+        52,
+        0.72
+      ],
+      [
+        161,
+        53,
+        1.0
+      ],
+      [
+        161,
+        54,
+        1.0
+      ],
+      [
+        162,
+        52,
+        0.72
+      ],
+      [
+        162,
+        53,
+        1.0
+      ],
+      [
+        162,
+        54,
+        1.0
+      ],
+      [
+        163,
+        52,
+        0.72
+      ],
+      [
+        163,
+        53,
+        1.0
+      ],
+      [
+        163,
+        54,
+        1.0
+      ],
+      [
+        164,
+        52,
+        0.72
+      ],
+      [
+        164,
+        53,
+        1.0
+      ],
+      [
+        164,
+        54,
+        1.0
+      ],
+      [
+        165,
+        52,
+        0.72
+      ],
+      [
+        165,
+        53,
+        1.0
+      ],
+      [
+        165,
+        54,
+        1.0
+      ],
+      [
+        166,
+        52,
+        0.72
+      ],
+      [
+        166,
+        53,
+        1.0
+      ],
+      [
+        166,
+        54,
+        1.0
+      ],
+      [
+        167,
+        52,
+        0.72
+      ],
+      [
+        167,
+        53,
+        1.0
+      ],
+      [
+        167,
+        54,
+        1.0
+      ],
+      [
+        168,
+        52,
+        0.72
+      ],
+      [
+        168,
+        53,
+        1.0
+      ],
+      [
+        168,
+        54,
+        1.0
+      ],
+      [
+        169,
+        52,
+        0.72
+      ],
+      [
+        169,
+        53,
+        1.0
+      ],
+      [
+        169,
+        54,
+        1.0
+      ],
+      [
+        235,
+        54,
+        0.78
+      ],
+      [
+        235,
+        55,
+        1.0
+      ],
+      [
+        235,
+        56,
+        1.0
+      ],
+      [
+        235,
+        57,
+        1.0
+      ],
+      [
+        236,
+        54,
+        0.78
+      ],
+      [
+        236,
+        55,
+        1.0
+      ],
+      [
+        236,
+        56,
+        1.0
+      ],
+      [
+        236,
+        57,
+        1.0
+      ],
+      [
+        237,
+        54,
+        0.78
+      ],
+      [
+        237,
+        55,
+        1.0
+      ],
+      [
+        237,
+        56,
+        1.0
+      ],
+      [
+        237,
+        57,
+        1.0
+      ],
+      [
+        238,
+        54,
+        0.78
+      ],
+      [
+        238,
+        55,
+        1.0
+      ],
+      [
+        238,
+        56,
+        1.0
+      ],
+      [
+        238,
+        57,
+        1.0
+      ],
+      [
+        239,
+        54,
+        0.78
+      ],
+      [
+        239,
+        55,
+        1.0
+      ],
+      [
+        239,
+        56,
+        1.0
+      ],
+      [
+        239,
+        57,
+        1.0
+      ],
+      [
+        240,
+        54,
+        0.78
+      ],
+      [
+        240,
+        55,
+        1.0
+      ],
+      [
+        240,
+        56,
+        1.0
+      ],
+      [
+        240,
+        57,
+        1.0
+      ],
+      [
+        241,
+        54,
+        0.78
+      ],
+      [
+        241,
+        55,
+        1.0
+      ],
+      [
+        241,
+        56,
+        1.0
+      ],
+      [
+        241,
+        57,
+        1.0
+      ],
+      [
+        242,
+        54,
+        0.78
+      ],
+      [
+        242,
+        55,
+        1.0
+      ],
+      [
+        242,
+        56,
+        1.0
+      ],
+      [
+        242,
+        57,
+        1.0
+      ],
+      [
+        243,
+        54,
+        0.78
+      ],
+      [
+        243,
+        55,
+        1.0
+      ],
+      [
+        243,
+        56,
+        1.0
+      ],
+      [
+        243,
+        57,
+        1.0
+      ],
+      [
+        244,
+        54,
+        0.78
+      ],
+      [
+        244,
+        55,
+        1.0
+      ],
+      [
+        244,
+        56,
+        1.0
+      ],
+      [
+        244,
+        57,
+        1.0
+      ],
+      [
+        245,
+        54,
+        0.78
+      ],
+      [
+        245,
+        55,
+        1.0
+      ],
+      [
+        245,
+        56,
+        1.0
+      ],
+      [
+        245,
+        57,
+        1.0
+      ],
+      [
+        246,
+        54,
+        0.78
+      ],
+      [
+        246,
+        55,
+        1.0
+      ],
+      [
+        246,
+        56,
+        1.0
+      ],
+      [
+        246,
+        57,
+        1.0
+      ],
+      [
+        247,
+        54,
+        0.78
+      ],
+      [
+        247,
+        55,
+        1.0
+      ],
+      [
+        247,
+        56,
+        1.0
+      ],
+      [
+        247,
+        57,
+        1.0
+      ],
+      [
+        248,
+        54,
+        0.78
+      ],
+      [
+        248,
+        55,
+        1.0
+      ],
+      [
+        248,
+        56,
+        1.0
+      ],
+      [
+        248,
+        57,
+        1.0
+      ],
+      [
+        249,
+        54,
+        0.78
+      ],
+      [
+        249,
+        55,
+        1.0
+      ],
+      [
+        249,
+        56,
+        1.0
+      ],
+      [
+        249,
+        57,
+        1.0
+      ],
+      [
+        250,
+        54,
+        0.78
+      ],
+      [
+        250,
+        55,
+        1.0
+      ],
+      [
+        250,
+        56,
+        1.0
+      ],
+      [
+        250,
+        57,
+        1.0
+      ],
+      [
+        251,
+        54,
+        0.78
+      ],
+      [
+        251,
+        55,
+        1.0
+      ],
+      [
+        251,
+        56,
+        1.0
+      ],
+      [
+        251,
+        57,
+        1.0
+      ],
+      [
+        252,
+        54,
+        0.78
+      ],
+      [
+        252,
+        55,
+        1.0
+      ],
+      [
+        252,
+        56,
+        1.0
+      ],
+      [
+        252,
+        57,
+        1.0
+      ]
+    ],
+    "lava": [],
+    "honey": [],
+    "custom_map": [],
+    "fire": [],
+    "vegetation": [],
+    "hazard": [],
+    "decoration": [
+      [
+        5,
+        49,
+        "ink_gate_portal",
+        3
+      ],
+      [
+        9,
+        49,
+        "moon_gate",
+        3
+      ],
+      [
+        15,
+        50,
+        "bamboo_cluster",
+        3
+      ],
+      [
+        24,
+        50,
+        "stone_lantern",
+        1
+      ],
+      [
+        28,
+        49,
+        "bamboo_cluster",
+        3
+      ],
+      [
+        39,
+        49,
+        "tea_pavilion",
+        3
+      ],
+      [
+        43,
+        49,
+        "bamboo_cluster",
+        3
+      ],
+      [
+        55,
+        50,
+        "bamboo_wind_chime",
+        2
+      ],
+      [
+        59,
+        49,
+        "bamboo_cluster",
+        3
+      ],
+      [
+        72,
+        48,
+        "sword_training_post",
+        2
+      ],
+      [
+        76,
+        49,
+        "bamboo_cluster",
+        3
+      ],
+      [
+        87,
+        49,
+        "bamboo_cluster",
+        3
+      ],
+      [
+        91,
+        50,
+        "ink_boundary_stele",
+        3
+      ],
+      [
+        100,
+        51,
+        "mist_stone_arch",
+        3
+      ],
+      [
+        119,
+        51,
+        "bamboo_raft",
+        2
+      ],
+      [
+        136,
+        48,
+        "waterfall_veil",
+        3
+      ],
+      [
+        158,
+        50,
+        "cormorant_post",
+        2
+      ],
+      [
+        176,
+        52,
+        "cliff_temple",
+        3
+      ],
+      [
+        184,
+        51,
+        "ink_gate_portal",
+        3
+      ],
+      [
+        188,
+        50,
+        "cave_mouth",
+        3
+      ],
+      [
+        198,
+        50,
+        "stalactite_fang",
+        3
+      ],
+      [
+        214,
+        46,
+        "echo_bell_rock",
+        2
+      ],
+      [
+        232,
+        31,
+        "stone_lotus",
+        2
+      ],
+      [
+        244,
+        54,
+        "luminous_cave_pool",
+        3
+      ],
+      [
+        260,
+        45,
+        "stalactite_curtain",
+        3
+      ],
+      [
+        276,
+        48,
+        "ancient_sword_mark",
+        3
+      ],
+      [
+        292,
+        50,
+        "crooked_gravestone",
+        2
+      ],
+      [
+        301,
+        50,
+        "dead_willow",
+        3
+      ],
+      [
+        315,
+        49,
+        "paper_talisman_tree",
+        3
+      ],
+      [
+        318,
+        48,
+        "ink_gate_portal",
+        3
+      ],
+      [
+        327,
+        48,
+        "mass_grave_stele",
+        3
+      ],
+      [
+        339,
+        49,
+        "sword_tomb_gate",
+        3
+      ],
+      [
+        350,
+        48,
+        "broken_sword_mound",
+        3
+      ],
+      [
+        363,
+        48,
+        "grandmaster_sword_stele",
+        3
+      ],
+      [
+        377,
+        48,
+        "soul_lantern",
+        2
+      ]
+    ]
+  },
+  "terrain_storage": {
+    "type": "pyto_chunk_binary",
+    "version": 1,
+    "path": "wuxia_world.ptw",
+    "chunk_size": 16,
+    "palette_count": 19,
+    "non_empty_chunks": 86,
+    "non_air_tiles": 14508,
+    "bytes": 5433
+  }
+}

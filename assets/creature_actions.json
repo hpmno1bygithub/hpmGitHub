@@ -1,0 +1,2687 @@
+{
+  "creatures": {
+    "creature.abyss_colossus": {
+      "actions": {
+        "charge": {
+          "animation_state": "charge",
+          "chance": 0.92,
+          "cooldown": 2.2,
+          "damage": 38.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 62.0,
+          "knockback": 360.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 30,
+          "range_max": 145.0,
+          "range_min": 70.0,
+          "requires_ground": true,
+          "speed": 230.0,
+          "vertical_range": 85.0
+        },
+        "fire_cast": {
+          "animation_state": "fire_cast",
+          "chance": 0.95,
+          "column_distance": 60.0,
+          "column_height": 88.0,
+          "column_width": 30.0,
+          "cooldown": 2.8,
+          "damage": 28.0,
+          "duration": 0.0,
+          "effect": "fire_column",
+          "enabled": true,
+          "hit_radius": 52.0,
+          "knockback": 230.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 26,
+          "range_max": 215.0,
+          "range_min": 115.0,
+          "requires_ground": true,
+          "speed": 0.0,
+          "vertical_range": 110.0
+        },
+        "lightning_cast": {
+          "animation_state": "lightning_cast",
+          "chance": 0.94,
+          "cooldown": 2.35,
+          "damage": 25.0,
+          "duration": 0.0,
+          "effect": "lightning_bolt",
+          "enabled": true,
+          "hit_radius": 13.0,
+          "knockback": 220.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 24,
+          "range_max": 390.0,
+          "range_min": 190.0,
+          "requires_ground": true,
+          "speed": 390.0,
+          "vertical_range": 200.0
+        },
+        "slam": {
+          "animation_state": "slam",
+          "chance": 1.0,
+          "cooldown": 1.65,
+          "damage": 42.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 72.0,
+          "knockback": 320.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 35,
+          "range_max": 72.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 0.0,
+          "vertical_range": 88.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.abyss_crab_king": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 34.0,
+          "duration": 1.0,
+          "effect": "fix103_water",
+          "enabled": true,
+          "hit_radius": 130.0,
+          "knockback": 130.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 260.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 240.0
+        },
+        "special": {
+          "animation_state": "special",
+          "chance": 1.0,
+          "cooldown": 5.5,
+          "damage": 18.700000000000003,
+          "duration": 1.2,
+          "effect": "fix103_water_heavy",
+          "enabled": true,
+          "hit_radius": 150.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 32,
+          "range_max": 430.0,
+          "range_min": 80.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 320.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.ancient_tree_demon": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 31.0,
+          "duration": 1.0,
+          "effect": "fix103_roots",
+          "enabled": true,
+          "hit_radius": 130.0,
+          "knockback": 130.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 260.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 240.0
+        },
+        "special": {
+          "animation_state": "special",
+          "chance": 1.0,
+          "cooldown": 5.5,
+          "damage": 17.05,
+          "duration": 1.2,
+          "effect": "fix103_roots_heavy",
+          "enabled": true,
+          "hit_radius": 150.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 32,
+          "range_max": 430.0,
+          "range_min": 80.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 320.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.ankylosaurus": {
+      "actions": {
+        "ankylosaurus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 23.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 30.24,
+          "knockback": 192.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 104.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 239.0,
+          "vertical_range": 48.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.armored_knight": {
+      "actions": {
+        "armored_knight_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "metal",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 155.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 70.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.bigfoot": {
+      "actions": {
+        "bigfoot_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 23.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "nature",
+          "enabled": true,
+          "hit_radius": 18.06,
+          "knockback": 163.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 62.35,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 72.5
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.blue_poop": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.85,
+          "cooldown": 1.4,
+          "damage": 9.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 29.0,
+          "knockback": 105.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 13,
+          "range_max": 58.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 120.0,
+          "vertical_range": 45.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.blue_scarab": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.92,
+          "cooldown": 1.15,
+          "damage": 5.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 21.0,
+          "knockback": 82.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 13,
+          "range_max": 52.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 175.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.brachiosaurus": {
+      "actions": {
+        "brachiosaurus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 25.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "nature",
+          "enabled": true,
+          "hit_radius": 33.18,
+          "knockback": 199.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 104.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 185.0,
+          "vertical_range": 100.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.broom_witch": {
+      "actions": {
+        "broom_witch_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "arcane",
+          "enabled": true,
+          "hit_radius": 21.84,
+          "knockback": 172.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 9.36,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 239.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.brown_bear": {
+      "actions": {
+        "brown_bear_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 25.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 22.259999999999998,
+          "knockback": 173.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 76.85,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 203.0,
+          "vertical_range": 48.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.burning_slime": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.88,
+          "cooldown": 1.65,
+          "damage": 12.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 31.0,
+          "knockback": 155.0,
+          "lift_speed": 330.0,
+          "motion": "leap",
+          "priority": 20,
+          "range_max": 126.0,
+          "range_min": 22.0,
+          "requires_ground": true,
+          "speed": 158.0,
+          "vertical_range": 92.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.butterfly_backdrop": {
+      "actions": {},
+      "override_legacy_contact": true
+    },
+    "creature.cave_bat": {
+      "actions": {
+        "move": {
+          "animation_state": "move",
+          "chance": 0.7,
+          "cooldown": 1.35,
+          "damage": 7.0,
+          "duration": 0.55,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 25.0,
+          "knockback": 115.0,
+          "lift_speed": 0.0,
+          "motion": "dive",
+          "priority": 12,
+          "range_max": 105.0,
+          "range_min": 18.0,
+          "requires_ground": false,
+          "speed": 175.0,
+          "vertical_range": 120.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.cave_snorble": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.84,
+          "cooldown": 1.8,
+          "damage": 13.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 40.0,
+          "knockback": 185.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 16,
+          "range_max": 78.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 145.0,
+          "vertical_range": 58.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.cave_spider": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.85,
+          "cooldown": 1.45,
+          "damage": 10.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 30.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 14,
+          "range_max": 58.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 135.0,
+          "vertical_range": 45.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.ceiling_maw": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 1.8,
+          "damage": 17,
+          "duration": 0.5,
+          "effect": "ceiling_bite",
+          "element": "seed",
+          "enabled": true,
+          "hit_radius": 52,
+          "knockback": 110,
+          "life": 2.4,
+          "motion": "stationary",
+          "priority": 20,
+          "radius": 9,
+          "range_max": 65,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 0,
+          "vertical_range": 100
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.chimpanzee": {
+      "actions": {
+        "chimpanzee_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "nature",
+          "enabled": true,
+          "hit_radius": 16.38,
+          "knockback": 159.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 56.55,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 203.0,
+          "vertical_range": 66.25
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.cloud_golem": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.9,
+          "damage": 13,
+          "duration": 0.5,
+          "effect": "magic_bolt",
+          "element": "cloud",
+          "enabled": true,
+          "hit_radius": 38,
+          "knockback": 110,
+          "life": 2.4,
+          "motion": "stationary",
+          "priority": 20,
+          "radius": 9,
+          "range_max": 220,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 200,
+          "vertical_range": 100
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.cloud_hare": {
+      "actions": {},
+      "override_legacy_contact": true
+    },
+    "creature.congo_kong": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 1.6,
+          "damage": 24,
+          "duration": 0.0,
+          "effect": "kong_combo",
+          "enabled": true,
+          "hit_radius": 95,
+          "knockback": 90,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 140,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 150.0,
+          "vertical_range": 80.0
+        },
+        "barrage": {
+          "animation_state": "barrage",
+          "chance": 1.0,
+          "cooldown": 6.0,
+          "damage": 12,
+          "duration": 3.4,
+          "effect": "kong_combo",
+          "enabled": true,
+          "hit_radius": 100,
+          "knockback": 45,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 28,
+          "range_max": 140,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 150.0,
+          "vertical_range": 80.0
+        },
+        "leap": {
+          "animation_state": "leap",
+          "chance": 1.0,
+          "cooldown": 2.5,
+          "damage": 22,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 96,
+          "knockback": 70.0,
+          "lift_speed": 340,
+          "motion": "leap",
+          "priority": 20,
+          "range_max": 340,
+          "range_min": 145,
+          "requires_ground": true,
+          "speed": 255,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.corrosive_slime": {
+      "actions": {},
+      "override_legacy_contact": true
+    },
+    "creature.creeper": {
+      "actions": {
+        "explode": {
+          "animation_state": "explode",
+          "chance": 1.0,
+          "cooldown": 8.0,
+          "damage": 24.0,
+          "duration": 0.0,
+          "effect": "explosion",
+          "enabled": true,
+          "hit_radius": 58.0,
+          "knockback": 250.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 30,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 0.0,
+          "vertical_range": 62.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.crystal_knight": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.92,
+          "cooldown": 1.8,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 39.0,
+          "knockback": 235.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 25,
+          "range_max": 142.0,
+          "range_min": 24.0,
+          "requires_ground": true,
+          "speed": 205.0,
+          "vertical_range": 72.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.crystal_lizard": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.45,
+          "damage": 14.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 34.0,
+          "knockback": 195.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 22,
+          "range_max": 154.0,
+          "range_min": 25.0,
+          "requires_ground": true,
+          "speed": 225.0,
+          "vertical_range": 65.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.crystal_nine_tail": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 27.0,
+          "duration": 1.0,
+          "effect": "fix103_ice",
+          "enabled": true,
+          "hit_radius": 130.0,
+          "knockback": 130.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 260.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 240.0
+        },
+        "special": {
+          "animation_state": "special",
+          "chance": 1.0,
+          "cooldown": 5.5,
+          "damage": 14.850000000000001,
+          "duration": 1.2,
+          "effect": "fix103_ice_heavy",
+          "enabled": true,
+          "hit_radius": 150.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 32,
+          "range_max": 430.0,
+          "range_min": 80.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 320.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.crystal_skeleton": {
+      "actions": {
+        "crystal_cast": {
+          "animation_state": "crystal_cast",
+          "chance": 0.88,
+          "cooldown": 2.05,
+          "damage": 16.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "crystal",
+          "enabled": true,
+          "hit_radius": 8.0,
+          "knockback": 185.0,
+          "life": 2.8,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 26,
+          "radius": 8.0,
+          "range_max": 350.0,
+          "range_min": 70.0,
+          "requires_ground": true,
+          "speed": 325.0,
+          "vertical_range": 205.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.crystal_slime": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.6,
+          "damage": 12.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 31.0,
+          "knockback": 150.0,
+          "lift_speed": 315.0,
+          "motion": "leap",
+          "priority": 20,
+          "range_max": 122.0,
+          "range_min": 20.0,
+          "requires_ground": true,
+          "speed": 150.0,
+          "vertical_range": 92.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.drill_worm": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 33.0,
+          "duration": 1.0,
+          "effect": "fix103_drill",
+          "enabled": true,
+          "hit_radius": 130.0,
+          "knockback": 130.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 260.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 240.0
+        },
+        "special": {
+          "animation_state": "special",
+          "chance": 1.0,
+          "cooldown": 5.5,
+          "damage": 18.150000000000002,
+          "duration": 1.2,
+          "effect": "fix103_drill_heavy",
+          "enabled": true,
+          "hit_radius": 150.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 32,
+          "range_max": 430.0,
+          "range_min": 80.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 320.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.drone_bee": {
+      "actions": {
+        "drone_bee_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "poison",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 155.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 7.0,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 221.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.dungeon_bandit_mage": {
+      "actions": {
+        "cast": {
+          "animation_state": "cast",
+          "chance": 0.92,
+          "cooldown": 2.15,
+          "damage": 13.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "enabled": true,
+          "hit_radius": 12.0,
+          "knockback": 135.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 20,
+          "range_max": 310.0,
+          "range_min": 70.0,
+          "requires_ground": true,
+          "speed": 285.0,
+          "vertical_range": 170.0
+        },
+        "move": {
+          "animation_state": "move",
+          "chance": 0.0,
+          "cooldown": 1.0,
+          "damage": 0.0,
+          "duration": 0.0,
+          "effect": "none",
+          "enabled": false,
+          "hit_radius": 1.0,
+          "knockback": 0.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 0,
+          "range_max": 1.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 1.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.eagle": {
+      "actions": {
+        "eagle_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 19.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "wind",
+          "enabled": true,
+          "hit_radius": 18.06,
+          "knockback": 163.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 7.739999999999999,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 257.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.exp99_chimpanzee": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.0,
+          "damage": 12,
+          "duration": 0.0,
+          "effect": "kong_combo",
+          "enabled": true,
+          "hit_radius": 60,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 10,
+          "range_max": 90,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 150.0,
+          "vertical_range": 80.0
+        },
+        "leap": {
+          "animation_state": "leap",
+          "chance": 1.0,
+          "cooldown": 3.0,
+          "damage": 16,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 70,
+          "knockback": 70.0,
+          "lift_speed": 240,
+          "motion": "leap",
+          "priority": 10,
+          "range_max": 200,
+          "range_min": 95,
+          "requires_ground": true,
+          "speed": 145,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.exploding_wisp": {
+      "actions": {
+        "explode": {
+          "animation_state": "explode",
+          "chance": 1.0,
+          "cooldown": 8.0,
+          "damage": 24.0,
+          "duration": 0.0,
+          "effect": "explosion",
+          "enabled": true,
+          "hit_radius": 62.0,
+          "knockback": 285.0,
+          "lift_speed": 0.0,
+          "motion": "dive",
+          "priority": 30,
+          "range_max": 190.0,
+          "range_min": 22.0,
+          "requires_ground": false,
+          "speed": 235.0,
+          "vertical_range": 230.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.fire_zombie": {
+      "actions": {
+        "fire_cast": {
+          "animation_state": "fire_cast",
+          "chance": 0.9,
+          "cooldown": 2.2,
+          "damage": 16.0,
+          "duration": 0.0,
+          "effect": "fire_column",
+          "enabled": true,
+          "hit_radius": 38.0,
+          "knockback": 125.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 21,
+          "range_max": 108.0,
+          "range_min": 20.0,
+          "requires_ground": true,
+          "speed": 0.0,
+          "vertical_range": 65.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.flame_turtle": {
+      "actions": {
+        "fire_cast": {
+          "animation_state": "fire_cast",
+          "chance": 0.84,
+          "cooldown": 2.35,
+          "damage": 16.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "fire",
+          "enabled": true,
+          "hit_radius": 8.0,
+          "knockback": 170.0,
+          "life": 2.7,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "radius": 8.0,
+          "range_max": 330.0,
+          "range_min": 66.0,
+          "requires_ground": true,
+          "speed": 305.0,
+          "vertical_range": 190.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.flying_imp": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.92,
+          "cooldown": 1.35,
+          "damage": 12.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 28.0,
+          "knockback": 145.0,
+          "lift_speed": 0.0,
+          "motion": "dive",
+          "priority": 23,
+          "range_max": 230.0,
+          "range_min": 24.0,
+          "requires_ground": false,
+          "speed": 250.0,
+          "vertical_range": 190.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.flying_squirrel": {
+      "actions": {
+        "flying_squirrel_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 12.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "wind",
+          "enabled": true,
+          "hit_radius": 16.38,
+          "knockback": 159.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 7.02,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 185.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.ghost": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.82,
+          "cooldown": 1.55,
+          "damage": 11.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 34.0,
+          "knockback": 135.0,
+          "lift_speed": 0.0,
+          "motion": "dive",
+          "priority": 16,
+          "range_max": 135.0,
+          "range_min": 12.0,
+          "requires_ground": false,
+          "speed": 165.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giant_bago_bird": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.78,
+          "cooldown": 1.8,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 42.0,
+          "knockback": 190.0,
+          "lift_speed": 0.0,
+          "motion": "dive",
+          "priority": 18,
+          "range_max": 170.0,
+          "range_min": 28.0,
+          "requires_ground": false,
+          "speed": 190.0,
+          "vertical_range": 160.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giant_mammoth": {
+      "actions": {
+        "giant_mammoth_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 25.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "ice",
+          "enabled": true,
+          "hit_radius": 28.56,
+          "knockback": 188.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 98.6,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 203.0,
+          "vertical_range": 61.25
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giant_python": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.4,
+          "damage": 26.0,
+          "duration": 1.0,
+          "effect": "python_tail",
+          "enabled": true,
+          "hit_radius": 120.0,
+          "knockback": 140.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 0.0,
+          "vertical_range": 140.0
+        },
+        "tornado": {
+          "animation_state": "tornado",
+          "chance": 1.0,
+          "cooldown": 6.0,
+          "damage": 12.0,
+          "duration": 1.25,
+          "effect": "python_tornado",
+          "enabled": true,
+          "hit_radius": 120.0,
+          "knockback": 140.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 30,
+          "range_max": 340.0,
+          "range_min": 125.0,
+          "requires_ground": true,
+          "speed": 0.0,
+          "vertical_range": 220.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giant_salamander": {
+      "actions": {
+        "giant_salamander_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 19.32,
+          "knockback": 166.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 66.7,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 239.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giant_spider_monster": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.65,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 48.0,
+          "knockback": 235.0,
+          "lift_speed": 250.0,
+          "motion": "leap",
+          "priority": 21,
+          "range_max": 96.0,
+          "range_min": 18.0,
+          "requires_ground": true,
+          "speed": 195.0,
+          "vertical_range": 72.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giant_worm": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.82,
+          "cooldown": 1.55,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 42.0,
+          "knockback": 190.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 16,
+          "range_max": 72.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 165.0,
+          "vertical_range": 45.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.giraffe": {
+      "actions": {
+        "giraffe_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 25.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "nature",
+          "enabled": true,
+          "hit_radius": 17.22,
+          "knockback": 161.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 59.449999999999996,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 78.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.goblin": {
+      "actions": {
+        "goblin_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 16.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 149.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 185.0,
+          "vertical_range": 51.25
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.goblin_lord": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 1.7,
+          "damage": 25,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 78,
+          "knockback": 190,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 10,
+          "range_max": 90,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 150.0,
+          "vertical_range": 80.0
+        },
+        "charge": {
+          "animation_state": "charge",
+          "chance": 1.0,
+          "cooldown": 3.0,
+          "damage": 20,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 78,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "charge",
+          "priority": 10,
+          "range_max": 210,
+          "range_min": 100,
+          "requires_ground": true,
+          "speed": 155,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.goblin_priest": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.0,
+          "damage": 14,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "fire",
+          "enabled": true,
+          "hit_radius": 65.0,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 10,
+          "radius": 8,
+          "range_max": 400,
+          "range_min": 30,
+          "requires_ground": false,
+          "speed": 255,
+          "vertical_range": 260
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.goblin_redcap": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 0.8,
+          "damage": 13,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 48,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 10,
+          "range_max": 64,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 150.0,
+          "vertical_range": 80.0
+        },
+        "lunge": {
+          "animation_state": "lunge",
+          "chance": 1.0,
+          "cooldown": 2.4,
+          "damage": 16,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 50,
+          "knockback": 70.0,
+          "lift_speed": 130,
+          "motion": "leap",
+          "priority": 10,
+          "range_max": 145,
+          "range_min": 75,
+          "requires_ground": true,
+          "speed": 170,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.hippopotamus": {
+      "actions": {
+        "hippopotamus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 19.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 23.939999999999998,
+          "knockback": 177.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 82.64999999999999,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 257.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.human_faced_dog": {
+      "actions": {
+        "human_faced_dog_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "shadow",
+          "enabled": true,
+          "hit_radius": 17.22,
+          "knockback": 161.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 59.449999999999996,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 185.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.infernal_goat": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.86,
+          "cooldown": 2.0,
+          "damage": 18.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 39.0,
+          "knockback": 270.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 160.0,
+          "range_min": 34.0,
+          "requires_ground": true,
+          "speed": 250.0,
+          "vertical_range": 68.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.isis_serpent": {
+      "actions": {
+        "cast": {
+          "animation_state": "cast",
+          "chance": 0.92,
+          "cooldown": 2.05,
+          "damage": 20.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "enabled": true,
+          "hit_radius": 13.0,
+          "knockback": 175.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 24,
+          "range_max": 330.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 310.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.lava_beetle_emperor": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 30.0,
+          "duration": 1.0,
+          "effect": "fix103_lava",
+          "enabled": true,
+          "hit_radius": 130.0,
+          "knockback": 130.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 260.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 240.0
+        },
+        "special": {
+          "animation_state": "special",
+          "chance": 1.0,
+          "cooldown": 5.5,
+          "damage": 16.5,
+          "duration": 1.2,
+          "effect": "fix103_lava_heavy",
+          "enabled": true,
+          "hit_radius": 150.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 32,
+          "range_max": 430.0,
+          "range_min": 80.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 320.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.lightning_zombie": {
+      "actions": {
+        "lightning_cast": {
+          "animation_state": "lightning_cast",
+          "chance": 0.92,
+          "cooldown": 2.0,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "lightning_bolt",
+          "enabled": true,
+          "hit_radius": 10.0,
+          "knockback": 150.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 22,
+          "range_max": 260.0,
+          "range_min": 45.0,
+          "requires_ground": true,
+          "speed": 320.0,
+          "vertical_range": 155.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.lion": {
+      "actions": {
+        "lion_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "fire",
+          "enabled": true,
+          "hit_radius": 21.0,
+          "knockback": 170.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 72.5,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 185.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.loch_ness_monster": {
+      "actions": {
+        "loch_ness_monster_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 34.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 36.54,
+          "knockback": 200.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 32,
+          "range_max": 104.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 239.0,
+          "vertical_range": 68.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.long_neck_woman": {
+      "actions": {
+        "long_neck_woman_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "shadow",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 151.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 257.0,
+          "vertical_range": 76.25
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.long_tailed_monkey": {
+      "actions": {
+        "long_tailed_monkey_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 16.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "nature",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 151.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 51.25
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.minos": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.92,
+          "cooldown": 2.1,
+          "damage": 30.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 49.0,
+          "knockback": 285.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 25,
+          "range_max": 92.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 178.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.mummy": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.92,
+          "cooldown": 1.55,
+          "damage": 14.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 34.0,
+          "knockback": 145.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 18,
+          "range_max": 62.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 105.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.necromancer": {
+      "actions": {
+        "necromancer_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "arcane",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 153.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "stationary",
+          "priority": 24,
+          "radius": 7.0,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 257.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.ornithomimus": {
+      "actions": {
+        "ornithomimus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "wind",
+          "enabled": true,
+          "hit_radius": 18.9,
+          "knockback": 165.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 65.25,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 257.0,
+          "vertical_range": 62.5
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.penguin": {
+      "actions": {
+        "penguin_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "ice",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 149.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 239.0,
+          "vertical_range": 57.5
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.peregrine_falcon": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2,
+          "damage": 9,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 30,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "dive",
+          "priority": 10,
+          "range_max": 240,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 350,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.plane_monster": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.84,
+          "cooldown": 1.72,
+          "damage": 16.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 44.0,
+          "knockback": 215.0,
+          "lift_speed": 0.0,
+          "motion": "dive",
+          "priority": 21,
+          "range_max": 205.0,
+          "range_min": 28.0,
+          "requires_ground": false,
+          "speed": 245.0,
+          "vertical_range": 200.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.polar_bear": {
+      "actions": {
+        "polar_bear_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 19.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "ice",
+          "enabled": true,
+          "hit_radius": 22.259999999999998,
+          "knockback": 173.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 76.85,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 48.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.purple_spore_mushroom": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 3.6,
+          "damage": 4,
+          "duration": 0.5,
+          "effect": "poison_puff",
+          "element": "seed",
+          "enabled": true,
+          "hit_radius": 96,
+          "knockback": 110,
+          "life": 2.4,
+          "motion": "stationary",
+          "priority": 20,
+          "radius": 9,
+          "range_max": 110,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 0,
+          "vertical_range": 100
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.queen_bee": {
+      "actions": {
+        "queen_bee_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 34.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "poison",
+          "enabled": true,
+          "hit_radius": 26.459999999999997,
+          "knockback": 183.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 32,
+          "radius": 11.34,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 185.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.rafflesia_seedling": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.7,
+          "damage": 8,
+          "duration": 0.5,
+          "effect": "seed_volley",
+          "element": "seed",
+          "enabled": true,
+          "hit_radius": 30,
+          "knockback": 110,
+          "life": 2.4,
+          "motion": "stationary",
+          "priority": 20,
+          "radius": 9,
+          "range_max": 260,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 200,
+          "vertical_range": 100
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.rhinoceros": {
+      "actions": {
+        "rhinoceros_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 23.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 24.779999999999998,
+          "knockback": 179.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 85.55,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 185.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.saber_tooth_tiger": {
+      "actions": {
+        "saber_tooth_tiger_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 19.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "ice",
+          "enabled": true,
+          "hit_radius": 21.84,
+          "knockback": 172.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 75.39999999999999,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.shark": {
+      "actions": {
+        "shark_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 24.779999999999998,
+          "knockback": 179.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 85.55,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 257.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.sky_moth": {
+      "actions": {},
+      "override_legacy_contact": true
+    },
+    "creature.sloth": {
+      "actions": {
+        "sloth_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "nature",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 155.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 239.0,
+          "vertical_range": 51.25
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.speaker_man": {
+      "actions": {
+        "sound_cast": {
+          "animation_state": "sound_cast",
+          "chance": 0.9,
+          "cooldown": 1.85,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "enabled": true,
+          "hit_radius": 11.0,
+          "knockback": 210.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 20,
+          "range_max": 260.0,
+          "range_min": 55.0,
+          "requires_ground": true,
+          "speed": 300.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.sphinx_monster": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.92,
+          "cooldown": 1.85,
+          "damage": 24.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 52.0,
+          "knockback": 245.0,
+          "lift_speed": 235.0,
+          "motion": "leap",
+          "priority": 23,
+          "range_max": 118.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 205.0,
+          "vertical_range": 150.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.spinosaurus": {
+      "actions": {
+        "spinosaurus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 19.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 30.66,
+          "knockback": 193.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 104.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 203.0,
+          "vertical_range": 67.5
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.stegosaurus": {
+      "actions": {
+        "stegosaurus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 23.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 29.82,
+          "knockback": 191.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 102.95,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 257.0,
+          "vertical_range": 52.5
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.swan": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.0,
+          "damage": 8,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 52,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 10,
+          "range_max": 75,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 150.0,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.tempest_harpy": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.3,
+          "damage": 10,
+          "duration": 0.5,
+          "effect": "magic_bolt",
+          "element": "wind",
+          "enabled": true,
+          "hit_radius": 28,
+          "knockback": 110,
+          "life": 2.4,
+          "motion": "stationary",
+          "priority": 20,
+          "radius": 7,
+          "range_max": 260,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 200,
+          "vertical_range": 100
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.thunder_roc": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 29.0,
+          "duration": 1.0,
+          "effect": "fix103_thunder",
+          "enabled": true,
+          "hit_radius": 130.0,
+          "knockback": 130.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 25,
+          "range_max": 260.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 240.0
+        },
+        "special": {
+          "animation_state": "special",
+          "chance": 1.0,
+          "cooldown": 5.5,
+          "damage": 15.950000000000001,
+          "duration": 1.2,
+          "effect": "fix103_thunder_heavy",
+          "enabled": true,
+          "hit_radius": 150.0,
+          "knockback": 120.0,
+          "lift_speed": 0.0,
+          "motion": "stationary",
+          "priority": 32,
+          "range_max": 430.0,
+          "range_min": 80.0,
+          "requires_ground": false,
+          "speed": 0.0,
+          "vertical_range": 320.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.tiger": {
+      "actions": {
+        "tiger_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 23.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "fire",
+          "enabled": true,
+          "hit_radius": 21.0,
+          "knockback": 170.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 72.5,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 203.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.toilet_man": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.45,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 36.0,
+          "knockback": 170.0,
+          "lift_speed": 0.0,
+          "motion": "charge",
+          "priority": 16,
+          "range_max": 62.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 145.0,
+          "vertical_range": 58.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.triceratops": {
+      "actions": {
+        "triceratops_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 28.56,
+          "knockback": 188.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 98.6,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 221.0,
+          "vertical_range": 53.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.trihead_dragon": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.5,
+          "damage": 22,
+          "duration": 0.0,
+          "effect": "triple_breath",
+          "enabled": true,
+          "hit_radius": 22,
+          "knockback": 70.0,
+          "life": 3.5,
+          "lift_speed": 280.0,
+          "motion": "stationary",
+          "priority": 20,
+          "range_max": 760,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 300,
+          "vertical_range": 420
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.tyrannosaurus": {
+      "actions": {
+        "tyrannosaurus_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 21.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "earth",
+          "enabled": true,
+          "hit_radius": 27.72,
+          "knockback": 186.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 95.7,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 239.0,
+          "vertical_range": 73.75
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.ufo_saucer": {
+      "actions": {
+        "ufo_saucer_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 25.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "electric",
+          "enabled": true,
+          "hit_radius": 25.2,
+          "knockback": 180.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 10.799999999999999,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 239.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.vampire": {
+      "actions": {
+        "vampire_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.3299999999999998,
+          "damage": 17.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "shadow",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 151.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 7.0,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 203.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.vine_whipper": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 1.9,
+          "damage": 12,
+          "duration": 0.5,
+          "effect": "vine_whip",
+          "element": "seed",
+          "enabled": true,
+          "hit_radius": 112,
+          "knockback": 110,
+          "life": 2.4,
+          "motion": "stationary",
+          "priority": 20,
+          "radius": 9,
+          "range_max": 118,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 0,
+          "vertical_range": 42
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.vulture": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.2,
+          "damage": 8,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "enabled": true,
+          "hit_radius": 35,
+          "knockback": 70.0,
+          "lift_speed": 280.0,
+          "motion": "dive",
+          "priority": 10,
+          "range_max": 180,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 175,
+          "vertical_range": 80.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.water_lizard": {
+      "actions": {
+        "water_lizard_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.69,
+          "damage": 18.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 18.9,
+          "knockback": 165.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 65.25,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 257.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.water_snake": {
+      "actions": {
+        "water_snake_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 12.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "water",
+          "enabled": true,
+          "hit_radius": 18.06,
+          "knockback": 163.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 62.35,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 185.0,
+          "vertical_range": 48.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.werewolf": {
+      "actions": {
+        "werewolf_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 15.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "shadow",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 154.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 185.0,
+          "vertical_range": 67.5
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.wind_god_pterosaur": {
+      "actions": {
+        "attack": {
+          "animation_state": "attack",
+          "chance": 1.0,
+          "cooldown": 2.5,
+          "damage": 19,
+          "duration": 0.67,
+          "effect": "wind_volley",
+          "element": "wind",
+          "enabled": true,
+          "hit_radius": 40,
+          "knockback": 145,
+          "life": 2.5,
+          "motion": "stationary",
+          "priority": 15,
+          "radius": 8,
+          "range_max": 520,
+          "range_min": 0,
+          "requires_ground": false,
+          "speed": 260,
+          "vertical_range": 280
+        },
+        "dive": {
+          "animation_state": "dive",
+          "chance": 1.0,
+          "cooldown": 3.8,
+          "damage": 26,
+          "duration": 0.57,
+          "effect": "damage_knockback",
+          "element": "wind",
+          "enabled": true,
+          "hit_radius": 78,
+          "knockback": 230,
+          "life": 2.5,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 8,
+          "range_max": 220,
+          "range_min": 35,
+          "requires_ground": false,
+          "speed": 340,
+          "vertical_range": 180
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.worker_bee": {
+      "actions": {
+        "worker_bee_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.15,
+          "damage": 12.0,
+          "duration": 0.0,
+          "effect": "magic_bolt",
+          "element": "poison",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 145.0,
+          "life": 2.8,
+          "lift_speed": 300.0,
+          "motion": "dive",
+          "priority": 24,
+          "radius": 7.0,
+          "range_max": 220.0,
+          "range_min": 0.0,
+          "requires_ground": false,
+          "speed": 203.0,
+          "vertical_range": 180.0
+        }
+      },
+      "override_legacy_contact": true
+    },
+    "creature.zombie": {
+      "actions": {
+        "zombie_strike": {
+          "animation_state": "attack",
+          "chance": 0.9,
+          "cooldown": 1.5099999999999998,
+          "damage": 19.0,
+          "duration": 0.0,
+          "effect": "damage_knockback",
+          "element": "poison",
+          "enabled": true,
+          "hit_radius": 15.0,
+          "knockback": 151.0,
+          "lift_speed": 300.0,
+          "motion": "charge",
+          "priority": 24,
+          "range_max": 54.0,
+          "range_min": 0.0,
+          "requires_ground": true,
+          "speed": 203.0,
+          "vertical_range": 63.75
+        }
+      },
+      "override_legacy_contact": true
+    }
+  },
+  "format": 1
+}

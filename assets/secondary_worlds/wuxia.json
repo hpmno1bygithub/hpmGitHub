@@ -1,0 +1,205 @@
+{
+  "format": "pyto_rpg_secondary_world",
+  "format_version": 1,
+  "world_id": "wuxia",
+  "display_name": "武俠次世界",
+  "map_file": "wuxia_world.json",
+  "description": "原創武俠次世界：竹林、桂林山水意象、鐘乳石洞與亂葬崗四區連成一張可遊玩地圖。",
+  "performance_contract": {
+    "background_quad_budget": 120,
+    "global_vfx_event_budget": 24,
+    "max_vfx_quads_per_event": 18,
+    "presentation_changes_gameplay_damage": false,
+    "overflow_policy": "stable_truncate"
+  },
+  "background_profiles": {
+    "wuxia_bamboo": {
+      "display_name": "竹林雲徑",
+      "base_color": "#0C211B",
+      "quad_budget": 116,
+      "layers": [
+        {
+          "id": "far", "parallax": 0.05, "spacing_px": 260,
+          "max_quads": 24, "alpha": 0.42, "baseline_ratio": 0.62,
+          "colors": ["#19372E", "#284A3A"], "accent": "#57755E",
+          "motifs": [
+            {"id": "mist_mountain", "weight": 3, "scale": 1.3, "parts": [[-58,-24,48,30,"color0"],[-18,-44,62,50,"color1"],[35,-20,42,26,"color0"]]},
+            {"id": "distant_pavilion", "weight": 1, "scale": 0.9, "parts": [[-20,-18,40,5,"accent"],[-12,-13,24,14,"color0"],[-2,1,4,18,"color1"]]}
+          ]
+        },
+        {
+          "id": "mid", "parallax": 0.16, "spacing_px": 154,
+          "max_quads": 40, "alpha": 0.63, "baseline_ratio": 0.72,
+          "colors": ["#24513B", "#34724A"], "accent": "#78A85E",
+          "motifs": [
+            {"id": "bamboo_ridge", "weight": 4, "scale": 1.0, "parts": [[-34,-74,7,78,"color0"],[-12,-93,6,96,"color1"],[12,-67,7,71,"color0"],[32,-104,6,108,"accent"],[-40,-61,78,5,"color1"]]},
+            {"id": "moon_gate", "weight": 1, "scale": 1.0, "parts": [[-25,-44,6,44,"color0"],[19,-44,6,44,"color0"],[-19,-48,38,6,"accent"],[-19,-8,38,8,"color1"]]}
+          ]
+        },
+        {
+          "id": "near", "parallax": 0.29, "spacing_px": 112,
+          "max_quads": 52, "alpha": 0.78, "baseline_ratio": 0.83,
+          "colors": ["#2E6B43", "#448A4E"], "accent": "#9ABD62",
+          "motifs": [
+            {"id": "foreground_bamboo", "weight": 5, "scale": 1.0, "parts": [[-14,-92,8,96,"color0"],[10,-72,7,76,"color1"],[-30,-61,55,5,"accent"],[-21,-39,48,5,"color1"]]},
+            {"id": "hanging_leaves", "weight": 2, "scale": 0.85, "parts": [[-35,-32,18,7,"color0"],[-18,-24,20,7,"accent"],[1,-17,17,6,"color1"]]}
+          ]
+        }
+      ]
+    },
+    "wuxia_karst": {
+      "display_name": "墨峰灕江",
+      "base_color": "#10262A",
+      "quad_budget": 116,
+      "layers": [
+        {
+          "id": "far", "parallax": 0.04, "spacing_px": 280,
+          "max_quads": 24, "alpha": 0.42, "baseline_ratio": 0.6,
+          "colors": ["#203A3D", "#345052"], "accent": "#728887",
+          "motifs": [
+            {"id": "ink_peaks", "weight": 4, "scale": 1.3, "parts": [[-64,-18,34,24,"color0"],[-37,-62,44,69,"color1"],[4,-98,38,105,"color0"],[38,-47,35,54,"color1"]]},
+            {"id": "cloud_band", "weight": 2, "scale": 1.0, "parts": [[-58,-18,45,9,"accent"],[-21,-25,52,12,"color1"],[26,-17,38,8,"accent"]]}
+          ]
+        },
+        {
+          "id": "mid", "parallax": 0.15, "spacing_px": 170,
+          "max_quads": 42, "alpha": 0.62, "baseline_ratio": 0.72,
+          "colors": ["#2A5557", "#3C6D69"], "accent": "#75A39A",
+          "motifs": [
+            {"id": "karst_column", "weight": 4, "scale": 1.0, "parts": [[-24,-75,16,78,"color0"],[-11,-108,22,111,"color1"],[12,-61,18,64,"color0"],[-16,-91,34,8,"accent"]]},
+            {"id": "cliff_temple", "weight": 1, "scale": 0.9, "parts": [[-30,-28,60,7,"accent"],[-22,-21,44,19,"color0"],[-4,-2,8,28,"color1"]]}
+          ]
+        },
+        {
+          "id": "near", "parallax": 0.3, "spacing_px": 116,
+          "max_quads": 50, "alpha": 0.78, "baseline_ratio": 0.84,
+          "colors": ["#295D61", "#39777A"], "accent": "#8BB9AF",
+          "motifs": [
+            {"id": "river_reflection", "weight": 3, "scale": 1.0, "parts": [[-52,-8,104,8,"color0"],[-42,3,84,5,"color1"],[-24,12,48,4,"accent"]]},
+            {"id": "bamboo_raft", "weight": 1, "scale": 0.9, "parts": [[-31,-10,62,6,"accent"],[-26,-4,52,5,"color1"],[-2,-38,4,29,"color0"],[1,-37,22,4,"color0"]]}
+          ]
+        }
+      ]
+    },
+    "wuxia_stalactite": {
+      "display_name": "鐘乳回音洞",
+      "base_color": "#111823",
+      "quad_budget": 116,
+      "layers": [
+        {
+          "id": "far", "parallax": 0.03, "spacing_px": 252,
+          "max_quads": 24, "alpha": 0.46, "baseline_ratio": 0.58,
+          "colors": ["#1D2B38", "#273A48"], "accent": "#476070",
+          "motifs": [
+            {"id": "cave_vault", "weight": 4, "scale": 1.2, "parts": [[-65,-45,30,52,"color0"],[-35,-72,70,79,"color1"],[35,-42,30,49,"color0"]]},
+            {"id": "deep_fissure", "weight": 1, "scale": 1.0, "parts": [[-8,-80,16,84,"color0"],[-18,-42,10,46,"accent"],[8,-58,12,62,"color1"]]}
+          ]
+        },
+        {
+          "id": "mid", "parallax": 0.14, "spacing_px": 158,
+          "max_quads": 42, "alpha": 0.66, "baseline_ratio": 0.68,
+          "colors": ["#314453", "#445968"], "accent": "#7BA6A5",
+          "motifs": [
+            {"id": "stalactite_curtain", "weight": 4, "scale": 1.0, "parts": [[-45,-72,14,75,"color0"],[-25,-49,12,52,"color1"],[-6,-88,16,91,"accent"],[14,-58,13,61,"color0"],[33,-76,12,79,"color1"]]},
+            {"id": "stone_lotus", "weight": 1, "scale": 0.9, "parts": [[-30,-8,60,9,"color0"],[-21,-20,16,13,"accent"],[-4,-27,16,20,"color1"],[14,-19,16,12,"accent"]]}
+          ]
+        },
+        {
+          "id": "near", "parallax": 0.28, "spacing_px": 108,
+          "max_quads": 50, "alpha": 0.8, "baseline_ratio": 0.84,
+          "colors": ["#364D5B", "#4F6770"], "accent": "#75D3C3",
+          "motifs": [
+            {"id": "cave_teeth", "weight": 4, "scale": 1.0, "parts": [[-39,-61,13,64,"color0"],[-20,-42,12,45,"color1"],[1,-74,15,77,"color0"],[23,-48,13,51,"accent"]]},
+            {"id": "luminous_pool", "weight": 2, "scale": 1.0, "parts": [[-43,-7,86,8,"color0"],[-32,3,64,6,"accent"],[-15,11,30,4,"color1"]]}
+          ]
+        }
+      ]
+    },
+    "wuxia_graveyard": {
+      "display_name": "月照亂葬崗",
+      "base_color": "#15151D",
+      "quad_budget": 116,
+      "layers": [
+        {
+          "id": "far", "parallax": 0.04, "spacing_px": 272,
+          "max_quads": 24, "alpha": 0.44, "baseline_ratio": 0.6,
+          "colors": ["#292837", "#39384A"], "accent": "#B7B1A1",
+          "motifs": [
+            {"id": "moon_hills", "weight": 3, "scale": 1.2, "parts": [[-62,-20,42,27,"color0"],[-26,-44,54,51,"color1"],[24,-23,46,30,"color0"],[-10,-91,30,30,"accent"]]},
+            {"id": "distant_pagoda", "weight": 1, "scale": 0.8, "parts": [[-23,-38,46,6,"accent"],[-17,-32,34,9,"color0"],[-20,-23,40,5,"accent"],[-12,-18,24,22,"color1"]]}
+          ]
+        },
+        {
+          "id": "mid", "parallax": 0.15, "spacing_px": 154,
+          "max_quads": 42, "alpha": 0.66, "baseline_ratio": 0.73,
+          "colors": ["#343346", "#49465A"], "accent": "#827D77",
+          "motifs": [
+            {"id": "grave_cluster", "weight": 4, "scale": 1.0, "parts": [[-41,-20,13,24,"color0"],[-21,-33,14,37,"accent"],[2,-24,14,28,"color1"],[25,-39,15,43,"color0"]]},
+            {"id": "dead_willow", "weight": 2, "scale": 1.0, "parts": [[-5,-78,10,82,"color0"],[-4,-63,-31,6,"color1"],[3,-51,34,6,"color1"],[-29,-57,5,36,"accent"],[31,-46,5,34,"accent"]]}
+          ]
+        },
+        {
+          "id": "near", "parallax": 0.3, "spacing_px": 110,
+          "max_quads": 50, "alpha": 0.8, "baseline_ratio": 0.85,
+          "colors": ["#3E3A4B", "#565062"], "accent": "#D5B866",
+          "motifs": [
+            {"id": "broken_sword_mound", "weight": 3, "scale": 1.0, "parts": [[-44,-9,88,10,"color0"],[-29,-39,5,33,"accent"],[-7,-53,5,47,"color1"],[17,-34,5,28,"accent"],[34,-46,5,40,"color1"]]},
+            {"id": "soul_lanterns", "weight": 2, "scale": 0.85, "parts": [[-28,-25,12,16,"accent"],[-25,-9,5,13,"color0"],[10,-36,12,16,"accent"],[13,-20,5,24,"color1"]]}
+          ]
+        }
+      ]
+    }
+  },
+  "creature_archetypes": {
+    "wuxia_jade_mantis": {"name":"翠刃螳螂","hp":78,"attack":12,"speed":88,"w":32,"h":31,"hostile":true,"locomotion":"ground","element":"nature","loot":[["jade_blade","翠刃",2],["insect_wing","薄翼",1]],"boss":false,"vfx_profile":"wuxia_jade_blade"},
+    "wuxia_bamboo_guard": {"name":"墨竹食鐵衛","hp":175,"attack":18,"speed":54,"w":49,"h":42,"hostile":true,"locomotion":"ground","element":"earth","loot":[["bamboo_iron_fur","墨竹硬毛",2],["bamboo_core","靈竹節",1]],"boss":false,"vfx_profile":"wuxia_bamboo_impact"},
+    "wuxia_ink_crane": {"name":"丹頂墨羽鶴","hp":96,"attack":14,"speed":112,"w":43,"h":48,"hostile":true,"locomotion":"cave_fly","element":"wind","loot":[["ink_feather","墨羽",2]],"boss":false,"vfx_profile":"wuxia_ink_wing"},
+    "wuxia_river_scale_beast": {"name":"灕江鱗獸","hp":155,"attack":17,"speed":65,"w":55,"h":30,"hostile":true,"locomotion":"ground","element":"water","loot":[["river_scale","灕江鱗片",3],["water_core","水靈核",1]],"boss":false,"vfx_profile":"wuxia_water_arc"},
+    "wuxia_echo_sword_bat": {"name":"回音劍蝠","hp":82,"attack":13,"speed":126,"w":43,"h":25,"hostile":true,"locomotion":"cave_fly","element":"sonic","loot":[["echo_fang","回音牙",2],["wing_membrane","劍翼膜",1]],"boss":false,"vfx_profile":"wuxia_echo_ring"},
+    "wuxia_stone_salamander": {"name":"鐘乳岩螈","hp":145,"attack":16,"speed":58,"w":51,"h":25,"hostile":true,"locomotion":"ground","element":"earth","loot":[["cave_scale","岩螈鱗",2],["limestone_core","鐘乳核",1]],"boss":false,"vfx_profile":"wuxia_stone_spike"},
+    "wuxia_talisman_jiangshi": {"name":"符鎮殭屍","hp":168,"attack":19,"speed":47,"w":35,"h":57,"hostile":true,"locomotion":"ground","element":"arcane","loot":[["old_talisman","殘舊符紙",2],["yin_cloth","陰氣布",2]],"boss":false,"vfx_profile":"wuxia_talisman_burst"},
+    "wuxia_soul_lantern": {"name":"引魂燈魄","hp":91,"attack":16,"speed":78,"w":34,"h":38,"hostile":true,"locomotion":"ghost_fly","element":"spectral","loot":[["soul_wick","魂燈芯",2],["ectoplasm","靈質",1]],"boss":false,"vfx_profile":"wuxia_soul_flame"},
+    "wuxia_sword_tomb_master": {"name":"劍塚宗師","hp":1480,"attack":39,"speed":71,"w":84,"h":92,"hostile":true,"locomotion":"ground","element":"spectral","loot":[["grandmaster_sword_core","宗師劍心",1],["ancient_sword_fragment","古劍碎片",6],["coin","錢幣",55]],"boss":true,"boss_title":"劍塚宗師・無名","respawn_enabled":false,"vfx_profile":"wuxia_sword_wave"}
+  },
+  "rosters": {
+    "wuxia_world": {
+      "species": ["wuxia_jade_mantis","wuxia_bamboo_guard","wuxia_ink_crane","wuxia_river_scale_beast","wuxia_echo_sword_bat","wuxia_stone_salamander","wuxia_talisman_jiangshi","wuxia_soul_lantern","wuxia_sword_tomb_master"],
+      "boss_unique": true,
+      "boss_species": "wuxia_sword_tomb_master"
+    }
+  },
+  "vfx_profiles": {
+    "wuxia_jade_blade": {"style":"golden_slash","palette":["#F5FFE8FF","#8DE66FFF","#2C834DDD"],"ttl":0.34,"quad_cost":15,"scale":1.1,"radius":36},
+    "wuxia_bamboo_impact": {"style":"ground_burst","palette":["#FFF2C7FF","#94C85FFF","#4D693BDD"],"ttl":0.43,"quad_cost":18,"scale":1.25,"radius":45},
+    "wuxia_ink_wing": {"style":"dive_wake","palette":["#F7F4E9FF","#91AEB2FF","#344A55CC"],"ttl":0.36,"quad_cost":14,"scale":1.12,"radius":37},
+    "wuxia_water_arc": {"style":"water_burst","palette":["#EEFFFFFF","#61D4E8FF","#2E789DCC"],"ttl":0.4,"quad_cost":16,"scale":1.16,"radius":40},
+    "wuxia_echo_ring": {"style":"sonic_rings","palette":["#FFFFFFFF","#B38FFFFF","#51427ECC"],"ttl":0.4,"quad_cost":16,"scale":1.18,"radius":43},
+    "wuxia_stone_spike": {"style":"earth_spikes","palette":["#F0D7A1FF","#A17A51FF","#514234DD"],"ttl":0.44,"quad_cost":17,"scale":1.18,"radius":42},
+    "wuxia_talisman_burst": {"style":"arcane_runes","palette":["#FFF7B5FF","#F2C842FF","#AD3339DD"],"ttl":0.43,"quad_cost":17,"scale":1.16,"radius":41},
+    "wuxia_soul_flame": {"style":"spectral_claw","palette":["#F0FFFFFF","#6FE0C7FF","#4E559DDD"],"ttl":0.42,"quad_cost":16,"scale":1.15,"radius":39},
+    "wuxia_sword_wave": {"style":"golden_slash","palette":["#FFFFFFFF","#8CFFE6FF","#D5B866DD"],"ttl":0.46,"quad_cost":18,"scale":1.45,"radius":64},
+    "wuxia_tomb_slam": {"style":"earth_spikes","palette":["#FFF6CEFF","#D5B866FF","#51443DDD"],"ttl":0.52,"quad_cost":18,"scale":1.55,"radius":72}
+  },
+  "action_vfx": {
+    "creature.wuxia_jade_mantis": {"blade_dash":"wuxia_jade_blade"},
+    "creature.wuxia_bamboo_guard": {"bamboo_roll":"wuxia_bamboo_impact"},
+    "creature.wuxia_ink_crane": {"wing_dive":"wuxia_ink_wing"},
+    "creature.wuxia_river_scale_beast": {"water_bolt":"wuxia_water_arc"},
+    "creature.wuxia_echo_sword_bat": {"echo_dive":"wuxia_echo_ring"},
+    "creature.wuxia_stone_salamander": {"stone_leap":"wuxia_stone_spike"},
+    "creature.wuxia_talisman_jiangshi": {"talisman_leap":"wuxia_talisman_burst"},
+    "creature.wuxia_soul_lantern": {"soul_bolt":"wuxia_soul_flame"},
+    "creature.wuxia_sword_tomb_master": {"sword_dash":"wuxia_sword_wave","flying_sword":"wuxia_sword_wave","tomb_slam":"wuxia_tomb_slam"}
+  },
+  "action_profiles": {
+    "creature.wuxia_jade_mantis": {"override_legacy_contact":true,"actions":{"blade_dash":{"enabled":true,"animation_state":"attack","motion":"charge","effect":"damage_knockback","range_min":16,"range_max":116,"vertical_range":68,"cooldown":1.25,"duration":0,"speed":218,"lift_speed":0,"damage":12,"knockback":155,"hit_radius":32,"requires_ground":true,"priority":20,"chance":0.95}}},
+    "creature.wuxia_bamboo_guard": {"override_legacy_contact":true,"actions":{"bamboo_roll":{"enabled":true,"animation_state":"attack","motion":"charge","effect":"damage_knockback","range_min":24,"range_max":138,"vertical_range":72,"cooldown":1.75,"duration":0,"speed":172,"lift_speed":0,"damage":18,"knockback":250,"hit_radius":45,"requires_ground":true,"priority":22,"chance":0.9}}},
+    "creature.wuxia_ink_crane": {"override_legacy_contact":true,"actions":{"wing_dive":{"enabled":true,"animation_state":"attack","motion":"dive","effect":"damage_knockback","range_min":34,"range_max":238,"vertical_range":170,"cooldown":1.5,"duration":0,"speed":248,"lift_speed":0,"damage":14,"knockback":178,"hit_radius":35,"requires_ground":false,"priority":22,"chance":0.92}}},
+    "creature.wuxia_river_scale_beast": {"override_legacy_contact":true,"actions":{"water_bolt":{"enabled":true,"animation_state":"attack","motion":"stationary","effect":"magic_bolt","element":"water","range_min":76,"range_max":340,"vertical_range":145,"cooldown":1.85,"duration":0,"speed":360,"radius":9,"life":2.8,"damage":17,"knockback":142,"hit_radius":12,"requires_ground":true,"priority":20,"chance":0.94}}},
+    "creature.wuxia_echo_sword_bat": {"override_legacy_contact":true,"actions":{"echo_dive":{"enabled":true,"animation_state":"attack","motion":"dive","effect":"damage_knockback","range_min":25,"range_max":250,"vertical_range":190,"cooldown":1.35,"duration":0,"speed":276,"lift_speed":0,"damage":13,"knockback":165,"hit_radius":31,"requires_ground":false,"priority":21,"chance":0.94}}},
+    "creature.wuxia_stone_salamander": {"override_legacy_contact":true,"actions":{"stone_leap":{"enabled":true,"animation_state":"attack","motion":"leap","effect":"damage_knockback","range_min":22,"range_max":132,"vertical_range":90,"cooldown":1.6,"duration":0,"speed":158,"lift_speed":305,"damage":16,"knockback":196,"hit_radius":38,"requires_ground":true,"priority":21,"chance":0.92}}},
+    "creature.wuxia_talisman_jiangshi": {"override_legacy_contact":true,"actions":{"talisman_leap":{"enabled":true,"animation_state":"attack","motion":"leap","effect":"damage_knockback","range_min":26,"range_max":146,"vertical_range":102,"cooldown":1.55,"duration":0,"speed":170,"lift_speed":340,"damage":19,"knockback":220,"hit_radius":38,"requires_ground":true,"priority":23,"chance":0.94}}},
+    "creature.wuxia_soul_lantern": {"override_legacy_contact":true,"actions":{"soul_bolt":{"enabled":true,"animation_state":"attack","motion":"stationary","effect":"magic_bolt","element":"arcane","range_min":70,"range_max":370,"vertical_range":190,"cooldown":1.65,"duration":0,"speed":390,"radius":10,"life":3,"damage":16,"knockback":138,"hit_radius":13,"requires_ground":false,"priority":21,"chance":0.96}}},
+    "creature.wuxia_sword_tomb_master": {"override_legacy_contact":true,"actions":{"sword_dash":{"enabled":true,"animation_state":"attack","motion":"charge","effect":"damage_knockback","range_min":25,"range_max":175,"vertical_range":100,"cooldown":1.35,"duration":0,"speed":285,"lift_speed":0,"damage":40,"knockback":345,"hit_radius":64,"requires_ground":true,"priority":35,"chance":0.98},"flying_sword":{"enabled":true,"animation_state":"sword_wave","motion":"stationary","effect":"magic_bolt","element":"arcane","range_min":145,"range_max":520,"vertical_range":240,"cooldown":1.8,"duration":0,"speed":520,"radius":14,"life":3.2,"damage":31,"knockback":260,"hit_radius":16,"requires_ground":true,"priority":31,"chance":0.98},"tomb_slam":{"enabled":true,"animation_state":"slam","motion":"stationary","effect":"damage_knockback","range_min":0,"range_max":88,"vertical_range":100,"cooldown":1.55,"duration":0,"speed":0,"lift_speed":0,"damage":45,"knockback":380,"hit_radius":78,"requires_ground":true,"priority":40,"chance":1.0}}}
+  }
+}

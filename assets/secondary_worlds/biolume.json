@@ -1,0 +1,320 @@
+{
+  "format": "pyto_rpg_secondary_world",
+  "format_version": 1,
+  "world_id": "biolume.sky_world",
+  "display_name": "生物發光異星界",
+  "originality_note": "原創生物發光異星生態；不使用任何電影角色、名稱、標誌或素材。",
+  "budgets": {
+    "background_max_quads": 124,
+    "vfx_max_events": 24,
+    "vfx_max_quads_per_event": 18,
+    "vfx_max_total_quads": 192
+  },
+  "background_profiles": {
+    "biolume.sky_depth": {
+      "display_name": "浮岩共鳴天空",
+      "base_color": "#07132D",
+      "quad_budget": 124,
+      "layers": [
+        {
+          "id": "far",
+          "parallax": 0.035,
+          "spacing_px": 264,
+          "baseline_ratio": 0.54,
+          "jitter_px": 28,
+          "max_quads": 29,
+          "alpha": 0.46,
+          "colors": ["#102747", "#163755", "#224964"],
+          "accent": "#396D82",
+          "motifs": [
+            {
+              "id": "distant_floating_mass",
+              "weight": 4,
+              "scale": 1.25,
+              "parts": [[-34, -20, 68, 40, "base"], [-23, 14, 46, 27, "accent"], [-4, 33, 13, 38, "color1"]]
+            },
+            {
+              "id": "far_crown_tree",
+              "weight": 2,
+              "scale": 1.15,
+              "parts": [[-5, -45, 10, 70, "base"], [-31, -72, 62, 24, "accent"], [-18, -84, 14, 18, "color2"], [11, -78, 17, 20, "color1"]]
+            }
+          ]
+        },
+        {
+          "id": "mid",
+          "parallax": 0.12,
+          "spacing_px": 174,
+          "baseline_ratio": 0.69,
+          "jitter_px": 34,
+          "max_quads": 55,
+          "alpha": 0.68,
+          "colors": ["#16515E", "#216F6B", "#355D82"],
+          "accent": "#39D9C5",
+          "motifs": [
+            {
+              "id": "luminous_crown_flora",
+              "weight": 4,
+              "scale": 1.0,
+              "parts": [[-4, -35, 9, 68, "base"], [-30, -67, 61, 14, "accent"], [-20, -75, 13, 8, "color0"], [1, -79, 11, 9, "color1"], [21, -70, 9, 7, "accent"]]
+            },
+            {
+              "id": "living_root_arch",
+              "weight": 3,
+              "scale": 1.0,
+              "parts": [[-31, -35, 9, 70, "base"], [30, -38, 9, 76, "base"], [0, -70, 68, 10, "accent"], [-17, -60, 7, 28, "color1"], [18, -63, 6, 24, "accent"]]
+            },
+            {
+              "id": "memory_crystal_fan",
+              "weight": 2,
+              "scale": 0.92,
+              "parts": [[-18, -24, 10, 48, "color2"], [0, -35, 12, 70, "accent"], [18, -20, 9, 40, "color1"], [-5, -59, 5, 18, "accent"]]
+            }
+          ]
+        },
+        {
+          "id": "near",
+          "parallax": 0.24,
+          "spacing_px": 132,
+          "baseline_ratio": 0.8,
+          "jitter_px": 38,
+          "max_quads": 39,
+          "alpha": 0.78,
+          "colors": ["#123E4B", "#284568", "#4B3978"],
+          "accent": "#9B72FF",
+          "motifs": [
+            {
+              "id": "hanging_sense_vine",
+              "weight": 4,
+              "scale": 0.9,
+              "parts": [[0, -38, 5, 76, "base"], [-9, -57, 16, 4, "accent"], [9, -37, 15, 4, "color1"], [-5, -13, 9, 9, "accent"]]
+            },
+            {
+              "id": "drifting_spore_cluster",
+              "weight": 3,
+              "scale": 0.86,
+              "parts": [[-21, -14, 5, 5, "accent"], [-11, -42, 7, 7, "color1"], [3, -25, 4, 4, "accent"], [17, -52, 6, 6, "color2"], [25, -31, 3, 3, "accent"]]
+            },
+            {
+              "id": "near_floating_shard",
+              "weight": 2,
+              "scale": 0.8,
+              "parts": [[-8, -22, 13, 44, "base"], [7, -31, 9, 61, "accent"], [2, -55, 5, 13, "color1"]]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "creature_archetypes": {
+    "biolume_glider": {
+      "name": "虹膜滑翼獸",
+      "hp": 62,
+      "attack": 10,
+      "speed": 112,
+      "w": 42,
+      "h": 24,
+      "hostile": true,
+      "locomotion": "cave_fly",
+      "element": "electric",
+      "loot": [["biolume_membrane", "虹膜翼膜", 2], ["resonance_dust", "共鳴光塵", 1]],
+      "boss": false,
+      "vfx_profile": "biolume.vfx.wing_arc"
+    },
+    "biolume_stalker": {
+      "name": "六足幽光獵獸",
+      "hp": 148,
+      "attack": 18,
+      "speed": 84,
+      "w": 55,
+      "h": 33,
+      "hostile": true,
+      "locomotion": "ground",
+      "element": "neutral",
+      "loot": [["night_hide", "幽光獸皮", 2], ["resonance_fang", "共鳴獠牙", 1]],
+      "boss": false,
+      "vfx_profile": "biolume.vfx.spectral_claw"
+    },
+    "biolume_sporeback": {
+      "name": "孢背甲獸",
+      "hp": 184,
+      "attack": 16,
+      "speed": 38,
+      "w": 49,
+      "h": 35,
+      "hostile": true,
+      "locomotion": "ground",
+      "element": "poison",
+      "loot": [["luminous_spore", "發光孢子", 3], ["spore_carapace", "孢背甲片", 2]],
+      "boss": false,
+      "vfx_profile": "biolume.vfx.spore_burst"
+    },
+    "biolume_lantern_manta": {
+      "name": "燈翼浮魟",
+      "hp": 126,
+      "attack": 15,
+      "speed": 98,
+      "w": 66,
+      "h": 29,
+      "hostile": true,
+      "locomotion": "cave_fly",
+      "element": "electric",
+      "loot": [["lantern_fin", "燈翼鰭片", 2], ["electric_core", "電能核心", 1]],
+      "boss": false,
+      "vfx_profile": "biolume.vfx.resonance_pulse"
+    },
+    "biolume_root_sentinel": {
+      "name": "根脈守衛",
+      "hp": 242,
+      "attack": 23,
+      "speed": 46,
+      "w": 48,
+      "h": 63,
+      "hostile": true,
+      "locomotion": "ground",
+      "element": "earth",
+      "loot": [["living_bark", "活性樹皮", 3], ["root_crystal", "根脈結晶", 2]],
+      "boss": false,
+      "vfx_profile": "biolume.vfx.root_spikes"
+    },
+    "biolume_heartwarden": {
+      "name": "星根心核守望者",
+      "hp": 1580,
+      "attack": 39,
+      "speed": 42,
+      "w": 96,
+      "h": 98,
+      "hostile": true,
+      "locomotion": "ground",
+      "element": "electric",
+      "loot": [["world_heart_seed", "星根心核種子", 1], ["root_crystal", "根脈結晶", 8], ["resonance_dust", "共鳴光塵", 12]],
+      "boss": true,
+      "boss_title": "星根心核守望者",
+      "respawn_enabled": false,
+      "vfx_profile": "biolume.vfx.heart_surge"
+    }
+  },
+  "rosters": {
+    "biolume.native_roster": {
+      "species": [
+        "biolume_glider",
+        "biolume_stalker",
+        "biolume_sporeback",
+        "biolume_lantern_manta",
+        "biolume_root_sentinel",
+        "biolume_heartwarden"
+      ],
+      "boss_species": "biolume_heartwarden",
+      "boss_unique": true
+    }
+  },
+  "vfx_profiles": {
+    "biolume.vfx.wing_arc": {
+      "style": "dive_wake",
+      "palette": ["#E8FFFFFF", "#52F1D2FF", "#5C78E8DD"],
+      "ttl": 0.36,
+      "quad_cost": 13,
+      "scale": 1.14,
+      "radius": 34
+    },
+    "biolume.vfx.spectral_claw": {
+      "style": "spectral_claw",
+      "palette": ["#FFFFFFFF", "#A879FFFF", "#30E3C5DD"],
+      "ttl": 0.38,
+      "quad_cost": 15,
+      "scale": 1.2,
+      "radius": 39
+    },
+    "biolume.vfx.spore_burst": {
+      "style": "toxic_splash",
+      "palette": ["#F1FF8AFF", "#68E676FF", "#A755DCDD"],
+      "ttl": 0.46,
+      "quad_cost": 16,
+      "scale": 1.2,
+      "radius": 43
+    },
+    "biolume.vfx.resonance_pulse": {
+      "style": "lightning_burst",
+      "palette": ["#FFFFFFFF", "#50F2DDFF", "#9B72FFFF"],
+      "ttl": 0.4,
+      "quad_cost": 18,
+      "scale": 1.22,
+      "radius": 45
+    },
+    "biolume.vfx.root_spikes": {
+      "style": "earth_spikes",
+      "palette": ["#E8FFB5FF", "#35D3A4FF", "#4F428CDD"],
+      "ttl": 0.48,
+      "quad_cost": 17,
+      "scale": 1.28,
+      "radius": 48
+    },
+    "biolume.vfx.heart_surge": {
+      "style": "arcane_runes",
+      "palette": ["#FFFFFFFF", "#FFE98AFF", "#C05CFFFF"],
+      "ttl": 0.58,
+      "quad_cost": 18,
+      "scale": 1.55,
+      "radius": 72
+    },
+    "biolume.vfx.heart_slam": {
+      "style": "earth_spikes",
+      "palette": ["#FFFFFFFF", "#55F0B9FF", "#8254DFFF"],
+      "ttl": 0.54,
+      "quad_cost": 18,
+      "scale": 1.5,
+      "radius": 78
+    }
+  },
+  "action_vfx": {
+    "creature.biolume_glider": {"attack": "biolume.vfx.wing_arc"},
+    "creature.biolume_stalker": {"attack": "biolume.vfx.spectral_claw"},
+    "creature.biolume_sporeback": {"attack": "biolume.vfx.spore_burst"},
+    "creature.biolume_lantern_manta": {"attack": "biolume.vfx.resonance_pulse"},
+    "creature.biolume_root_sentinel": {"attack": "biolume.vfx.root_spikes"},
+    "creature.biolume_heartwarden": {
+      "heart_slam": "biolume.vfx.heart_slam",
+      "pulse_cast": "biolume.vfx.heart_surge",
+      "attack": "biolume.vfx.heart_surge"
+    }
+  },
+  "action_profiles": {
+    "creature.biolume_glider": {
+      "override_legacy_contact": true,
+      "actions": {
+        "attack": {"enabled": true, "animation_state": "attack", "motion": "dive", "effect": "damage_knockback", "range_min": 24, "range_max": 176, "vertical_range": 190, "cooldown": 1.55, "duration": 0, "speed": 260, "lift_speed": 0, "damage": 10, "knockback": 155, "hit_radius": 31, "requires_ground": false, "priority": 18, "chance": 0.92}
+      }
+    },
+    "creature.biolume_stalker": {
+      "override_legacy_contact": true,
+      "actions": {
+        "attack": {"enabled": true, "animation_state": "attack", "motion": "leap", "effect": "damage_knockback", "range_min": 22, "range_max": 148, "vertical_range": 86, "cooldown": 1.7, "duration": 0, "speed": 205, "lift_speed": 330, "damage": 18, "knockback": 230, "hit_radius": 42, "requires_ground": true, "priority": 24, "chance": 0.92}
+      }
+    },
+    "creature.biolume_sporeback": {
+      "override_legacy_contact": true,
+      "actions": {
+        "attack": {"enabled": true, "animation_state": "attack", "motion": "stationary", "effect": "magic_bolt", "element": "poison", "range_min": 72, "range_max": 340, "vertical_range": 180, "cooldown": 2.25, "duration": 0, "speed": 275, "lift_speed": 0, "damage": 16, "knockback": 120, "hit_radius": 11, "radius": 10, "life": 3.0, "requires_ground": true, "priority": 23, "chance": 0.9}
+      }
+    },
+    "creature.biolume_lantern_manta": {
+      "override_legacy_contact": true,
+      "actions": {
+        "attack": {"enabled": true, "animation_state": "attack", "motion": "stationary", "effect": "lightning_bolt", "element": "electric", "range_min": 88, "range_max": 410, "vertical_range": 230, "cooldown": 2.05, "duration": 0, "speed": 390, "lift_speed": 0, "damage": 15, "knockback": 175, "hit_radius": 12, "radius": 11, "life": 2.8, "requires_ground": false, "priority": 25, "chance": 0.92}
+      }
+    },
+    "creature.biolume_root_sentinel": {
+      "override_legacy_contact": true,
+      "actions": {
+        "attack": {"enabled": true, "animation_state": "attack", "motion": "charge", "effect": "damage_knockback", "range_min": 28, "range_max": 168, "vertical_range": 78, "cooldown": 1.9, "duration": 0, "speed": 190, "lift_speed": 0, "damage": 23, "knockback": 270, "hit_radius": 51, "requires_ground": true, "priority": 27, "chance": 0.94}
+      }
+    },
+    "creature.biolume_heartwarden": {
+      "override_legacy_contact": true,
+      "actions": {
+        "heart_slam": {"enabled": true, "animation_state": "attack", "motion": "stationary", "effect": "damage_knockback", "range_min": 0, "range_max": 92, "vertical_range": 105, "cooldown": 1.65, "duration": 0, "speed": 0, "lift_speed": 0, "damage": 44, "knockback": 370, "hit_radius": 84, "requires_ground": true, "priority": 36, "chance": 1.0},
+        "pulse_cast": {"enabled": true, "animation_state": "attack", "motion": "stationary", "effect": "lightning_bolt", "element": "electric", "range_min": 100, "range_max": 470, "vertical_range": 260, "cooldown": 2.35, "duration": 0, "speed": 425, "lift_speed": 0, "damage": 31, "knockback": 245, "hit_radius": 15, "radius": 14, "life": 3.1, "requires_ground": true, "priority": 31, "chance": 0.95}
+      }
+    }
+  }
+}

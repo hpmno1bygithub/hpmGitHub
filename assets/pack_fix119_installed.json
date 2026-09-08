@@ -1,0 +1,25 @@
+{
+  "version": "0.7.7.7-FIX119-boss-fx-frame-editor",
+  "base_version": "0.7.7.7-FIX118-editor-canvas-size-picker",
+  "installed_at": "2026-09-07 21:43:20",
+  "creature_fx_aliases": true,
+  "boss_fx_frame_editor": true,
+  "creature_effect_autocreate_sizes": {
+    "attack": 96,
+    "special": 128
+  },
+  "native_vfx_canvas_sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    160,
+    192
+  ],
+  "max_import_size": 192,
+  "linked_effect_aliases_generalized": true,
+  "goal": "讓 BOSS/生物攻擊特效可直接逐幀編輯，並以更大的原生畫布維持與本體一致的像素顆粒"
+}

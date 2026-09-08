@@ -1,0 +1,10 @@
+{
+  "version": "0.7.7.7-FIX126-fx-integrated-timeline",
+  "base_version": "0.7.7.7-FIX125-fx-frame-editor-crash-fix",
+  "installed_at": "2026-09-07 23:57:00",
+  "duplicate_bottom_fx_panel_removed": true,
+  "integrated_inspector_fx_timeline": true,
+  "fx_frame_editing_preserved": true,
+  "canvas_height_reclaimed": true,
+  "asset_editor_fresh_runtime_cache": ".runtime_cache_fix126_asset_editor"
+}

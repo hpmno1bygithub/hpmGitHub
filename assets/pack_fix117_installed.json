@@ -1,0 +1,9 @@
+{
+  "version": "0.7.7.7-FIX117-editor-zoom-out",
+  "base_version": "0.7.7.7-FIX116-native96-signature-bosses",
+  "installed_at": "2026-09-07 19:56:36",
+  "asset_editor_zoom_min": 0.25,
+  "asset_editor_zoom_max": 8.0,
+  "sub_1x_canvas_shrink": true,
+  "pixel_resample_on_view_zoom": false
+}

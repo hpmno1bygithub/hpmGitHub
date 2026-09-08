@@ -1,0 +1,20 @@
+{
+  "version": "0.7.7.7-FIX118-editor-canvas-size-picker",
+  "base_version": "0.7.7.7-FIX117-editor-zoom-out",
+  "installed_at": "2026-09-07 20:33:19",
+  "canvas_size_selector": true,
+  "direct_sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "one_way_cycle_removed": true,
+  "safe_shrink_check": true,
+  "crop_confirmation": true,
+  "view_zoom_is_independent": true,
+  "native_export_after_canvas_resize": true
+}

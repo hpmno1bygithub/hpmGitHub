@@ -1,0 +1,51 @@
+{
+  "format": "pyto_rpg_rainforest_tree_catalog",
+  "version": 1,
+  "tile_size": 16,
+  "world_tile_pixels": 40,
+  "render_path": "terrain_tile_cache",
+  "runtime_metadata": "map.metadata.rainforest_tree_system",
+  "renderer_api": "game.world.iter_rainforest_tree_segments()",
+  "roles": {
+    "root": {
+      "asset_id": "tile.rainforest_root",
+      "terrain": "rainforest_root",
+      "collision": "solid",
+      "wall_climbable": true,
+      "axe_hits": 3
+    },
+    "trunk": {
+      "asset_id": "tile.rainforest_trunk",
+      "terrain": "rainforest_trunk",
+      "collision": "solid",
+      "wall_climbable": true,
+      "axe_hits": 3
+    },
+    "branch": {
+      "asset_id": "tile.rainforest_branch",
+      "terrain": "rainforest_branch",
+      "collision": "one_way_platform",
+      "standable": true,
+      "axe_hits": 2
+    },
+    "vine": {
+      "asset_id": "tile.rainforest_vine",
+      "terrain": "rainforest_vine",
+      "collision": "passable_ladder",
+      "climbable": true,
+      "axe_hits": 1
+    },
+    "canopy": {
+      "asset_id": "tile.rainforest_canopy",
+      "terrain": "rainforest_canopy",
+      "collision": "passable",
+      "axe_hits": 1
+    }
+  },
+  "performance": {
+    "fixed_tile_cache": true,
+    "dynamic_actor_per_segment": false,
+    "drop_batch_limit": 2,
+    "minimum_clear_ground_columns": 8
+  }
+}

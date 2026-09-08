@@ -1,0 +1,96 @@
+{
+  "version": "0.7.7.7-FIX122-boss-fx-direct-sync",
+  "base_version": "0.7.7.7-FIX121-boss-fx-clip-editor",
+  "installed_at": "2026-09-07 23:04:53",
+  "goal": "讓素材編輯器中的 BOSS 特效與遊戲實戰使用同一份逐幀特效來源",
+  "boss_attack_special_direct_sources": true,
+  "effect_editor_matches_gameplay": true,
+  "created_files": [
+    "assets/pixel_sources/effect_lava_beetle_emperor_attack.json",
+    "assets/effects/effect_lava_beetle_emperor_attack.png",
+    "assets/pixel_sources/effect_crystal_nine_tail_attack.json",
+    "assets/effects/effect_crystal_nine_tail_attack.png",
+    "assets/pixel_sources/effect_abyss_crab_king_attack.json",
+    "assets/effects/effect_abyss_crab_king_attack.png",
+    "assets/pixel_sources/effect_thunder_roc_attack.json",
+    "assets/effects/effect_thunder_roc_attack.png",
+    "assets/pixel_sources/effect_drill_worm_attack.json",
+    "assets/effects/effect_drill_worm_attack.png",
+    "assets/pixel_sources/effect_ancient_tree_demon_attack.json",
+    "assets/effects/effect_ancient_tree_demon_attack.png"
+  ],
+  "synced_effects": [
+    {
+      "asset": "effect.lava_beetle_emperor_attack",
+      "size": 96,
+      "fps": 22.0,
+      "state": "attack"
+    },
+    {
+      "asset": "effect.lava_beetle_emperor_special",
+      "size": 128,
+      "fps": 16.0,
+      "state": "special"
+    },
+    {
+      "asset": "effect.crystal_nine_tail_attack",
+      "size": 96,
+      "fps": 22.0,
+      "state": "attack"
+    },
+    {
+      "asset": "effect.crystal_nine_tail_special",
+      "size": 128,
+      "fps": 16.0,
+      "state": "special"
+    },
+    {
+      "asset": "effect.abyss_crab_king_attack",
+      "size": 96,
+      "fps": 22.0,
+      "state": "attack"
+    },
+    {
+      "asset": "effect.abyss_crab_king_special",
+      "size": 128,
+      "fps": 17.142857142857142,
+      "state": "special"
+    },
+    {
+      "asset": "effect.thunder_roc_attack",
+      "size": 96,
+      "fps": 22.0,
+      "state": "attack"
+    },
+    {
+      "asset": "effect.thunder_roc_special",
+      "size": 128,
+      "fps": 16.0,
+      "state": "special"
+    },
+    {
+      "asset": "effect.drill_worm_attack",
+      "size": 96,
+      "fps": 22.0,
+      "state": "attack"
+    },
+    {
+      "asset": "effect.drill_worm_special",
+      "size": 128,
+      "fps": 17.142857142857142,
+      "state": "special"
+    },
+    {
+      "asset": "effect.ancient_tree_demon_attack",
+      "size": 96,
+      "fps": 22.0,
+      "state": "attack"
+    },
+    {
+      "asset": "effect.ancient_tree_demon_special",
+      "size": 128,
+      "fps": 16.0,
+      "state": "special"
+    }
+  ]
+}

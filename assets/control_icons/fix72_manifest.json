@@ -1,0 +1,18 @@
+{
+  "format": "pyto_rpg_control_icon_manifest",
+  "version": 1,
+  "release": "FIX72",
+  "logical_size": 48,
+  "output_size": 96,
+  "pixel_scale": 2,
+  "minification": "linear",
+  "magnification": "nearest",
+  "icons": [
+    "control_up", "control_left", "control_right", "control_down",
+    "control_jump", "control_crouch", "control_action", "control_roll",
+    "control_interact", "control_aim", "control_save", "control_load",
+    "control_new_game", "control_close", "control_backpack",
+    "tool_pickaxe", "tool_axe", "tool_grapple", "magic_fireball",
+    "magic_waterball", "magic_iceball", "magic_electricball", "action_unknown"
+  ]
+}

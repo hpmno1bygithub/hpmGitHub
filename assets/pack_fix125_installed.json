@@ -1,0 +1,10 @@
+{
+  "version": "0.7.7.7-FIX125-fx-frame-editor-crash-fix",
+  "base_version": "0.7.7.7-FIX124-fx-explicit-editor-panel",
+  "installed_at": "2026-09-07 23:43:10",
+  "video_confirmed_root_cause": "refresh_labels UnboundLocalError: _raw referenced before assignment",
+  "refresh_labels_raw_initialized_before_use": true,
+  "fx_explicit_panel_preserved": true,
+  "fx_frame_controls_preserved": true,
+  "asset_editor_fresh_runtime_cache": ".runtime_cache_fix125_asset_editor"
+}

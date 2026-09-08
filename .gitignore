@@ -1,0 +1,10 @@
+.godot/
+.ci/
+build/
+*.tmp
+*.log
+.DS_Store
+._*
+export_credentials.cfg
+*.p12
+*.mobileprovision

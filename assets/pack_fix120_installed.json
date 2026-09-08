@@ -1,0 +1,24 @@
+{
+  "version": "0.7.7.7-FIX120-boss-fx-native-segments",
+  "base_version": "0.7.7.7-FIX119-boss-fx-frame-editor",
+  "installed_at": "2026-09-07 22:00:10",
+  "fx_damage_frame_editor": true,
+  "damage_frame_runtime_sync_fix103": true,
+  "boss_native_pixel_density": "match_owner",
+  "boss_segmented_vfx": true,
+  "pixels_overwritten": false,
+  "patched_metadata_files": [
+    "assets/pixel_sources/creature_lava_beetle_emperor.json",
+    "assets/pixel_sources/effect_magma_core_hammer_heavy.json",
+    "assets/pixel_sources/creature_crystal_nine_tail.json",
+    "assets/pixel_sources/effect_nine_tail_fan_heavy.json",
+    "assets/pixel_sources/creature_abyss_crab_king.json",
+    "assets/pixel_sources/effect_abyss_claw_heavy.json",
+    "assets/pixel_sources/creature_thunder_roc.json",
+    "assets/pixel_sources/effect_thunder_longbow_heavy.json",
+    "assets/pixel_sources/creature_drill_worm.json",
+    "assets/pixel_sources/effect_earth_drill_lance_heavy.json",
+    "assets/pixel_sources/creature_ancient_tree_demon.json",
+    "assets/pixel_sources/effect_world_tree_staff_heavy.json"
+  ]
+}

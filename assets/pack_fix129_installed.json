@@ -1,0 +1,19 @@
+{
+  "version": "0.7.7.7-FIX129-fx-distance-repeat-authoring",
+  "base_version": "0.7.7.7-FIX128-fx-motion-compact-layout",
+  "installed_at": "2026-09-08 01:20:51",
+  "fx_animation_once_loop": true,
+  "continuous_distance_motion": true,
+  "distance_controls": [
+    "travel_start_delay",
+    "travel_duration",
+    "travel_start_x_tiles",
+    "travel_start_y_tiles",
+    "travel_distance_tiles",
+    "travel_y_tiles"
+  ],
+  "distance_path_is_bounded_once_per_attack": true,
+  "loop_repeats_frames_not_infinite_attack": true,
+  "preview_auto_repeats_when_loop_selected": true,
+  "runtime_uses_same_motion_binding": true
+}

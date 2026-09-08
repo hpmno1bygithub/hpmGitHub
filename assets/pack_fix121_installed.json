@@ -1,0 +1,34 @@
+{
+  "version": "0.7.7.7-FIX121-boss-fx-clip-editor",
+  "base_version": "0.7.7.7-FIX120-boss-fx-native-segments",
+  "installed_at": "2026-09-07 22:44:08",
+  "boss_segment_frames_animate": true,
+  "boss_special_local_flipbooks": true,
+  "effect_editor_true_frame_mode": true,
+  "effect_editor_fps_max": 30,
+  "low_fps_interpolation_floor": 16,
+  "native_pixel_resampling": false,
+  "shared_weapon_fx_overwritten": false,
+  "created_files": [
+    "assets/pixel_sources/effect_lava_beetle_emperor_special.json",
+    "assets/effects/effect_lava_beetle_emperor_special.png",
+    "assets/pixel_sources/effect_crystal_nine_tail_special.json",
+    "assets/effects/effect_crystal_nine_tail_special.png",
+    "assets/pixel_sources/effect_abyss_crab_king_special.json",
+    "assets/effects/effect_abyss_crab_king_special.png",
+    "assets/pixel_sources/effect_thunder_roc_special.json",
+    "assets/effects/effect_thunder_roc_special.png",
+    "assets/pixel_sources/effect_drill_worm_special.json",
+    "assets/effects/effect_drill_worm_special.png",
+    "assets/pixel_sources/effect_ancient_tree_demon_special.json",
+    "assets/effects/effect_ancient_tree_demon_special.png"
+  ],
+  "changed_boss_bindings": [
+    "assets/pixel_sources/creature_lava_beetle_emperor.json",
+    "assets/pixel_sources/creature_crystal_nine_tail.json",
+    "assets/pixel_sources/creature_abyss_crab_king.json",
+    "assets/pixel_sources/creature_thunder_roc.json",
+    "assets/pixel_sources/creature_drill_worm.json",
+    "assets/pixel_sources/creature_ancient_tree_demon.json"
+  ]
+}

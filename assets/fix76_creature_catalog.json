@@ -1,0 +1,1311 @@
+{
+  "black_outline": false,
+  "canvas_distribution": {
+    "16": 1,
+    "24": 11,
+    "32": 19,
+    "48": 2,
+    "64": 8
+  },
+  "canvas_is_world_size": false,
+  "count": 41,
+  "creatures": [
+    {
+      "art_box": [
+        15,
+        26
+      ],
+      "asset_id": "creature.werewolf",
+      "attack_action": "werewolf_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Werewolf",
+      "habitat": "village",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "狼人",
+      "pixel_bbox": [
+        7,
+        9,
+        23,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "werewolf",
+      "style_family": "werewolf",
+      "vfx_profile": "fix75.werewolf",
+      "vfx_style": "spectral_claw",
+      "world_collision": [
+        34,
+        54
+      ]
+    },
+    {
+      "art_box": [
+        14,
+        25
+      ],
+      "asset_id": "creature.vampire",
+      "attack_action": "vampire_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Vampire",
+      "habitat": "cave",
+      "hostile": true,
+      "locomotion": "ghost_fly",
+      "name": "吸血鬼",
+      "pixel_bbox": [
+        8,
+        9,
+        23,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "vampire",
+      "style_family": "vampire",
+      "vfx_profile": "fix75.vampire",
+      "vfx_style": "spectral_claw",
+      "world_collision": [
+        31,
+        51
+      ]
+    },
+    {
+      "art_box": [
+        19,
+        27
+      ],
+      "asset_id": "creature.bigfoot",
+      "attack_action": "bigfoot_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Bigfoot",
+      "habitat": "rainforest",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "大腳怪",
+      "pixel_bbox": [
+        6,
+        4,
+        25,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "bigfoot",
+      "style_family": "bigfoot",
+      "vfx_profile": "fix75.bigfoot",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        43,
+        58
+      ]
+    },
+    {
+      "art_box": [
+        29,
+        14
+      ],
+      "asset_id": "creature.ufo_saucer",
+      "attack_action": "ufo_saucer_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "UFO Saucer",
+      "habitat": "sky_island",
+      "hostile": true,
+      "locomotion": "bird",
+      "name": "UFO飛碟",
+      "pixel_bbox": [
+        2,
+        17,
+        28,
+        29
+      ],
+      "spawn_count": 1,
+      "species": "ufo_saucer",
+      "style_family": "ufo",
+      "vfx_profile": "fix75.ufo_saucer",
+      "vfx_style": "lightning_burst",
+      "world_collision": [
+        60,
+        27
+      ]
+    },
+    {
+      "art_box": [
+        14,
+        29
+      ],
+      "asset_id": "creature.long_neck_woman",
+      "attack_action": "long_neck_woman_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Long-neck Woman",
+      "habitat": "village",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "長頸女",
+      "pixel_bbox": [
+        8,
+        2,
+        23,
+        31
+      ],
+      "spawn_count": 1,
+      "species": "long_neck_woman",
+      "style_family": "long_neck_woman",
+      "vfx_profile": "fix75.long_neck_woman",
+      "vfx_style": "spectral_claw",
+      "world_collision": [
+        31,
+        61
+      ]
+    },
+    {
+      "art_box": [
+        20,
+        13
+      ],
+      "asset_id": "creature.human_faced_dog",
+      "attack_action": "human_faced_dog_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Human-faced Dog",
+      "habitat": "village",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "人臉狗",
+      "pixel_bbox": [
+        3,
+        12,
+        21,
+        23
+      ],
+      "spawn_count": 2,
+      "species": "human_faced_dog",
+      "style_family": "human_faced_dog",
+      "vfx_profile": "fix75.human_faced_dog",
+      "vfx_style": "spectral_claw",
+      "world_collision": [
+        41,
+        29
+      ]
+    },
+    {
+      "art_box": [
+        14,
+        25
+      ],
+      "asset_id": "creature.zombie",
+      "attack_action": "zombie_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Zombie",
+      "habitat": "cave",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "殭屍",
+      "pixel_bbox": [
+        8,
+        9,
+        23,
+        31
+      ],
+      "spawn_count": 3,
+      "species": "zombie",
+      "style_family": "zombie",
+      "vfx_profile": "fix75.zombie",
+      "vfx_style": "toxic_splash",
+      "world_collision": [
+        31,
+        51
+      ]
+    },
+    {
+      "art_box": [
+        16,
+        27
+      ],
+      "asset_id": "creature.armored_knight",
+      "attack_action": "armored_knight_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Armored Knight",
+      "habitat": "cave",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "盔甲騎士",
+      "pixel_bbox": [
+        6,
+        7,
+        24,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "armored_knight",
+      "style_family": "armored_knight",
+      "vfx_profile": "fix75.armored_knight",
+      "vfx_style": "metal_sparks",
+      "world_collision": [
+        35,
+        56
+      ]
+    },
+    {
+      "art_box": [
+        29,
+        22
+      ],
+      "asset_id": "creature.broom_witch",
+      "attack_action": "broom_witch_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Broom Witch",
+      "habitat": "sky_island",
+      "hostile": true,
+      "locomotion": "bird",
+      "name": "掃帚巫婆",
+      "pixel_bbox": [
+        0,
+        7,
+        30,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "broom_witch",
+      "style_family": "broom_witch",
+      "vfx_profile": "fix75.broom_witch",
+      "vfx_style": "arcane_runes",
+      "world_collision": [
+        52,
+        42
+      ]
+    },
+    {
+      "art_box": [
+        15,
+        26
+      ],
+      "asset_id": "creature.necromancer",
+      "attack_action": "necromancer_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Necromancer",
+      "habitat": "cave",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "死靈法師",
+      "pixel_bbox": [
+        7,
+        3,
+        23,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "necromancer",
+      "style_family": "necromancer",
+      "vfx_profile": "fix75.necromancer",
+      "vfx_style": "arcane_runes",
+      "world_collision": [
+        33,
+        54
+      ]
+    },
+    {
+      "art_box": [
+        13,
+        19
+      ],
+      "asset_id": "creature.goblin",
+      "attack_action": "goblin_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Goblin",
+      "habitat": "cave",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "哥布林",
+      "pixel_bbox": [
+        4,
+        5,
+        18,
+        23
+      ],
+      "spawn_count": 3,
+      "species": "goblin",
+      "style_family": "goblin",
+      "vfx_profile": "fix75.goblin",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        29,
+        41
+      ]
+    },
+    {
+      "art_box": [
+        33,
+        24
+      ],
+      "asset_id": "creature.giant_mammoth",
+      "attack_action": "giant_mammoth_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 48,
+      "english_name": "Giant Mammoth",
+      "habitat": "snow_mountain",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "巨型猛獁象",
+      "pixel_bbox": [
+        7,
+        26,
+        40,
+        47
+      ],
+      "spawn_count": 2,
+      "species": "giant_mammoth",
+      "style_family": "mammoth",
+      "vfx_profile": "fix75.giant_mammoth",
+      "vfx_style": "ice_shards",
+      "world_collision": [
+        68,
+        49
+      ]
+    },
+    {
+      "art_box": [
+        26,
+        16
+      ],
+      "asset_id": "creature.saber_tooth_tiger",
+      "attack_action": "saber_tooth_tiger_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Saber-tooth Tiger",
+      "habitat": "snow_mountain",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "劍齒虎",
+      "pixel_bbox": [
+        3,
+        15,
+        28,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "saber_tooth_tiger",
+      "style_family": "saber_tiger",
+      "vfx_profile": "fix75.saber_tooth_tiger",
+      "vfx_style": "ice_shards",
+      "world_collision": [
+        52,
+        34
+      ]
+    },
+    {
+      "art_box": [
+        61,
+        49
+      ],
+      "asset_id": "creature.tyrannosaurus",
+      "attack_action": "tyrannosaurus_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Tyrannosaurus",
+      "feature_notes": "64×64 特徵重繪：巨大頭骨、可見齒列、短前肢、粗壯後腿與長尾；保持獨立碰撞箱。",
+      "habitat": "lost_world",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "暴龍",
+      "pixel_bbox": [
+        3,
+        15,
+        64,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 1,
+      "species": "tyrannosaurus",
+      "style_family": "tyrannosaurus",
+      "vfx_profile": "fix75.tyrannosaurus",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        66,
+        59
+      ]
+    },
+    {
+      "art_box": [
+        60,
+        58
+      ],
+      "asset_id": "creature.stegosaurus",
+      "attack_action": "stegosaurus_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Stegosaurus",
+      "feature_notes": "64×64 特徵重繪：大型交錯背板與四支尾刺；被攻擊後才反擊。",
+      "habitat": "lost_world",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "劍龍",
+      "pixel_bbox": [
+        3,
+        6,
+        63,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 1,
+      "species": "stegosaurus",
+      "style_family": "stegosaurus",
+      "vfx_profile": "fix75.stegosaurus",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        71,
+        42
+      ]
+    },
+    {
+      "art_box": [
+        62,
+        59
+      ],
+      "asset_id": "creature.brachiosaurus",
+      "attack_action": "brachiosaurus_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Brachiosaurus",
+      "feature_notes": "64×64 特徵重繪：高肩、柱狀四肢、直立長頸與小型頭部；被攻擊後才反擊。",
+      "habitat": "lost_world",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "腕龍",
+      "pixel_bbox": [
+        2,
+        5,
+        64,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 1,
+      "species": "brachiosaurus",
+      "style_family": "brachiosaurus",
+      "vfx_profile": "fix75.brachiosaurus",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        79,
+        80
+      ]
+    },
+    {
+      "art_box": [
+        62,
+        55
+      ],
+      "asset_id": "creature.spinosaurus",
+      "attack_action": "spinosaurus_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Spinosaurus",
+      "feature_notes": "64×64 特徵重繪：高背帆、鱷形長吻、強壯前肢與水棲色帶。",
+      "habitat": "lost_world",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "棘龍",
+      "pixel_bbox": [
+        2,
+        9,
+        64,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 1,
+      "species": "spinosaurus",
+      "style_family": "spinosaurus",
+      "vfx_profile": "fix75.spinosaurus",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        73,
+        54
+      ]
+    },
+    {
+      "art_box": [
+        62,
+        45
+      ],
+      "asset_id": "creature.triceratops",
+      "attack_action": "triceratops_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Triceratops",
+      "feature_notes": "64×64 特徵重繪：大型頸盾、兩支眉角加鼻角、低重心衝撞輪廓；被攻擊後才反擊。",
+      "habitat": "lost_world",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "三角龍",
+      "pixel_bbox": [
+        2,
+        19,
+        64,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 1,
+      "species": "triceratops",
+      "style_family": "triceratops",
+      "vfx_profile": "fix75.triceratops",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        68,
+        43
+      ]
+    },
+    {
+      "art_box": [
+        63,
+        42
+      ],
+      "asset_id": "creature.ankylosaurus",
+      "attack_action": "ankylosaurus_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Ankylosaurus",
+      "feature_notes": "64×64 特徵重繪：低矮骨甲、背部骨板尖刺與巨大尾槌；被攻擊後才反擊。",
+      "habitat": "lost_world",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "甲龍",
+      "pixel_bbox": [
+        1,
+        22,
+        64,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 1,
+      "species": "ankylosaurus",
+      "style_family": "ankylosaurus",
+      "vfx_profile": "fix75.ankylosaurus",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        72,
+        39
+      ]
+    },
+    {
+      "art_box": [
+        62,
+        57
+      ],
+      "asset_id": "creature.ornithomimus",
+      "attack_action": "ornithomimus_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 64,
+      "english_name": "Ornithomimus",
+      "feature_notes": "64×64 特徵重繪：小型喙頭、長頸、羽狀前肢與長跑腿；被攻擊後才反擊。",
+      "habitat": "lost_world",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "似鳥龍",
+      "pixel_bbox": [
+        2,
+        7,
+        64,
+        64
+      ],
+      "source_name": "fix76-dinosaur-feature-64",
+      "spawn_count": 2,
+      "species": "ornithomimus",
+      "style_family": "ornithomimus",
+      "vfx_profile": "fix75.ornithomimus",
+      "vfx_style": "dive_wake",
+      "world_collision": [
+        45,
+        50
+      ]
+    },
+    {
+      "art_box": [
+        21,
+        13
+      ],
+      "asset_id": "creature.flying_squirrel",
+      "attack_action": "flying_squirrel_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Flying Squirrel",
+      "habitat": "rainforest",
+      "hostile": false,
+      "locomotion": "bird",
+      "name": "飛鼠",
+      "pixel_bbox": [
+        1,
+        10,
+        21,
+        18
+      ],
+      "spawn_count": 3,
+      "species": "flying_squirrel",
+      "style_family": "flying_squirrel",
+      "vfx_profile": "fix75.flying_squirrel",
+      "vfx_style": "dive_wake",
+      "world_collision": [
+        39,
+        24
+      ]
+    },
+    {
+      "art_box": [
+        18,
+        25
+      ],
+      "asset_id": "creature.chimpanzee",
+      "attack_action": "chimpanzee_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Chimpanzee",
+      "habitat": "rainforest",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "黑猩猩",
+      "pixel_bbox": [
+        7,
+        5,
+        25,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "chimpanzee",
+      "style_family": "chimpanzee",
+      "vfx_profile": "fix75.chimpanzee",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        39,
+        53
+      ]
+    },
+    {
+      "art_box": [
+        16,
+        19
+      ],
+      "asset_id": "creature.long_tailed_monkey",
+      "attack_action": "long_tailed_monkey_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Long-tailed Monkey",
+      "habitat": "rainforest",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "長尾猴",
+      "pixel_bbox": [
+        4,
+        2,
+        20,
+        23
+      ],
+      "spawn_count": 3,
+      "species": "long_tailed_monkey",
+      "style_family": "monkey",
+      "vfx_profile": "fix75.long_tailed_monkey",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        31,
+        41
+      ]
+    },
+    {
+      "art_box": [
+        17,
+        19
+      ],
+      "asset_id": "creature.sloth",
+      "attack_action": "sloth_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Sloth",
+      "habitat": "rainforest",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "樹懶",
+      "pixel_bbox": [
+        3,
+        2,
+        20,
+        23
+      ],
+      "spawn_count": 2,
+      "species": "sloth",
+      "style_family": "sloth",
+      "vfx_profile": "fix75.sloth",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        35,
+        41
+      ]
+    },
+    {
+      "art_box": [
+        28,
+        17
+      ],
+      "asset_id": "creature.hippopotamus",
+      "attack_action": "hippopotamus_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Hippopotamus",
+      "habitat": "lake",
+      "hostile": false,
+      "locomotion": "waterbird",
+      "name": "河馬",
+      "pixel_bbox": [
+        3,
+        16,
+        29,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "hippopotamus",
+      "style_family": "hippo",
+      "vfx_profile": "fix75.hippopotamus",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        57,
+        35
+      ]
+    },
+    {
+      "art_box": [
+        26,
+        17
+      ],
+      "asset_id": "creature.lion",
+      "attack_action": "lion_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Lion",
+      "habitat": "savanna",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "獅子",
+      "pixel_bbox": [
+        3,
+        13,
+        28,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "lion",
+      "style_family": "lion",
+      "vfx_profile": "fix75.lion",
+      "vfx_style": "fire_burst",
+      "world_collision": [
+        50,
+        35
+      ]
+    },
+    {
+      "art_box": [
+        26,
+        16
+      ],
+      "asset_id": "creature.tiger",
+      "attack_action": "tiger_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Tiger",
+      "habitat": "rainforest",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "老虎",
+      "pixel_bbox": [
+        3,
+        15,
+        28,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "tiger",
+      "style_family": "tiger",
+      "vfx_profile": "fix75.tiger",
+      "vfx_style": "fire_burst",
+      "world_collision": [
+        50,
+        33
+      ]
+    },
+    {
+      "art_box": [
+        20,
+        30
+      ],
+      "asset_id": "creature.giraffe",
+      "attack_action": "giraffe_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Giraffe",
+      "habitat": "savanna",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "長頸鹿",
+      "pixel_bbox": [
+        6,
+        3,
+        25,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "giraffe",
+      "style_family": "giraffe",
+      "vfx_profile": "fix75.giraffe",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        41,
+        63
+      ]
+    },
+    {
+      "art_box": [
+        23,
+        11
+      ],
+      "asset_id": "creature.giant_salamander",
+      "attack_action": "giant_salamander_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Giant Salamander",
+      "habitat": "lake",
+      "hostile": false,
+      "locomotion": "swim",
+      "name": "娃娃魚",
+      "pixel_bbox": [
+        0,
+        14,
+        22,
+        23
+      ],
+      "spawn_count": 2,
+      "species": "giant_salamander",
+      "style_family": "giant_salamander",
+      "vfx_profile": "fix75.giant_salamander",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        46,
+        22
+      ]
+    },
+    {
+      "art_box": [
+        28,
+        13
+      ],
+      "asset_id": "creature.shark",
+      "attack_action": "shark_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Shark",
+      "habitat": "ocean",
+      "hostile": true,
+      "locomotion": "fish",
+      "name": "鯊魚",
+      "pixel_bbox": [
+        2,
+        16,
+        28,
+        30
+      ],
+      "spawn_count": 2,
+      "species": "shark",
+      "style_family": "shark",
+      "vfx_profile": "fix75.shark",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        59,
+        26
+      ]
+    },
+    {
+      "art_box": [
+        29,
+        18
+      ],
+      "asset_id": "creature.rhinoceros",
+      "attack_action": "rhinoceros_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Rhinoceros",
+      "habitat": "savanna",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "犀牛",
+      "pixel_bbox": [
+        2,
+        14,
+        28,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "rhinoceros",
+      "style_family": "rhino",
+      "vfx_profile": "fix75.rhinoceros",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        59,
+        36
+      ]
+    },
+    {
+      "art_box": [
+        26,
+        19
+      ],
+      "asset_id": "creature.brown_bear",
+      "attack_action": "brown_bear_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Brown Bear",
+      "habitat": "rainforest",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "棕熊",
+      "pixel_bbox": [
+        5,
+        13,
+        28,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "brown_bear",
+      "style_family": "brown_bear",
+      "vfx_profile": "fix75.brown_bear",
+      "vfx_style": "ground_burst",
+      "world_collision": [
+        53,
+        39
+      ]
+    },
+    {
+      "art_box": [
+        26,
+        19
+      ],
+      "asset_id": "creature.polar_bear",
+      "attack_action": "polar_bear_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 32,
+      "english_name": "Polar Bear",
+      "habitat": "snow_mountain",
+      "hostile": true,
+      "locomotion": "ground",
+      "name": "北極熊",
+      "pixel_bbox": [
+        5,
+        13,
+        29,
+        31
+      ],
+      "spawn_count": 2,
+      "species": "polar_bear",
+      "style_family": "polar_bear",
+      "vfx_profile": "fix75.polar_bear",
+      "vfx_style": "ice_shards",
+      "world_collision": [
+        53,
+        39
+      ]
+    },
+    {
+      "art_box": [
+        14,
+        22
+      ],
+      "asset_id": "creature.penguin",
+      "attack_action": "penguin_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Penguin",
+      "habitat": "snow_mountain",
+      "hostile": false,
+      "locomotion": "ground",
+      "name": "企鵝",
+      "pixel_bbox": [
+        5,
+        2,
+        17,
+        23
+      ],
+      "spawn_count": 3,
+      "species": "penguin",
+      "style_family": "penguin",
+      "vfx_profile": "fix75.penguin",
+      "vfx_style": "ice_shards",
+      "world_collision": [
+        29,
+        46
+      ]
+    },
+    {
+      "art_box": [
+        23,
+        15
+      ],
+      "asset_id": "creature.eagle",
+      "attack_action": "eagle_strike",
+      "authored_only": false,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Eagle",
+      "habitat": "snow_mountain",
+      "hostile": false,
+      "locomotion": "bird",
+      "name": "老鷹",
+      "pixel_bbox": [
+        0,
+        9,
+        21,
+        23
+      ],
+      "spawn_count": 2,
+      "species": "eagle",
+      "style_family": "eagle",
+      "vfx_profile": "fix75.eagle",
+      "vfx_style": "dive_wake",
+      "world_collision": [
+        43,
+        27
+      ]
+    },
+    {
+      "art_box": [
+        31,
+        21
+      ],
+      "asset_id": "creature.queen_bee",
+      "attack_action": "queen_bee_strike",
+      "authored_only": true,
+      "boss": true,
+      "canvas": 48,
+      "english_name": "Queen Bee",
+      "habitat": "hive_chamber",
+      "hostile": true,
+      "locomotion": "cave_fly",
+      "name": "女王蜂",
+      "pixel_bbox": [
+        8,
+        33,
+        38,
+        47
+      ],
+      "spawn_count": 1,
+      "species": "queen_bee",
+      "style_family": "queen_bee",
+      "vfx_profile": "fix75.queen_bee",
+      "vfx_style": "toxic_splash",
+      "world_collision": [
+        63,
+        40
+      ]
+    },
+    {
+      "art_box": [
+        14,
+        9
+      ],
+      "asset_id": "creature.worker_bee",
+      "attack_action": "worker_bee_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 16,
+      "english_name": "Worker Bee",
+      "habitat": "hive_chamber",
+      "hostile": true,
+      "locomotion": "cave_fly",
+      "name": "工蜂",
+      "pixel_bbox": [
+        1,
+        3,
+        15,
+        10
+      ],
+      "spawn_count": 1,
+      "species": "worker_bee",
+      "style_family": "worker_bee",
+      "vfx_profile": "fix75.worker_bee",
+      "vfx_style": "toxic_splash",
+      "world_collision": [
+        25,
+        16
+      ]
+    },
+    {
+      "art_box": [
+        18,
+        11
+      ],
+      "asset_id": "creature.drone_bee",
+      "attack_action": "drone_bee_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Drone Bee",
+      "habitat": "hive_chamber",
+      "hostile": true,
+      "locomotion": "cave_fly",
+      "name": "雄蜂",
+      "pixel_bbox": [
+        3,
+        9,
+        20,
+        18
+      ],
+      "spawn_count": 1,
+      "species": "drone_bee",
+      "style_family": "drone_bee",
+      "vfx_profile": "fix75.drone_bee",
+      "vfx_style": "toxic_splash",
+      "world_collision": [
+        35,
+        21
+      ]
+    },
+    {
+      "art_box": [
+        43,
+        28
+      ],
+      "asset_id": "creature.loch_ness_monster",
+      "attack_action": "loch_ness_monster_strike",
+      "authored_only": true,
+      "boss": true,
+      "canvas": 64,
+      "english_name": "Loch Ness Monster",
+      "habitat": "underground_lake",
+      "hostile": true,
+      "locomotion": "swim",
+      "name": "尼斯湖水怪",
+      "pixel_bbox": [
+        13,
+        29,
+        51,
+        61
+      ],
+      "spawn_count": 1,
+      "species": "loch_ness_monster",
+      "style_family": "nessie",
+      "vfx_profile": "fix75.loch_ness_monster",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        87,
+        55
+      ]
+    },
+    {
+      "art_box": [
+        23,
+        10
+      ],
+      "asset_id": "creature.water_lizard",
+      "attack_action": "water_lizard_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Water Lizard",
+      "habitat": "underground_lake",
+      "hostile": false,
+      "locomotion": "swim",
+      "name": "水蜥蜴",
+      "pixel_bbox": [
+        0,
+        15,
+        22,
+        23
+      ],
+      "spawn_count": 1,
+      "species": "water_lizard",
+      "style_family": "water_lizard",
+      "vfx_profile": "fix75.water_lizard",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        45,
+        20
+      ]
+    },
+    {
+      "art_box": [
+        23,
+        10
+      ],
+      "asset_id": "creature.water_snake",
+      "attack_action": "water_snake_strike",
+      "authored_only": true,
+      "boss": false,
+      "canvas": 24,
+      "english_name": "Water Snake",
+      "habitat": "underground_lake",
+      "hostile": true,
+      "locomotion": "swim",
+      "name": "水蛇",
+      "pixel_bbox": [
+        0,
+        13,
+        21,
+        20
+      ],
+      "spawn_count": 1,
+      "species": "water_snake",
+      "style_family": "water_snake",
+      "vfx_profile": "fix75.water_snake",
+      "vfx_style": "water_burst",
+      "world_collision": [
+        43,
+        19
+      ]
+    }
+  ],
+  "dinosaur_64_count": 7,
+  "dinosaur_feature_rule": "七種恐龍統一使用64x64畫布，物種特徵與碰撞尺寸分離",
+  "ecosystem_species_count": 6,
+  "fixed_pixel_world_scale": 2.5,
+  "format": 2,
+  "generation": "fix76_dinosaur_feature_64_pass",
+  "replaced_fix74_count": 0,
+  "requested_species_count": 35,
+  "style_reference": [
+    "wolf",
+    "boar"
+  ]
+}

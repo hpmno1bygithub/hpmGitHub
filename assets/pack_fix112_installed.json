@@ -1,0 +1,6 @@
+{
+  "version": "0.7.7.7-FIX112-creature-vfx-track-ground-anchor",
+  "architecture": "body track + external effect track",
+  "ground_anchor": "visible-pixel-bottom",
+  "installed_at": "2026-09-07 12:27:51"
+}

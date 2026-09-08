@@ -1,0 +1,9 @@
+{
+  "version": "0.7.7.7-FIX109-boss-signature-animation-sync",
+  "base": "0.7.7.7-FIX107-double-weapon-vfx-frames",
+  "includes": [
+    "FIX108",
+    "FIX109"
+  ],
+  "installed_at": "2026-09-07 10:38:03"
+}

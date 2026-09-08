@@ -1,0 +1,31 @@
+{
+  "asset_ids": [
+    "creature.abyss_crab_king",
+    "creature.ancient_tree_demon",
+    "creature.crystal_nine_tail",
+    "creature.drill_worm",
+    "creature.lava_beetle_emperor",
+    "creature.thunder_roc",
+    "effect.abyss_claw_heavy",
+    "effect.abyss_claw_normal",
+    "effect.earth_drill_lance_heavy",
+    "effect.earth_drill_lance_normal",
+    "effect.magma_core_hammer_heavy",
+    "effect.magma_core_hammer_normal",
+    "effect.nine_tail_fan_heavy",
+    "effect.nine_tail_fan_normal",
+    "effect.thunder_longbow_heavy",
+    "effect.thunder_longbow_normal",
+    "effect.world_tree_staff_heavy",
+    "effect.world_tree_staff_normal",
+    "weapon.abyss_claw",
+    "weapon.earth_drill_lance",
+    "weapon.magma_core_hammer",
+    "weapon.nine_tail_fan",
+    "weapon.thunder_longbow",
+    "weapon.world_tree_staff"
+  ],
+  "installed_at": "2026-09-07 09:06:05",
+  "scope": "FIX103-six-families-simple-pixel-only",
+  "version": "0.7.7.7-FIX106-iconic-boss-pixel"
+}

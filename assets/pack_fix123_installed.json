@@ -1,0 +1,24 @@
+{
+  "version": "0.7.7.7-FIX123-fx-timeline-direct-preview",
+  "base_version": "0.7.7.7-FIX122-boss-fx-direct-sync",
+  "installed_at": "2026-09-07 23:19:45",
+  "effect_auto_enters_frame_editor": true,
+  "effect_timeline_visible_controls": [
+    "previous",
+    "counter",
+    "next",
+    "play",
+    "duplicate",
+    "blank",
+    "delete",
+    "onion",
+    "damage_frame",
+    "fps_down",
+    "fps_up",
+    "loop",
+    "fit_canvas"
+  ],
+  "effect_timeline_forced_front": true,
+  "authored_fx_suppresses_legacy_procedural_overlay": true,
+  "editor_gameplay_visual_source_same": true
+}

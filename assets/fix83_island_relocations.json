@@ -1,0 +1,113 @@
+{
+  "version": 83,
+  "relocations": [
+    {
+      "id": "cloud_1_1",
+      "bounds": [
+        399,
+        79,
+        445,
+        93
+      ],
+      "dy": 8,
+      "old_floor": 84,
+      "new_floor": 92
+    },
+    {
+      "id": "cloud_1_2",
+      "bounds": [
+        408,
+        49,
+        452,
+        64
+      ],
+      "dy": 18,
+      "old_floor": 54,
+      "new_floor": 72
+    },
+    {
+      "id": "cloud_1_3",
+      "bounds": [
+        397,
+        19,
+        439,
+        35
+      ],
+      "dy": 28,
+      "old_floor": 24,
+      "new_floor": 52
+    },
+    {
+      "id": "cloud_2_1",
+      "bounds": [
+        627,
+        79,
+        673,
+        93
+      ],
+      "dy": 8,
+      "old_floor": 84,
+      "new_floor": 92
+    },
+    {
+      "id": "cloud_2_2",
+      "bounds": [
+        636,
+        49,
+        680,
+        64
+      ],
+      "dy": 18,
+      "old_floor": 54,
+      "new_floor": 72
+    },
+    {
+      "id": "cloud_2_3",
+      "bounds": [
+        625,
+        19,
+        667,
+        35
+      ],
+      "dy": 28,
+      "old_floor": 24,
+      "new_floor": 52
+    },
+    {
+      "id": "cloud_3_1",
+      "bounds": [
+        769,
+        79,
+        815,
+        93
+      ],
+      "dy": 8,
+      "old_floor": 84,
+      "new_floor": 92
+    },
+    {
+      "id": "cloud_3_2",
+      "bounds": [
+        778,
+        49,
+        822,
+        64
+      ],
+      "dy": 18,
+      "old_floor": 54,
+      "new_floor": 72
+    },
+    {
+      "id": "cloud_3_3",
+      "bounds": [
+        767,
+        19,
+        809,
+        35
+      ],
+      "dy": 28,
+      "old_floor": 24,
+      "new_floor": 52
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "action_overrides": {
+    "creature.abyss_colossus": {
+      "charge": "heavy_charge",
+      "fire_cast": "fire",
+      "lightning_cast": "lightning",
+      "slam": "earth"
+    },
+    "creature.ankylosaurus": {
+      "ankylosaurus_strike": "fix75.ankylosaurus"
+    },
+    "creature.armored_knight": {
+      "armored_knight_strike": "fix75.armored_knight"
+    },
+    "creature.bigfoot": {
+      "bigfoot_strike": "fix75.bigfoot"
+    },
+    "creature.blue_poop": {
+      "attack": "slime"
+    },
+    "creature.blue_scarab": {
+      "attack": "charge"
+    },
+    "creature.brachiosaurus": {
+      "brachiosaurus_strike": "fix75.brachiosaurus"
+    },
+    "creature.broom_witch": {
+      "broom_witch_strike": "fix75.broom_witch"
+    },
+    "creature.brown_bear": {
+      "brown_bear_strike": "fix75.brown_bear"
+    },
+    "creature.burning_slime": {
+      "attack": "fire"
+    },
+    "creature.butterfly_backdrop": {},
+    "creature.cave_bat": {
+      "move": "dive"
+    },
+    "creature.cave_snorble": {
+      "attack": "heavy_charge"
+    },
+    "creature.cave_spider": {
+      "attack": "sting"
+    },
+    "creature.ceiling_maw": {
+      "attack": "fix82.ceiling_maw"
+    },
+    "creature.chimpanzee": {
+      "chimpanzee_strike": "fix75.chimpanzee"
+    },
+    "creature.cloud_golem": {
+      "attack": "fix82.cloud_golem"
+    },
+    "creature.cloud_hare": {
+      "attack": "fix82.cloud_hare"
+    },
+    "creature.congo_kong": {
+      "attack": "earth",
+      "barrage": "earth",
+      "leap": "earth"
+    },
+    "creature.corrosive_slime": {},
+    "creature.creeper": {
+      "explode": "explosion"
+    },
+    "creature.crystal_knight": {
+      "attack": "crystal"
+    },
+    "creature.crystal_lizard": {
+      "attack": "crystal"
+    },
+    "creature.crystal_skeleton": {
+      "crystal_cast": "crystal"
+    },
+    "creature.crystal_slime": {
+      "attack": "crystal"
+    },
+    "creature.drone_bee": {
+      "drone_bee_strike": "fix75.drone_bee"
+    },
+    "creature.dungeon_bandit_mage": {
+      "cast": "arcane",
+      "move": "passive"
+    },
+    "creature.eagle": {
+      "eagle_strike": "fix75.eagle"
+    },
+    "creature.exp99_chimpanzee": {
+      "attack": "earth",
+      "leap": "earth"
+    },
+    "creature.exploding_wisp": {
+      "explode": "explosion"
+    },
+    "creature.fire_zombie": {
+      "fire_cast": "fire"
+    },
+    "creature.flame_turtle": {
+      "fire_cast": "fire"
+    },
+    "creature.flying_imp": {
+      "attack": "fire"
+    },
+    "creature.flying_squirrel": {
+      "flying_squirrel_strike": "fix75.flying_squirrel"
+    },
+    "creature.ghost": {
+      "attack": "spectral"
+    },
+    "creature.giant_bago_bird": {
+      "attack": "dive"
+    },
+    "creature.giant_mammoth": {
+      "giant_mammoth_strike": "fix75.giant_mammoth"
+    },
+    "creature.giant_salamander": {
+      "giant_salamander_strike": "fix75.giant_salamander"
+    },
+    "creature.giant_spider_monster": {
+      "attack": "sting"
+    },
+    "creature.giant_worm": {
+      "attack": "earth"
+    },
+    "creature.giraffe": {
+      "giraffe_strike": "fix75.giraffe"
+    },
+    "creature.goblin": {
+      "goblin_strike": "fix75.goblin"
+    },
+    "creature.goblin_lord": {
+      "attack": "metal",
+      "charge": "metal"
+    },
+    "creature.goblin_priest": {
+      "attack": "fire"
+    },
+    "creature.goblin_redcap": {
+      "attack": "claw",
+      "lunge": "claw"
+    },
+    "creature.hippopotamus": {
+      "hippopotamus_strike": "fix75.hippopotamus"
+    },
+    "creature.human_faced_dog": {
+      "human_faced_dog_strike": "fix75.human_faced_dog"
+    },
+    "creature.infernal_goat": {
+      "attack": "fire"
+    },
+    "creature.isis_serpent": {
+      "cast": "gold"
+    },
+    "creature.lightning_zombie": {
+      "lightning_cast": "lightning"
+    },
+    "creature.lion": {
+      "lion_strike": "fix75.lion"
+    },
+    "creature.loch_ness_monster": {
+      "loch_ness_monster_strike": "fix75.loch_ness_monster"
+    },
+    "creature.long_neck_woman": {
+      "long_neck_woman_strike": "fix75.long_neck_woman"
+    },
+    "creature.long_tailed_monkey": {
+      "long_tailed_monkey_strike": "fix75.long_tailed_monkey"
+    },
+    "creature.minos": {
+      "attack": "heavy_charge"
+    },
+    "creature.mummy": {
+      "attack": "earth"
+    },
+    "creature.necromancer": {
+      "necromancer_strike": "fix75.necromancer"
+    },
+    "creature.ornithomimus": {
+      "ornithomimus_strike": "fix75.ornithomimus"
+    },
+    "creature.penguin": {
+      "penguin_strike": "fix75.penguin"
+    },
+    "creature.peregrine_falcon": {
+      "attack": "dive"
+    },
+    "creature.plane_monster": {
+      "attack": "metal"
+    },
+    "creature.polar_bear": {
+      "polar_bear_strike": "fix75.polar_bear"
+    },
+    "creature.purple_spore_mushroom": {
+      "attack": "fix82.purple_spore_mushroom"
+    },
+    "creature.queen_bee": {
+      "queen_bee_strike": "fix75.queen_bee"
+    },
+    "creature.rafflesia_seedling": {
+      "attack": "fix82.rafflesia_seedling"
+    },
+    "creature.rhinoceros": {
+      "rhinoceros_strike": "fix75.rhinoceros"
+    },
+    "creature.saber_tooth_tiger": {
+      "saber_tooth_tiger_strike": "fix75.saber_tooth_tiger"
+    },
+    "creature.shark": {
+      "shark_strike": "fix75.shark"
+    },
+    "creature.sky_moth": {
+      "attack": "fix82.sky_moth"
+    },
+    "creature.sloth": {
+      "sloth_strike": "fix75.sloth"
+    },
+    "creature.speaker_man": {
+      "sound_cast": "sonic"
+    },
+    "creature.sphinx_monster": {
+      "attack": "gold"
+    },
+    "creature.spinosaurus": {
+      "spinosaurus_strike": "fix75.spinosaurus"
+    },
+    "creature.stegosaurus": {
+      "stegosaurus_strike": "fix75.stegosaurus"
+    },
+    "creature.swan": {
+      "attack": "claw"
+    },
+    "creature.tempest_harpy": {
+      "attack": "fix82.tempest_harpy"
+    },
+    "creature.tiger": {
+      "tiger_strike": "fix75.tiger"
+    },
+    "creature.toilet_man": {
+      "attack": "water"
+    },
+    "creature.triceratops": {
+      "triceratops_strike": "fix75.triceratops"
+    },
+    "creature.trihead_dragon": {
+      "attack": "lightning"
+    },
+    "creature.tyrannosaurus": {
+      "tyrannosaurus_strike": "fix75.tyrannosaurus"
+    },
+    "creature.ufo_saucer": {
+      "ufo_saucer_strike": "fix75.ufo_saucer"
+    },
+    "creature.vampire": {
+      "vampire_strike": "fix75.vampire"
+    },
+    "creature.vine_whipper": {
+      "attack": "fix82.vine_whipper"
+    },
+    "creature.vulture": {
+      "attack": "dive"
+    },
+    "creature.water_lizard": {
+      "water_lizard_strike": "fix75.water_lizard"
+    },
+    "creature.water_snake": {
+      "water_snake_strike": "fix75.water_snake"
+    },
+    "creature.werewolf": {
+      "werewolf_strike": "fix75.werewolf"
+    },
+    "creature.wind_god_pterosaur": {
+      "attack": "fix83.wind_god_pterosaur",
+      "dive": "fix83.wind_god_pterosaur"
+    },
+    "creature.worker_bee": {
+      "worker_bee_strike": "fix75.worker_bee"
+    },
+    "creature.zombie": {
+      "zombie_strike": "fix75.zombie"
+    }
+  },
+  "budgets": {
+    "coalesce_radius_px": 14.0,
+    "coalesce_seconds": 0.045,
+    "default_ttl": 0.34,
+    "max_events": 24,
+    "max_quads_per_event": 18,
+    "max_total_quads": 192
+  },
+  "description": "FIX68 生物／魔物攻擊特效資料。只描述呈現，不包含傷害、碰撞或狀態判定。",
+  "effect_fallbacks": {
+    "damage": "claw",
+    "damage_knockback": "claw",
+    "explosion": "explosion",
+    "fire_column": "fire",
+    "knockback": "charge",
+    "lightning_bolt": "lightning",
+    "magic_bolt": "arcane",
+    "none": "passive"
+  },
+  "format": 1,
+  "profiles": {
+    "arcane": {
+      "palette": [
+        "#FFF1FFFF",
+        "#BE70FFFF",
+        "#5936BADD"
+      ],
+      "quad_cost": 16,
+      "radius": 37.0,
+      "scale": 1.12,
+      "style": "arcane_runes",
+      "ttl": 0.42
+    },
+    "bite": {
+      "palette": [
+        "#FFF1D6FF",
+        "#E95C45FF",
+        "#7A1820CC"
+      ],
+      "quad_cost": 9,
+      "radius": 24.0,
+      "scale": 1.0,
+      "style": "fang_arc",
+      "ttl": 0.28
+    },
+    "charge": {
+      "palette": [
+        "#FFF0C4FF",
+        "#E3A65AFF",
+        "#69472FCC"
+      ],
+      "quad_cost": 12,
+      "radius": 31.0,
+      "scale": 1.08,
+      "style": "speed_burst",
+      "ttl": 0.34
+    },
+    "claw": {
+      "palette": [
+        "#FFF2D0FF",
+        "#FF8B5CFF",
+        "#9E2836CC"
+      ],
+      "quad_cost": 12,
+      "radius": 29.0,
+      "scale": 1.0,
+      "style": "claw_slash",
+      "ttl": 0.3
+    },
+    "crystal": {
+      "palette": [
+        "#E8FFFFFF",
+        "#70DFFFFF",
+        "#3C75E8DD"
+      ],
+      "quad_cost": 17,
+      "radius": 39.0,
+      "scale": 1.16,
+      "style": "crystal_shards",
+      "ttl": 0.42
+    },
+    "dive": {
+      "palette": [
+        "#F4F1E8FF",
+        "#B8D2DFFF",
+        "#536A80BB"
+      ],
+      "quad_cost": 13,
+      "radius": 32.0,
+      "scale": 1.08,
+      "style": "dive_wake",
+      "ttl": 0.34
+    },
+    "earth": {
+      "palette": [
+        "#F6D49CFF",
+        "#A56A3DFF",
+        "#4C3529DD"
+      ],
+      "quad_cost": 17,
+      "radius": 42.0,
+      "scale": 1.18,
+      "style": "earth_spikes",
+      "ttl": 0.44
+    },
+    "explosion": {
+      "palette": [
+        "#FFFFFFFF",
+        "#FFB52CFF",
+        "#EE3818FF"
+      ],
+      "quad_cost": 18,
+      "radius": 58.0,
+      "scale": 1.35,
+      "style": "explosion_ring",
+      "ttl": 0.48
+    },
+    "fire": {
+      "palette": [
+        "#FFF08AFF",
+        "#FF8A19FF",
+        "#D92B12DD"
+      ],
+      "quad_cost": 18,
+      "radius": 40.0,
+      "scale": 1.18,
+      "style": "fire_burst",
+      "ttl": 0.44
+    },
+    "fix75.ankylosaurus": {
+      "palette": [
+        "#B7A96BFF",
+        "#747257FF",
+        "#444637FF"
+      ],
+      "quad_cost": 18,
+      "radius": 51.120000000000005,
+      "scale": 1.22,
+      "style": "ground_burst",
+      "ttl": 0.62
+    },
+    "fix75.armored_knight": {
+      "palette": [
+        "#D6E2E4FF",
+        "#8B98A2FF",
+        "#4B5361FF"
+      ],
+      "quad_cost": 16,
+      "radius": 43.760000000000005,
+      "scale": 1.0144444444444445,
+      "style": "metal_sparks",
+      "ttl": 0.5755555555555556
+    },
+    "fix75.bigfoot": {
+      "palette": [
+        "#B68B63FF",
+        "#72523BFF",
+        "#453528FF"
+      ],
+      "quad_cost": 16,
+      "radius": 44.68,
+      "scale": 1.0588888888888888,
+      "style": "ground_burst",
+      "ttl": 0.5811111111111111
+    },
+    "fix75.brachiosaurus": {
+      "palette": [
+        "#C8D99AFF",
+        "#73926FFF",
+        "#415C4EFF"
+      ],
+      "quad_cost": 20,
+      "radius": 54.800000000000004,
+      "scale": 1.258888888888889,
+      "style": "ground_burst",
+      "ttl": 0.6422222222222222
+    },
+    "fix75.broom_witch": {
+      "palette": [
+        "#DDB8E8FF",
+        "#745A8DFF",
+        "#443758FF"
+      ],
+      "quad_cost": 17,
+      "radius": 41.92,
+      "scale": 1.1088888888888888,
+      "style": "arcane_runes",
+      "ttl": 0.5644444444444444
+    },
+    "fix75.brown_bear": {
+      "palette": [
+        "#B98A65FF",
+        "#73513BFF",
+        "#44382FFF"
+      ],
+      "quad_cost": 16,
+      "radius": 42.38,
+      "scale": 1.1144444444444443,
+      "style": "ground_burst",
+      "ttl": 0.5672222222222222
+    },
+    "fix75.chimpanzee": {
+      "palette": [
+        "#9B8065FF",
+        "#504944FF",
+        "#302F32FF"
+      ],
+      "quad_cost": 16,
+      "radius": 42.38,
+      "scale": 1.0366666666666666,
+      "style": "ground_burst",
+      "ttl": 0.5672222222222222
+    },
+    "fix75.drone_bee": {
+      "palette": [
+        "#EFD88BFF",
+        "#A97B2EFF",
+        "#58442FFF"
+      ],
+      "quad_cost": 14,
+      "radius": 34.1,
+      "scale": 1.0144444444444445,
+      "style": "toxic_splash",
+      "ttl": 0.5172222222222222
+    },
+    "fix75.eagle": {
+      "palette": [
+        "#E4D1A1FF",
+        "#76543FFF",
+        "#413B3AFF"
+      ],
+      "quad_cost": 15,
+      "radius": 37.78,
+      "scale": 1.0588888888888888,
+      "style": "dive_wake",
+      "ttl": 0.5394444444444444
+    },
+    "fix75.flying_squirrel": {
+      "palette": [
+        "#E2C49EFF",
+        "#9B785EFF",
+        "#55483FFF"
+      ],
+      "quad_cost": 15,
+      "radius": 35.94,
+      "scale": 1.0366666666666666,
+      "style": "dive_wake",
+      "ttl": 0.5283333333333333
+    },
+    "fix75.giant_mammoth": {
+      "palette": [
+        "#E7D5B8FF",
+        "#8B7569FF",
+        "#534B4CFF"
+      ],
+      "quad_cost": 18,
+      "radius": 49.28,
+      "scale": 1.1977777777777776,
+      "style": "ice_shards",
+      "ttl": 0.6088888888888888
+    },
+    "fix75.giant_salamander": {
+      "palette": [
+        "#A9986EFF",
+        "#6E6652FF",
+        "#41473FFF"
+      ],
+      "quad_cost": 15,
+      "radius": 39.16,
+      "scale": 1.0755555555555554,
+      "style": "water_burst",
+      "ttl": 0.5477777777777777
+    },
+    "fix75.giraffe": {
+      "palette": [
+        "#F4D987FF",
+        "#D8A44DFF",
+        "#79583BFF"
+      ],
+      "quad_cost": 17,
+      "radius": 46.980000000000004,
+      "scale": 1.0477777777777777,
+      "style": "ground_burst",
+      "ttl": 0.595
+    },
+    "fix75.goblin": {
+      "palette": [
+        "#C6B56EFF",
+        "#66834CFF",
+        "#3E5137FF"
+      ],
+      "quad_cost": 14,
+      "radius": 36.86,
+      "scale": 0.981111111111111,
+      "style": "ground_burst",
+      "ttl": 0.5338888888888889
+    },
+    "fix75.hippopotamus": {
+      "palette": [
+        "#B7A6B2FF",
+        "#7D7180FF",
+        "#4E4858FF"
+      ],
+      "quad_cost": 17,
+      "radius": 44.22,
+      "scale": 1.1366666666666667,
+      "style": "water_burst",
+      "ttl": 0.5783333333333334
+    },
+    "fix75.human_faced_dog": {
+      "palette": [
+        "#E0B894FF",
+        "#9B7756FF",
+        "#54463BFF"
+      ],
+      "quad_cost": 15,
+      "radius": 36.86,
+      "scale": 1.0477777777777777,
+      "style": "spectral_claw",
+      "ttl": 0.5338888888888889
+    },
+    "fix75.lion": {
+      "palette": [
+        "#F2D288FF",
+        "#D29B48FF",
+        "#765039FF"
+      ],
+      "quad_cost": 16,
+      "radius": 41.0,
+      "scale": 1.0977777777777777,
+      "style": "fire_burst",
+      "ttl": 0.5588888888888889
+    },
+    "fix75.loch_ness_monster": {
+      "palette": [
+        "#8BC7A5FF",
+        "#397B6FFF",
+        "#2C4D50FF"
+      ],
+      "quad_cost": 20,
+      "radius": 58.02,
+      "scale": 1.3033333333333332,
+      "style": "water_burst",
+      "ttl": 0.6616666666666666
+    },
+    "fix75.long_neck_woman": {
+      "palette": [
+        "#E7C5B5FF",
+        "#8C596BFF",
+        "#4F394DFF"
+      ],
+      "quad_cost": 17,
+      "radius": 46.06,
+      "scale": 0.9922222222222221,
+      "style": "spectral_claw",
+      "ttl": 0.5894444444444444
+    },
+    "fix75.long_tailed_monkey": {
+      "palette": [
+        "#E1C08EFF",
+        "#A87854FF",
+        "#57473DFF"
+      ],
+      "quad_cost": 14,
+      "radius": 36.86,
+      "scale": 0.9922222222222221,
+      "style": "ground_burst",
+      "ttl": 0.5338888888888889
+    },
+    "fix75.necromancer": {
+      "palette": [
+        "#9CDFB9FF",
+        "#57526EFF",
+        "#302E48FF"
+      ],
+      "quad_cost": 16,
+      "radius": 42.84,
+      "scale": 1.0033333333333332,
+      "style": "arcane_runes",
+      "ttl": 0.57
+    },
+    "fix75.ornithomimus": {
+      "palette": [
+        "#E6D5A3FF",
+        "#AD8A5BFF",
+        "#655044FF"
+      ],
+      "quad_cost": 16,
+      "radius": 41.0,
+      "scale": 1.0699999999999998,
+      "style": "dive_wake",
+      "ttl": 0.5588888888888889
+    },
+    "fix75.penguin": {
+      "palette": [
+        "#F4F0D8FF",
+        "#344552FF",
+        "#29313CFF"
+      ],
+      "quad_cost": 15,
+      "radius": 39.16,
+      "scale": 0.981111111111111,
+      "style": "ice_shards",
+      "ttl": 0.5477777777777777
+    },
+    "fix75.polar_bear": {
+      "palette": [
+        "#FFFFFFFF",
+        "#DCE7E4FF",
+        "#8797A0FF"
+      ],
+      "quad_cost": 16,
+      "radius": 42.38,
+      "scale": 1.1144444444444443,
+      "style": "ice_shards",
+      "ttl": 0.5672222222222222
+    },
+    "fix75.queen_bee": {
+      "palette": [
+        "#FFF1A0FF",
+        "#D99C24FF",
+        "#68492EFF"
+      ],
+      "quad_cost": 17,
+      "radius": 46.980000000000004,
+      "scale": 1.17,
+      "style": "toxic_splash",
+      "ttl": 0.595
+    },
+    "fix75.rhinoceros": {
+      "palette": [
+        "#BEC0AEFF",
+        "#777A72FF",
+        "#484E4CFF"
+      ],
+      "quad_cost": 17,
+      "radius": 45.14,
+      "scale": 1.1477777777777778,
+      "style": "ground_burst",
+      "ttl": 0.5838888888888889
+    },
+    "fix75.saber_tooth_tiger": {
+      "palette": [
+        "#FFF0C0FF",
+        "#C99A55FF",
+        "#76543DFF"
+      ],
+      "quad_cost": 16,
+      "radius": 41.92,
+      "scale": 1.1088888888888888,
+      "style": "ice_shards",
+      "ttl": 0.5644444444444444
+    },
+    "fix75.shark": {
+      "palette": [
+        "#C2D9D9FF",
+        "#597B8FFF",
+        "#344E64FF"
+      ],
+      "quad_cost": 17,
+      "radius": 45.14,
+      "scale": 1.1477777777777778,
+      "style": "water_burst",
+      "ttl": 0.5838888888888889
+    },
+    "fix75.sloth": {
+      "palette": [
+        "#B9AE87FF",
+        "#7D745DFF",
+        "#4B4D42FF"
+      ],
+      "quad_cost": 14,
+      "radius": 36.86,
+      "scale": 1.0144444444444445,
+      "style": "ground_burst",
+      "ttl": 0.5338888888888889
+    },
+    "fix75.spinosaurus": {
+      "palette": [
+        "#D17E67FF",
+        "#477F7DFF",
+        "#33505BFF"
+      ],
+      "quad_cost": 19,
+      "radius": 51.58,
+      "scale": 1.2255555555555555,
+      "style": "water_burst",
+      "ttl": 0.6227777777777778
+    },
+    "fix75.stegosaurus": {
+      "palette": [
+        "#DBB965FF",
+        "#748B60FF",
+        "#425743FF"
+      ],
+      "quad_cost": 18,
+      "radius": 50.660000000000004,
+      "scale": 1.2144444444444444,
+      "style": "ground_burst",
+      "ttl": 0.6172222222222222
+    },
+    "fix75.tiger": {
+      "palette": [
+        "#FFE09AFF",
+        "#D77E36FF",
+        "#744331FF"
+      ],
+      "quad_cost": 16,
+      "radius": 41.0,
+      "scale": 1.0977777777777777,
+      "style": "fire_burst",
+      "ttl": 0.5588888888888889
+    },
+    "fix75.triceratops": {
+      "palette": [
+        "#D9C68DFF",
+        "#8A7C55FF",
+        "#514B3CFF"
+      ],
+      "quad_cost": 18,
+      "radius": 49.28,
+      "scale": 1.1977777777777776,
+      "style": "ground_burst",
+      "ttl": 0.6088888888888888
+    },
+    "fix75.tyrannosaurus": {
+      "palette": [
+        "#C6B76CFF",
+        "#6F854BFF",
+        "#3F5138FF"
+      ],
+      "quad_cost": 18,
+      "radius": 48.36,
+      "scale": 1.1866666666666665,
+      "style": "ground_burst",
+      "ttl": 0.6033333333333333
+    },
+    "fix75.ufo_saucer": {
+      "palette": [
+        "#D8FBF5FF",
+        "#7DB7B8FF",
+        "#405F72FF"
+      ],
+      "quad_cost": 17,
+      "radius": 45.6,
+      "scale": 1.1533333333333333,
+      "style": "lightning_burst",
+      "ttl": 0.5866666666666667
+    },
+    "fix75.vampire": {
+      "palette": [
+        "#D9CADCFF",
+        "#5E526FFF",
+        "#322D48FF"
+      ],
+      "quad_cost": 16,
+      "radius": 41.46,
+      "scale": 0.9922222222222221,
+      "style": "spectral_claw",
+      "ttl": 0.5616666666666666
+    },
+    "fix75.water_lizard": {
+      "palette": [
+        "#8EC7A0FF",
+        "#4C866BFF",
+        "#315548FF"
+      ],
+      "quad_cost": 15,
+      "radius": 38.7,
+      "scale": 1.0699999999999998,
+      "style": "water_burst",
+      "ttl": 0.5449999999999999
+    },
+    "fix75.water_snake": {
+      "palette": [
+        "#88B8B4FF",
+        "#416D7AFF",
+        "#304755FF"
+      ],
+      "quad_cost": 15,
+      "radius": 37.78,
+      "scale": 1.0588888888888888,
+      "style": "water_burst",
+      "ttl": 0.5394444444444444
+    },
+    "fix75.werewolf": {
+      "palette": [
+        "#B8A28AFF",
+        "#75645BFF",
+        "#493F42FF"
+      ],
+      "quad_cost": 16,
+      "radius": 42.84,
+      "scale": 1.008888888888889,
+      "style": "spectral_claw",
+      "ttl": 0.57
+    },
+    "fix75.worker_bee": {
+      "palette": [
+        "#FFF0A0FF",
+        "#D4A12CFF",
+        "#62472CFF"
+      ],
+      "quad_cost": 13,
+      "radius": 29.5,
+      "scale": 0.9588888888888889,
+      "style": "toxic_splash",
+      "ttl": 0.48944444444444446
+    },
+    "fix75.zombie": {
+      "palette": [
+        "#A8B58AFF",
+        "#66805DFF",
+        "#3B4D43FF"
+      ],
+      "quad_cost": 16,
+      "radius": 41.46,
+      "scale": 0.9922222222222221,
+      "style": "toxic_splash",
+      "ttl": 0.5616666666666666
+    },
+    "fix82.ceiling_maw": {
+      "palette": [
+        "#F7E8CEFF",
+        "#DE889AFF",
+        "#5F455FFF"
+      ],
+      "quad_cost": 16,
+      "radius": 52,
+      "scale": 1.0,
+      "style": "fang_arc",
+      "ttl": 0.45
+    },
+    "fix82.cloud_golem": {
+      "palette": [
+        "#F5ECD1FF",
+        "#C1D5D8FF",
+        "#668D9AFF"
+      ],
+      "quad_cost": 16,
+      "radius": 38,
+      "scale": 1.0,
+      "style": "crystal_shards",
+      "ttl": 0.45
+    },
+    "fix82.cloud_hare": {
+      "palette": [
+        "#DDEFE8FF"
+      ],
+      "quad_cost": 0,
+      "radius": 1,
+      "scale": 1.0,
+      "style": "none",
+      "ttl": 0.45
+    },
+    "fix82.purple_spore_mushroom": {
+      "palette": [
+        "#DCCBEBFF",
+        "#A276B6FF",
+        "#638358DD"
+      ],
+      "quad_cost": 16,
+      "radius": 96,
+      "scale": 1.0,
+      "style": "toxic_splash",
+      "ttl": 0.45
+    },
+    "fix82.rafflesia_seedling": {
+      "palette": [
+        "#F4D798FF",
+        "#CA7970FF",
+        "#7F7950FF"
+      ],
+      "quad_cost": 16,
+      "radius": 30,
+      "scale": 1.0,
+      "style": "toxic_splash",
+      "ttl": 0.45
+    },
+    "fix82.sky_moth": {
+      "palette": [
+        "#DDEFE8FF"
+      ],
+      "quad_cost": 0,
+      "radius": 1,
+      "scale": 1.0,
+      "style": "none",
+      "ttl": 0.45
+    },
+    "fix82.tempest_harpy": {
+      "palette": [
+        "#E7F3DAFF",
+        "#A7D9D5FF",
+        "#7399B8FF"
+      ],
+      "quad_cost": 16,
+      "radius": 28,
+      "scale": 1.0,
+      "style": "dive_wake",
+      "ttl": 0.45
+    },
+    "fix82.vine_whipper": {
+      "palette": [
+        "#D9E9A3FF",
+        "#82B46CFF",
+        "#345B46FF"
+      ],
+      "quad_cost": 16,
+      "radius": 112,
+      "scale": 1.0,
+      "style": "vine_whip",
+      "ttl": 0.45
+    },
+    "fix83.wind_god_pterosaur": {
+      "palette": [
+        "#E7F3DAFF",
+        "#A7D9D5FF",
+        "#7399B8FF"
+      ],
+      "quad_cost": 18,
+      "radius": 42,
+      "scale": 1.6,
+      "style": "dive_wake",
+      "ttl": 0.45
+    },
+    "gold": {
+      "palette": [
+        "#FFFFFFFF",
+        "#FFD85EFF",
+        "#B46825DD"
+      ],
+      "quad_cost": 16,
+      "radius": 40.0,
+      "scale": 1.18,
+      "style": "golden_slash",
+      "ttl": 0.4
+    },
+    "heavy_charge": {
+      "palette": [
+        "#FFF1C2FF",
+        "#D98542FF",
+        "#5A3828DD"
+      ],
+      "quad_cost": 18,
+      "radius": 45.0,
+      "scale": 1.3,
+      "style": "ground_burst",
+      "ttl": 0.44
+    },
+    "ice": {
+      "palette": [
+        "#EBFFFFFF",
+        "#7DDAFFFF",
+        "#3B74D9DD"
+      ],
+      "quad_cost": 14,
+      "radius": 32.0,
+      "scale": 1.08,
+      "style": "ice_shards",
+      "ttl": 0.38
+    },
+    "lightning": {
+      "palette": [
+        "#FFFFFFFF",
+        "#FFE765FF",
+        "#6BAEFFFF"
+      ],
+      "quad_cost": 18,
+      "radius": 38.0,
+      "scale": 1.12,
+      "style": "lightning_burst",
+      "ttl": 0.34
+    },
+    "metal": {
+      "palette": [
+        "#FFFFFFFF",
+        "#BFD7E5FF",
+        "#697887DD"
+      ],
+      "quad_cost": 15,
+      "radius": 35.0,
+      "scale": 1.12,
+      "style": "metal_sparks",
+      "ttl": 0.32
+    },
+    "passive": {
+      "palette": [
+        "#00000000"
+      ],
+      "quad_cost": 0,
+      "radius": 0.0,
+      "scale": 0.0,
+      "style": "none",
+      "ttl": 0.1
+    },
+    "poison_slime": {
+      "palette": [
+        "#D8FF5AFF",
+        "#65CF4AFF",
+        "#553A8EDD"
+      ],
+      "quad_cost": 14,
+      "radius": 32.0,
+      "scale": 1.08,
+      "style": "toxic_splash",
+      "ttl": 0.4
+    },
+    "slime": {
+      "palette": [
+        "#A6FF83EE",
+        "#52C66DFF",
+        "#236C55CC"
+      ],
+      "quad_cost": 12,
+      "radius": 29.0,
+      "scale": 1.0,
+      "style": "slime_splash",
+      "ttl": 0.36
+    },
+    "sonic": {
+      "palette": [
+        "#F5FFFFFF",
+        "#68E6FFFF",
+        "#3D67DACC"
+      ],
+      "quad_cost": 16,
+      "radius": 43.0,
+      "scale": 1.18,
+      "style": "sonic_rings",
+      "ttl": 0.4
+    },
+    "spectral": {
+      "palette": [
+        "#ECFFFFFF",
+        "#78E6D0EE",
+        "#6356BBDD"
+      ],
+      "quad_cost": 15,
+      "radius": 37.0,
+      "scale": 1.12,
+      "style": "spectral_claw",
+      "ttl": 0.42
+    },
+    "sting": {
+      "palette": [
+        "#E7FF70FF",
+        "#78D438FF",
+        "#3C5A2CCC"
+      ],
+      "quad_cost": 11,
+      "radius": 26.0,
+      "scale": 1.0,
+      "style": "venom_sting",
+      "ttl": 0.34
+    },
+    "water": {
+      "palette": [
+        "#E8FFFFFF",
+        "#5BCBFFFF",
+        "#2D65CECC"
+      ],
+      "quad_cost": 14,
+      "radius": 34.0,
+      "scale": 1.08,
+      "style": "water_burst",
+      "ttl": 0.38
+    }
+  },
+  "species": {
+    "creature.abyss_colossus": "heavy_charge",
+    "creature.ankylosaurus": "fix75.ankylosaurus",
+    "creature.armored_knight": "fix75.armored_knight",
+    "creature.bandit": "claw",
+    "creature.bigfoot": "fix75.bigfoot",
+    "creature.blue_poop": "slime",
+    "creature.blue_scarab": "charge",
+    "creature.boar": "charge",
+    "creature.brachiosaurus": "fix75.brachiosaurus",
+    "creature.broom_witch": "fix75.broom_witch",
+    "creature.brown_bear": "fix75.brown_bear",
+    "creature.burning_slime": "fire",
+    "creature.butterfly_backdrop": "passive",
+    "creature.capybara": "passive",
+    "creature.carp": "passive",
+    "creature.cave_bat": "dive",
+    "creature.cave_snorble": "heavy_charge",
+    "creature.cave_spider": "sting",
+    "creature.ceiling_maw": "fix82.ceiling_maw",
+    "creature.chimpanzee": "fix75.chimpanzee",
+    "creature.cloud_golem": "fix82.cloud_golem",
+    "creature.cloud_hare": "fix82.cloud_hare",
+    "creature.congo_kong": "earth",
+    "creature.corrosive_slime": "slime",
+    "creature.creeper": "explosion",
+    "creature.crocodile": "bite",
+    "creature.crucian_carp": "passive",
+    "creature.crystal_knight": "crystal",
+    "creature.crystal_lizard": "crystal",
+    "creature.crystal_skeleton": "crystal",
+    "creature.crystal_slime": "crystal",
+    "creature.damselfly": "passive",
+    "creature.deer": "passive",
+    "creature.desert_beetle": "charge",
+    "creature.desert_scorpion": "sting",
+    "creature.desert_snake": "sting",
+    "creature.dragonfly": "passive",
+    "creature.drone_bee": "fix75.drone_bee",
+    "creature.dungeon_bandit_mage": "arcane",
+    "creature.eagle": "fix75.eagle",
+    "creature.exp99_chimpanzee": "earth",
+    "creature.exploding_wisp": "explosion",
+    "creature.fire_zombie": "fire",
+    "creature.flame_turtle": "fire",
+    "creature.flying_imp": "fire",
+    "creature.flying_squirrel": "fix75.flying_squirrel",
+    "creature.freshwater_bass": "passive",
+    "creature.ghost": "spectral",
+    "creature.giant_bago_bird": "dive",
+    "creature.giant_mammoth": "fix75.giant_mammoth",
+    "creature.giant_salamander": "fix75.giant_salamander",
+    "creature.giant_spider_monster": "sting",
+    "creature.giant_worm": "earth",
+    "creature.giraffe": "fix75.giraffe",
+    "creature.goblin": "fix75.goblin",
+    "creature.goblin_lord": "metal",
+    "creature.goblin_priest": "fire",
+    "creature.goblin_redcap": "claw",
+    "creature.gull": "passive",
+    "creature.heron": "passive",
+    "creature.hippopotamus": "fix75.hippopotamus",
+    "creature.human_faced_dog": "fix75.human_faced_dog",
+    "creature.ice_slime": "ice",
+    "creature.infernal_goat": "fire",
+    "creature.isis_serpent": "gold",
+    "creature.jaguar": "claw",
+    "creature.jungle_snake": "sting",
+    "creature.jungle_spider": "sting",
+    "creature.kingfisher": "passive",
+    "creature.lightning_zombie": "lightning",
+    "creature.lion": "fix75.lion",
+    "creature.loch_ness_monster": "fix75.loch_ness_monster",
+    "creature.long_neck_woman": "fix75.long_neck_woman",
+    "creature.long_tailed_monkey": "fix75.long_tailed_monkey",
+    "creature.mackerel": "passive",
+    "creature.mallard": "passive",
+    "creature.mangrove_crab": "passive",
+    "creature.minos": "heavy_charge",
+    "creature.mountain_goat": "passive",
+    "creature.mummy": "earth",
+    "creature.necromancer": "fix75.necromancer",
+    "creature.ornithomimus": "fix75.ornithomimus",
+    "creature.otter": "passive",
+    "creature.penguin": "fix75.penguin",
+    "creature.peregrine_falcon": "dive",
+    "creature.plane_monster": "metal",
+    "creature.polar_bear": "fix75.polar_bear",
+    "creature.purple_spore_mushroom": "fix82.purple_spore_mushroom",
+    "creature.queen_bee": "fix75.queen_bee",
+    "creature.rafflesia_seedling": "fix82.rafflesia_seedling",
+    "creature.rhinoceros": "fix75.rhinoceros",
+    "creature.saber_tooth_tiger": "fix75.saber_tooth_tiger",
+    "creature.sand_lizard": "passive",
+    "creature.sardine": "passive",
+    "creature.sea_bass": "passive",
+    "creature.sea_turtle": "passive",
+    "creature.shark": "fix75.shark",
+    "creature.shore_crab": "passive",
+    "creature.sky_moth": "fix82.sky_moth",
+    "creature.slime": "slime",
+    "creature.sloth": "fix75.sloth",
+    "creature.snow_hare": "passive",
+    "creature.snow_wolf": "bite",
+    "creature.speaker_man": "sonic",
+    "creature.sphinx_monster": "gold",
+    "creature.spinosaurus": "fix75.spinosaurus",
+    "creature.stegosaurus": "fix75.stegosaurus",
+    "creature.swamp_frog": "passive",
+    "creature.swamp_slime": "poison_slime",
+    "creature.swamp_snake": "sting",
+    "creature.swan": "claw",
+    "creature.tempest_harpy": "fix82.tempest_harpy",
+    "creature.tiger": "fix75.tiger",
+    "creature.toilet_man": "water",
+    "creature.triceratops": "fix75.triceratops",
+    "creature.trihead_dragon": "lightning",
+    "creature.tyrannosaurus": "fix75.tyrannosaurus",
+    "creature.ufo_saucer": "fix75.ufo_saucer",
+    "creature.vampire": "fix75.vampire",
+    "creature.village_dog": "passive",
+    "creature.village_rat": "bite",
+    "creature.villager": "passive",
+    "creature.vine_whipper": "fix82.vine_whipper",
+    "creature.vulture": "dive",
+    "creature.water_lizard": "fix75.water_lizard",
+    "creature.water_snake": "fix75.water_snake",
+    "creature.werewolf": "fix75.werewolf",
+    "creature.wind_god_pterosaur": "fix83.wind_god_pterosaur",
+    "creature.wolf": "bite",
+    "creature.worker_bee": "fix75.worker_bee",
+    "creature.zombie": "fix75.zombie"
+  }
+}

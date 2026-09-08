@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "assets": {
+    "background.map_editor_map": {
+      "name": "地圖背景・editor_map",
+      "tag": "素材編輯器",
+      "role": "visual",
+      "collision": "passable",
+      "color": "#7D8790",
+      "category": "background",
+      "visual": true
+    },
+    "tile.rainforest_branches_rigth": {
+      "name": "巨木枝幹_右",
+      "tag": "雨林巨木",
+      "role": "solid",
+      "collision": "solid",
+      "color": "#5C8D45",
+      "category": "tile",
+      "visual": false
+    },
+    "tile.rainforest_branches_left": {
+      "name": "巨木枝幹_右",
+      "tag": "雨林巨木",
+      "role": "solid",
+      "collision": "solid",
+      "color": "#477D36",
+      "category": "tile",
+      "visual": false
+    },
+    "tile.rainforest_vine_platform": {
+      "name": "藤蔓平台",
+      "tag": "雨林巨木",
+      "role": "climb_platform",
+      "collision": "platform",
+      "color": "#3B2618",
+      "category": "tile",
+      "visual": false,
+      "solid": true,
+      "one_way_platform": true,
+      "ladder": true
+    },
+    "tile.ladder_platform": {
+      "name": "爬梯_平台",
+      "tag": "爬梯",
+      "role": "climb_platform",
+      "collision": "platform",
+      "color": "#5C8D45",
+      "category": "tile",
+      "visual": false,
+      "solid": true,
+      "one_way_platform": true,
+      "ladder": true
+    },
+    "decoration.rock_01": {
+      "name": "巨石",
+      "tag": "素材編輯器",
+      "role": "visual",
+      "collision": "passable",
+      "color": "#5C8D45",
+      "category": "decoration",
+      "visual": true
+    }
+  }
+}

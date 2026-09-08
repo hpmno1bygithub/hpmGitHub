@@ -1,0 +1,2544 @@
+{
+  "assets": {
+    "background.map_editor_map": {
+      "category": "background",
+      "map_sync": true,
+      "name": "地圖背景・editor_map",
+      "size": 32,
+      "user_authored": true
+    },
+    "creature.abyss_crab_king": {
+      "art_pack": "FIX116",
+      "category": "creature",
+      "default_source": "editor_defaults/fix103_creature_abyss_crab_king.json",
+      "map_sync": true,
+      "name": "深海巨螯蟹王",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_native96_detail",
+      "size": 96,
+      "tags": [
+        "FIX116 真原生96x96 BOSS：非32→96倍增",
+        "高細節童話像素風"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "pixel_source": "pixel_sources/creature_abyss_crab_king.json",
+      "thumbnail": "creatures/creature_abyss_crab_king.png"
+    },
+    "creature.ancient_tree_demon": {
+      "art_pack": "FIX116",
+      "category": "creature",
+      "default_source": "editor_defaults/fix103_creature_ancient_tree_demon.json",
+      "map_sync": true,
+      "name": "古樹魔神",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_native96_detail",
+      "size": 96,
+      "tags": [
+        "FIX116 真原生96x96 BOSS：非32→96倍增",
+        "高細節童話像素風"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "pixel_source": "pixel_sources/creature_ancient_tree_demon.json",
+      "thumbnail": "creatures/creature_ancient_tree_demon.png"
+    },
+    "creature.butterfly_backdrop": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_butterfly_backdrop.json",
+      "map_sync": true,
+      "name": "蝴蝶（背景生物）",
+      "pack": "FIX99",
+      "size": 16
+    },
+    "creature.congo_kong": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_congo_kong.json",
+      "map_sync": true,
+      "name": "剛果大金剛",
+      "pack": "FIX99",
+      "size": 64
+    },
+    "creature.corrosive_slime": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_corrosive_slime.json",
+      "map_sync": true,
+      "name": "腐蝕黏菌",
+      "pack": "FIX99",
+      "size": 24
+    },
+    "creature.crystal_nine_tail": {
+      "art_pack": "FIX116",
+      "category": "creature",
+      "default_source": "editor_defaults/fix103_creature_crystal_nine_tail.json",
+      "map_sync": true,
+      "name": "冰晶九尾狐",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_native96_detail",
+      "size": 96,
+      "tags": [
+        "FIX116 真原生96x96 BOSS：非32→96倍增",
+        "高細節童話像素風"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "pixel_source": "pixel_sources/creature_crystal_nine_tail.json",
+      "thumbnail": "creatures/creature_crystal_nine_tail.png"
+    },
+    "creature.drill_worm": {
+      "art_pack": "FIX116",
+      "category": "creature",
+      "default_source": "editor_defaults/fix103_creature_drill_worm.json",
+      "map_sync": true,
+      "name": "地底鑽岩巨蟲",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_native96_detail",
+      "size": 96,
+      "tags": [
+        "FIX116 真原生96x96 BOSS：非32→96倍增",
+        "高細節童話像素風"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "pixel_source": "pixel_sources/creature_drill_worm.json",
+      "thumbnail": "creatures/creature_drill_worm.png"
+    },
+    "creature.exp99_chimpanzee": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_exp99_chimpanzee.json",
+      "map_sync": true,
+      "name": "黑猩猩（擴充）",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "creature.giant_python": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix102_creature_giant_python.json",
+      "map_sync": true,
+      "name": "巨型大蟒蛇",
+      "pack": "FIX102",
+      "size": 96,
+      "tags": [
+        "沼澤雨林地下",
+        "巨型大蟒蛇"
+      ]
+    },
+    "creature.goblin_lord": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_goblin_lord.json",
+      "map_sync": true,
+      "name": "領主哥布林",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "creature.goblin_priest": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_goblin_priest.json",
+      "map_sync": true,
+      "name": "祭司哥布林",
+      "pack": "FIX99",
+      "size": 24
+    },
+    "creature.goblin_redcap": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_goblin_redcap.json",
+      "map_sync": true,
+      "name": "紅帽哥布林",
+      "pack": "FIX99",
+      "size": 24
+    },
+    "creature.lava_beetle_emperor": {
+      "art_pack": "FIX116",
+      "category": "creature",
+      "default_source": "editor_defaults/fix103_creature_lava_beetle_emperor.json",
+      "map_sync": true,
+      "name": "熔岩甲蟲皇",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_native96_detail",
+      "size": 96,
+      "tags": [
+        "FIX116 真原生96x96 BOSS：非32→96倍增",
+        "高細節童話像素風"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "pixel_source": "pixel_sources/creature_lava_beetle_emperor.json",
+      "thumbnail": "creatures/creature_lava_beetle_emperor.png"
+    },
+    "creature.peregrine_falcon": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_peregrine_falcon.json",
+      "map_sync": true,
+      "name": "遊隼",
+      "pack": "FIX99",
+      "size": 24
+    },
+    "creature.swan": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_swan.json",
+      "map_sync": true,
+      "name": "天鵝",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "creature.thunder_roc": {
+      "art_pack": "FIX116",
+      "category": "creature",
+      "default_source": "editor_defaults/fix103_creature_thunder_roc.json",
+      "map_sync": true,
+      "name": "雷霆巨鷹",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_native96_detail",
+      "size": 96,
+      "tags": [
+        "FIX116 真原生96x96 BOSS：非32→96倍增",
+        "高細節童話像素風"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "pixel_source": "pixel_sources/creature_thunder_roc.json",
+      "thumbnail": "creatures/creature_thunder_roc.png"
+    },
+    "creature.trihead_dragon": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_trihead_dragon.json",
+      "map_sync": true,
+      "name": "三頭龍怪",
+      "pack": "FIX99",
+      "size": 96
+    },
+    "creature.vulture": {
+      "category": "creature",
+      "default_source": "editor_defaults/fix99_creature_vulture.json",
+      "map_sync": true,
+      "name": "禿鷹",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "decoration.abyss_altar": {
+      "default_source": "editor_defaults/decoration_abyss_altar.json",
+      "name": "深淵祭壇",
+      "size": 24
+    },
+    "decoration.bone_pile": {
+      "default_source": "editor_defaults/decoration_bone_pile.json",
+      "name": "焦骨堆",
+      "size": 24
+    },
+    "decoration.boss_gate": {
+      "default_source": "editor_defaults/decoration_boss_gate.json",
+      "name": "Boss 地牢門",
+      "size": 24
+    },
+    "decoration.brazier": {
+      "default_source": "editor_defaults/decoration_brazier.json",
+      "name": "brazier",
+      "size": 16
+    },
+    "decoration.castle_banner": {
+      "default_source": "editor_defaults/decoration_castle_banner.json",
+      "name": "地下城旗幟",
+      "size": 24
+    },
+    "decoration.ceiling_crystal": {
+      "default_source": "editor_defaults/decoration_ceiling_crystal.json",
+      "name": "倒垂巨晶",
+      "size": 32
+    },
+    "decoration.crystal": {
+      "default_source": "editor_defaults/decoration_crystal.json",
+      "name": "巨大水晶",
+      "size": 24
+    },
+    "decoration.crystal_arch": {
+      "default_source": "editor_defaults/decoration_crystal_arch.json",
+      "name": "水晶拱門",
+      "size": 32
+    },
+    "decoration.crystal_lantern": {
+      "default_source": "editor_defaults/decoration_crystal_lantern.json",
+      "name": "水晶燈",
+      "size": 16
+    },
+    "decoration.crystal_shrine": {
+      "default_source": "editor_defaults/decoration_crystal_shrine.json",
+      "name": "水晶祭壇",
+      "size": 24
+    },
+    "decoration.crystal_vein": {
+      "default_source": "editor_defaults/decoration_crystal_vein.json",
+      "name": "發光晶脈",
+      "size": 24
+    },
+    "decoration.demon_statue": {
+      "default_source": "editor_defaults/decoration_demon_statue.json",
+      "name": "惡魔石像",
+      "size": 32
+    },
+    "decoration.egypt_column": {
+      "default_source": "editor_defaults/decoration_egypt_column.json",
+      "name": "egypt_column",
+      "size": 24
+    },
+    "decoration.ember_vent": {
+      "default_source": "editor_defaults/decoration_ember_vent.json",
+      "name": "餘燼噴口",
+      "size": 24
+    },
+    "decoration.fence": {
+      "default_source": "editor_defaults/decoration_fence.json",
+      "name": "木柵欄",
+      "size": 16
+    },
+    "decoration.giant_mushroom": {
+      "default_source": "editor_defaults/decoration_giant_mushroom.json",
+      "name": "巨型發光菇",
+      "size": 24
+    },
+    "decoration.glow_moss": {
+      "default_source": "editor_defaults/decoration_glow_moss.json",
+      "name": "發光苔蘚",
+      "size": 16
+    },
+    "decoration.glow_pool": {
+      "default_source": "editor_defaults/decoration_glow_pool.json",
+      "name": "螢光菌池",
+      "size": 32
+    },
+    "decoration.hanging_chain": {
+      "default_source": "editor_defaults/decoration_hanging_chain.json",
+      "name": "地獄吊鏈",
+      "size": 32
+    },
+    "decoration.hanging_glow_vine": {
+      "default_source": "editor_defaults/decoration_hanging_glow_vine.json",
+      "name": "垂掛發光藤",
+      "size": 32
+    },
+    "decoration.hell_furnace": {
+      "default_source": "editor_defaults/decoration_hell_furnace.json",
+      "name": "地獄熔爐",
+      "size": 32
+    },
+    "decoration.hell_rune": {
+      "default_source": "editor_defaults/decoration_hell_rune.json",
+      "name": "煉獄符文陣",
+      "size": 32
+    },
+    "decoration.hieroglyph": {
+      "default_source": "editor_defaults/decoration_hieroglyph.json",
+      "name": "hieroglyph",
+      "size": 16
+    },
+    "decoration.hoist_chain": {
+      "default_source": "editor_defaults/decoration_hoist_chain.json",
+      "name": "礦井吊鏈",
+      "size": 32
+    },
+    "decoration.house": {
+      "default_source": "editor_defaults/decoration_house.json",
+      "name": "村莊房屋",
+      "size": 32
+    },
+    "decoration.lamp": {
+      "default_source": "editor_defaults/decoration_lamp.json",
+      "name": "村莊燈",
+      "size": 16
+    },
+    "decoration.lava_fall": {
+      "default_source": "editor_defaults/decoration_lava_fall.json",
+      "name": "熔岩瀑布",
+      "size": 32
+    },
+    "decoration.magma_totem": {
+      "default_source": "editor_defaults/decoration_magma_totem.json",
+      "name": "熔岩圖騰",
+      "size": 24
+    },
+    "decoration.mine_cart": {
+      "default_source": "editor_defaults/decoration_mine_cart.json",
+      "name": "廢棄礦車",
+      "size": 24
+    },
+    "decoration.mine_support": {
+      "default_source": "editor_defaults/decoration_mine_support.json",
+      "name": "礦坑木支架",
+      "size": 24
+    },
+    "decoration.moss_stalactite": {
+      "default_source": "editor_defaults/decoration_moss_stalactite.json",
+      "name": "苔蘚鐘乳石",
+      "size": 32
+    },
+    "decoration.obsidian_spire": {
+      "default_source": "editor_defaults/decoration_obsidian_spire.json",
+      "name": "黑曜石尖塔",
+      "size": 32
+    },
+    "decoration.portal": {
+      "default_source": "editor_defaults/decoration_portal.json",
+      "name": "洞穴入口／門",
+      "size": 24
+    },
+    "decoration.rock_01": {
+      "category": "decoration",
+      "map_sync": true,
+      "name": "巨石",
+      "size": 24,
+      "user_authored": true
+    },
+    "decoration.root_arch": {
+      "default_source": "editor_defaults/decoration_root_arch.json",
+      "name": "苔蘚根系拱門",
+      "size": 24
+    },
+    "decoration.root_cluster": {
+      "default_source": "editor_defaults/decoration_root_cluster.json",
+      "name": "盤根群",
+      "size": 32
+    },
+    "decoration.rune_obelisk": {
+      "default_source": "editor_defaults/decoration_rune_obelisk.json",
+      "name": "深淵符文碑",
+      "size": 24
+    },
+    "decoration.sarcophagus": {
+      "default_source": "editor_defaults/decoration_sarcophagus.json",
+      "name": "sarcophagus",
+      "size": 24
+    },
+    "decoration.shattered_crystal": {
+      "default_source": "editor_defaults/decoration_shattered_crystal.json",
+      "name": "碎裂晶簇",
+      "size": 24
+    },
+    "decoration.sphinx_statue": {
+      "default_source": "editor_defaults/decoration_sphinx_statue.json",
+      "name": "sphinx_statue",
+      "size": 24
+    },
+    "decoration.spore_pod": {
+      "default_source": "editor_defaults/decoration_spore_pod.json",
+      "name": "孢子囊",
+      "size": 24
+    },
+    "decoration.stone": {
+      "default_source": "editor_defaults/decoration_stone.json",
+      "name": "裝飾石頭",
+      "size": 16
+    },
+    "decoration.stone_throne": {
+      "default_source": "editor_defaults/decoration_stone_throne.json",
+      "name": "石製王座",
+      "size": 24
+    },
+    "effect.abyss_claw_heavy": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_abyss_claw.json",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "深海巨鉗・重攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 128,
+      "tags": [
+        "FIX116 原生128×128 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.abyss_crab_king",
+        "weapon.abyss_claw"
+      ],
+      "pixel_source": "pixel_sources/effect_abyss_claw_heavy.json",
+      "thumbnail": "effects/effect_abyss_claw_heavy.png"
+    },
+    "effect.abyss_claw_normal": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_abyss_claw_normal.json",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "深海巨鉗・一般攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 96,
+      "tags": [
+        "FIX116 原生96×96 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.abyss_crab_king",
+        "weapon.abyss_claw"
+      ],
+      "pixel_source": "pixel_sources/effect_abyss_claw_normal.json",
+      "thumbnail": "effects/effect_abyss_claw_normal.png"
+    },
+    "effect.corrosive_splash": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_corrosive_splash.json",
+      "map_sync": true,
+      "name": "腐蝕黏菌・濺散",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "effect.earth_drill_lance_heavy": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_earth_drill_lance.json",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "地脈鑽槍・重攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 128,
+      "tags": [
+        "FIX116 原生128×128 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.drill_worm",
+        "weapon.earth_drill_lance"
+      ],
+      "pixel_source": "pixel_sources/effect_earth_drill_lance_heavy.json",
+      "thumbnail": "effects/effect_earth_drill_lance_heavy.png"
+    },
+    "effect.earth_drill_lance_normal": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_earth_drill_lance_normal.json",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "地脈鑽槍・一般攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 96,
+      "tags": [
+        "FIX116 原生96×96 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.drill_worm",
+        "weapon.earth_drill_lance"
+      ],
+      "pixel_source": "pixel_sources/effect_earth_drill_lance_normal.json",
+      "thumbnail": "effects/effect_earth_drill_lance_normal.png"
+    },
+    "effect.magma_core_hammer_heavy": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_magma_core_hammer.json",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "熔核戰錘・重攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 128,
+      "tags": [
+        "FIX116 原生128×128 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.lava_beetle_emperor",
+        "weapon.magma_core_hammer"
+      ],
+      "pixel_source": "pixel_sources/effect_magma_core_hammer_heavy.json",
+      "thumbnail": "effects/effect_magma_core_hammer_heavy.png"
+    },
+    "effect.magma_core_hammer_normal": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_magma_core_hammer_normal.json",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "熔核戰錘・一般攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 96,
+      "tags": [
+        "FIX116 原生96×96 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.lava_beetle_emperor",
+        "weapon.magma_core_hammer"
+      ],
+      "pixel_source": "pixel_sources/effect_magma_core_hammer_normal.json",
+      "thumbnail": "effects/effect_magma_core_hammer_normal.png"
+    },
+    "effect.nine_tail_fan_heavy": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_nine_tail_fan.json",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "九尾冰扇・重攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 128,
+      "tags": [
+        "FIX116 原生128×128 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.crystal_nine_tail",
+        "weapon.nine_tail_fan"
+      ],
+      "pixel_source": "pixel_sources/effect_nine_tail_fan_heavy.json",
+      "thumbnail": "effects/effect_nine_tail_fan_heavy.png"
+    },
+    "effect.nine_tail_fan_normal": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_nine_tail_fan_normal.json",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "九尾冰扇・一般攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 96,
+      "tags": [
+        "FIX116 原生96×96 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.crystal_nine_tail",
+        "weapon.nine_tail_fan"
+      ],
+      "pixel_source": "pixel_sources/effect_nine_tail_fan_normal.json",
+      "thumbnail": "effects/effect_nine_tail_fan_normal.png"
+    },
+    "effect.python_whip_hit": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix102_effect_python_whip_hit.json",
+      "map_sync": true,
+      "name": "蟒蛇鞭・命中碎風",
+      "pack": "FIX102",
+      "size": 24,
+      "tags": [
+        "沼澤雨林地下",
+        "巨型大蟒蛇"
+      ]
+    },
+    "effect.thunder_longbow_heavy": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_thunder_longbow.json",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "雷神長弓・重攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 128,
+      "tags": [
+        "FIX116 原生128×128 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.thunder_roc",
+        "weapon.thunder_longbow"
+      ],
+      "pixel_source": "pixel_sources/effect_thunder_longbow_heavy.json",
+      "thumbnail": "effects/effect_thunder_longbow_heavy.png"
+    },
+    "effect.thunder_longbow_normal": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_thunder_longbow_normal.json",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "雷神長弓・一般攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 96,
+      "tags": [
+        "FIX116 原生96×96 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.thunder_roc",
+        "weapon.thunder_longbow"
+      ],
+      "pixel_source": "pixel_sources/effect_thunder_longbow_normal.json",
+      "thumbnail": "effects/effect_thunder_longbow_normal.png"
+    },
+    "effect.tri_orb_electric": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_tri_orb_electric.json",
+      "map_sync": true,
+      "name": "三頭龍・電球",
+      "pack": "FIX99",
+      "size": 16
+    },
+    "effect.tri_orb_fire": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_tri_orb_fire.json",
+      "map_sync": true,
+      "name": "三頭龍／魔法杖・火球",
+      "pack": "FIX99",
+      "size": 16
+    },
+    "effect.tri_orb_ice": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_tri_orb_ice.json",
+      "map_sync": true,
+      "name": "三重魔法杖・冰球",
+      "pack": "FIX99",
+      "size": 16
+    },
+    "effect.tri_orb_water": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_tri_orb_water.json",
+      "map_sync": true,
+      "name": "三頭龍／魔法杖・水球",
+      "pack": "FIX99",
+      "size": 16
+    },
+    "effect.triple_storm_cloud": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_triple_storm_cloud.json",
+      "map_sync": true,
+      "name": "三重魔法杖・烏雲",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "effect.triple_storm_lightning": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_triple_storm_lightning.json",
+      "map_sync": true,
+      "name": "三重魔法杖・落雷",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "effect.triple_storm_spark": {
+      "category": "effect",
+      "default_source": "editor_defaults/fix99_effect_triple_storm_spark.json",
+      "map_sync": true,
+      "name": "三重魔法杖・電擊火花",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "effect.world_tree_staff_heavy": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_world_tree_staff.json",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "世界樹權杖・重攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 128,
+      "tags": [
+        "FIX116 原生128×128 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.ancient_tree_demon",
+        "weapon.world_tree_staff"
+      ],
+      "pixel_source": "pixel_sources/effect_world_tree_staff_heavy.json",
+      "thumbnail": "effects/effect_world_tree_staff_heavy.png"
+    },
+    "effect.world_tree_staff_normal": {
+      "art_pack": "FIX116",
+      "category": "effect",
+      "default_source": "editor_defaults/fix103_effect_world_tree_staff_normal.json",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "世界樹權杖・一般攻擊特效",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_signature_layered_vfx",
+      "size": 96,
+      "tags": [
+        "FIX116 原生96×96 分層簽名特效",
+        "不使用32px來源倍增"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": true,
+      "shared_by": [
+        "creature.ancient_tree_demon",
+        "weapon.world_tree_staff"
+      ],
+      "pixel_source": "pixel_sources/effect_world_tree_staff_normal.json",
+      "thumbnail": "effects/effect_world_tree_staff_normal.png"
+    },
+    "item.abyss_core": {
+      "default_source": "editor_defaults/item_abyss_core.json",
+      "name": "深淵核心",
+      "size": 16
+    },
+    "item.ancient_cloth": {
+      "default_source": "editor_defaults/item_ancient_cloth.json",
+      "name": "古代繃帶",
+      "size": 16
+    },
+    "item.ancient_gem": {
+      "default_source": "editor_defaults/item_ancient_gem.json",
+      "name": "古代寶石",
+      "size": 16
+    },
+    "item.ancient_sword_fragment": {
+      "default_source": "editor_defaults/item_ancient_sword_fragment.json",
+      "name": "古劍碎片",
+      "size": 16
+    },
+    "item.ankylosaurus_material": {
+      "default_source": "editor_defaults/item_ankylosaurus_material.json",
+      "name": "甲龍素材",
+      "size": 16
+    },
+    "item.armored_knight_material": {
+      "default_source": "editor_defaults/item_armored_knight_material.json",
+      "name": "盔甲騎士素材",
+      "size": 16
+    },
+    "item.ash": {
+      "default_source": "editor_defaults/item_ash.json",
+      "name": "ash",
+      "size": 16
+    },
+    "item.bamboo_core": {
+      "default_source": "editor_defaults/item_bamboo_core.json",
+      "name": "靈竹節",
+      "size": 16
+    },
+    "item.bamboo_iron_fur": {
+      "default_source": "editor_defaults/item_bamboo_iron_fur.json",
+      "name": "墨竹硬毛",
+      "size": 16
+    },
+    "item.berry": {
+      "default_source": "editor_defaults/item_berry.json",
+      "name": "berry",
+      "size": 16
+    },
+    "item.bigfoot_material": {
+      "default_source": "editor_defaults/item_bigfoot_material.json",
+      "name": "大腳怪素材",
+      "size": 16
+    },
+    "item.biolume_membrane": {
+      "default_source": "editor_defaults/item_biolume_membrane.json",
+      "name": "虹膜翼膜",
+      "size": 16
+    },
+    "item.blue_core": {
+      "default_source": "editor_defaults/item_blue_core.json",
+      "name": "藍色核心",
+      "size": 16
+    },
+    "item.brachiosaurus_material": {
+      "default_source": "editor_defaults/item_brachiosaurus_material.json",
+      "name": "腕龍素材",
+      "size": 16
+    },
+    "item.broom_witch_material": {
+      "default_source": "editor_defaults/item_broom_witch_material.json",
+      "name": "掃帚巫婆素材",
+      "size": 16
+    },
+    "item.brown_bear_material": {
+      "default_source": "editor_defaults/item_brown_bear_material.json",
+      "name": "棕熊素材",
+      "size": 16
+    },
+    "item.cave_scale": {
+      "default_source": "editor_defaults/item_cave_scale.json",
+      "name": "岩螈鱗",
+      "size": 16
+    },
+    "item.ceiling_maw_material": {
+      "default_source": "editor_defaults/item_ceiling_maw_material.json",
+      "name": "倒吊食人花素材",
+      "size": 16
+    },
+    "item.ceramic_shard": {
+      "default_source": "editor_defaults/item_ceramic_shard.json",
+      "name": "陶瓷碎片",
+      "size": 16
+    },
+    "item.chest_closed": {
+      "default_source": "editor_defaults/item_chest_closed.json",
+      "name": "未開寶箱",
+      "size": 16
+    },
+    "item.chest_open": {
+      "default_source": "editor_defaults/item_chest_open.json",
+      "name": "已開寶箱",
+      "size": 16
+    },
+    "item.chimpanzee_material": {
+      "default_source": "editor_defaults/item_chimpanzee_material.json",
+      "name": "黑猩猩素材",
+      "size": 16
+    },
+    "item.chitin": {
+      "default_source": "editor_defaults/item_chitin.json",
+      "name": "厚甲殼",
+      "size": 16
+    },
+    "item.cloth": {
+      "default_source": "editor_defaults/item_cloth.json",
+      "name": "布料",
+      "size": 16
+    },
+    "item.cloud_golem_material": {
+      "default_source": "editor_defaults/item_cloud_golem_material.json",
+      "name": "雲岩守衛素材",
+      "size": 16
+    },
+    "item.cloud_hare_material": {
+      "default_source": "editor_defaults/item_cloud_hare_material.json",
+      "name": "雲絨兔素材",
+      "size": 16
+    },
+    "item.coin": {
+      "default_source": "editor_defaults/item_coin.json",
+      "name": "錢幣",
+      "size": 16
+    },
+    "item.copper_ore": {
+      "default_source": "editor_defaults/item_copper_ore.json",
+      "name": "copper_ore",
+      "size": 16
+    },
+    "item.crystal_bone": {
+      "default_source": "editor_defaults/item_crystal_bone.json",
+      "name": "水晶骨",
+      "size": 16
+    },
+    "item.crystal_scale": {
+      "default_source": "editor_defaults/item_crystal_scale.json",
+      "name": "水晶鱗片",
+      "size": 16
+    },
+    "item.crystal_shard": {
+      "default_source": "editor_defaults/item_crystal_shard.json",
+      "name": "水晶碎片",
+      "size": 16
+    },
+    "item.drone_bee_material": {
+      "default_source": "editor_defaults/item_drone_bee_material.json",
+      "name": "雄蜂素材",
+      "size": 16
+    },
+    "item.eagle_material": {
+      "default_source": "editor_defaults/item_eagle_material.json",
+      "name": "老鷹素材",
+      "size": 16
+    },
+    "item.echo_fang": {
+      "default_source": "editor_defaults/item_echo_fang.json",
+      "name": "回音牙",
+      "size": 16
+    },
+    "item.ectoplasm": {
+      "default_source": "editor_defaults/item_ectoplasm.json",
+      "name": "靈質",
+      "size": 16
+    },
+    "item.electric_core": {
+      "default_source": "editor_defaults/item_electric_core.json",
+      "name": "電能核心",
+      "size": 16
+    },
+    "item.ember_core": {
+      "default_source": "editor_defaults/item_ember_core.json",
+      "name": "餘燼核心",
+      "size": 16
+    },
+    "item.feather": {
+      "default_source": "editor_defaults/item_feather.json",
+      "name": "羽毛",
+      "size": 16
+    },
+    "item.flame_shell": {
+      "default_source": "editor_defaults/item_flame_shell.json",
+      "name": "火炎龜甲",
+      "size": 16
+    },
+    "item.flying_squirrel_material": {
+      "default_source": "editor_defaults/item_flying_squirrel_material.json",
+      "name": "飛鼠素材",
+      "size": 16
+    },
+    "item.frog_leg": {
+      "default_source": "editor_defaults/item_frog_leg.json",
+      "name": "蛙腿",
+      "size": 16
+    },
+    "item.fruit": {
+      "default_source": "editor_defaults/item_fruit.json",
+      "name": "fruit",
+      "size": 16
+    },
+    "item.fur": {
+      "default_source": "editor_defaults/item_fur.json",
+      "name": "毛皮",
+      "size": 16
+    },
+    "item.giant_mammoth_material": {
+      "default_source": "editor_defaults/item_giant_mammoth_material.json",
+      "name": "巨型猛獁象素材",
+      "size": 16
+    },
+    "item.giant_salamander_material": {
+      "default_source": "editor_defaults/item_giant_salamander_material.json",
+      "name": "娃娃魚素材",
+      "size": 16
+    },
+    "item.giraffe_material": {
+      "default_source": "editor_defaults/item_giraffe_material.json",
+      "name": "長頸鹿素材",
+      "size": 16
+    },
+    "item.goblin_material": {
+      "default_source": "editor_defaults/item_goblin_material.json",
+      "name": "哥布林素材",
+      "size": 16
+    },
+    "item.gold_ore": {
+      "default_source": "editor_defaults/item_gold_ore.json",
+      "name": "gold_ore",
+      "size": 16
+    },
+    "item.grandmaster_sword_core": {
+      "default_source": "editor_defaults/item_grandmaster_sword_core.json",
+      "name": "宗師劍心",
+      "size": 16
+    },
+    "item.hide": {
+      "default_source": "editor_defaults/item_hide.json",
+      "name": "獸皮",
+      "size": 16
+    },
+    "item.hippopotamus_material": {
+      "default_source": "editor_defaults/item_hippopotamus_material.json",
+      "name": "河馬素材",
+      "size": 16
+    },
+    "item.horn": {
+      "default_source": "editor_defaults/item_horn.json",
+      "name": "羊角",
+      "size": 16
+    },
+    "item.human_faced_dog_material": {
+      "default_source": "editor_defaults/item_human_faced_dog_material.json",
+      "name": "人臉狗素材",
+      "size": 16
+    },
+    "item.ice_chunk": {
+      "default_source": "editor_defaults/item_ice_chunk.json",
+      "name": "ice_chunk",
+      "size": 16
+    },
+    "item.ice_crystal": {
+      "default_source": "editor_defaults/item_ice_crystal.json",
+      "name": "冰晶",
+      "size": 16
+    },
+    "item.imp_horn": {
+      "default_source": "editor_defaults/item_imp_horn.json",
+      "name": "小惡魔角",
+      "size": 16
+    },
+    "item.infernal_horn": {
+      "default_source": "editor_defaults/item_infernal_horn.json",
+      "name": "煉獄羊角",
+      "size": 16
+    },
+    "item.ink_feather": {
+      "default_source": "editor_defaults/item_ink_feather.json",
+      "name": "墨羽",
+      "size": 16
+    },
+    "item.insect_wing": {
+      "default_source": "editor_defaults/item_insect_wing.json",
+      "name": "薄翼",
+      "size": 16
+    },
+    "item.iron_ore": {
+      "default_source": "editor_defaults/item_iron_ore.json",
+      "name": "iron_ore",
+      "size": 16
+    },
+    "item.jade_blade": {
+      "default_source": "editor_defaults/item_jade_blade.json",
+      "name": "翠刃",
+      "size": 16
+    },
+    "item.jungle_soil": {
+      "default_source": "editor_defaults/item_jungle_soil.json",
+      "name": "jungle_soil",
+      "size": 16
+    },
+    "item.knight_plate": {
+      "default_source": "editor_defaults/item_knight_plate.json",
+      "name": "晶甲碎片",
+      "size": 16
+    },
+    "item.lantern_fin": {
+      "default_source": "editor_defaults/item_lantern_fin.json",
+      "name": "燈翼鰭片",
+      "size": 16
+    },
+    "item.leaf": {
+      "default_source": "editor_defaults/item_leaf.json",
+      "name": "leaf",
+      "size": 16
+    },
+    "item.limestone": {
+      "default_source": "editor_defaults/item_limestone.json",
+      "name": "limestone",
+      "size": 16
+    },
+    "item.limestone_core": {
+      "default_source": "editor_defaults/item_limestone_core.json",
+      "name": "鐘乳核",
+      "size": 16
+    },
+    "item.lion_material": {
+      "default_source": "editor_defaults/item_lion_material.json",
+      "name": "獅子素材",
+      "size": 16
+    },
+    "item.living_bark": {
+      "default_source": "editor_defaults/item_living_bark.json",
+      "name": "活性樹皮",
+      "size": 16
+    },
+    "item.lizard_scale": {
+      "default_source": "editor_defaults/item_lizard_scale.json",
+      "name": "蜥蜴鱗",
+      "size": 16
+    },
+    "item.loch_ness_monster_material": {
+      "default_source": "editor_defaults/item_loch_ness_monster_material.json",
+      "name": "尼斯湖水怪素材",
+      "size": 16
+    },
+    "item.long_neck_woman_material": {
+      "default_source": "editor_defaults/item_long_neck_woman_material.json",
+      "name": "長頸女素材",
+      "size": 16
+    },
+    "item.long_tailed_monkey_material": {
+      "default_source": "editor_defaults/item_long_tailed_monkey_material.json",
+      "name": "長尾猴素材",
+      "size": 16
+    },
+    "item.luminous_spore": {
+      "default_source": "editor_defaults/item_luminous_spore.json",
+      "name": "發光孢子",
+      "size": 16
+    },
+    "item.marble": {
+      "default_source": "editor_defaults/item_marble.json",
+      "name": "marble",
+      "size": 16
+    },
+    "item.minos_horn": {
+      "default_source": "editor_defaults/item_minos_horn.json",
+      "name": "米諾斯之角",
+      "size": 16
+    },
+    "item.monster_drop": {
+      "default_source": "editor_defaults/item_monster_drop.json",
+      "name": "巨像碎片",
+      "size": 16
+    },
+    "item.mud": {
+      "default_source": "editor_defaults/item_mud.json",
+      "name": "mud",
+      "size": 16
+    },
+    "item.necromancer_material": {
+      "default_source": "editor_defaults/item_necromancer_material.json",
+      "name": "死靈法師素材",
+      "size": 16
+    },
+    "item.night_hide": {
+      "default_source": "editor_defaults/item_night_hide.json",
+      "name": "幽光獸皮",
+      "size": 16
+    },
+    "item.old_talisman": {
+      "default_source": "editor_defaults/item_old_talisman.json",
+      "name": "殘舊符紙",
+      "size": 16
+    },
+    "item.ornithomimus_material": {
+      "default_source": "editor_defaults/item_ornithomimus_material.json",
+      "name": "似鳥龍素材",
+      "size": 16
+    },
+    "item.packed_dirt": {
+      "default_source": "editor_defaults/item_packed_dirt.json",
+      "name": "packed_dirt",
+      "size": 16
+    },
+    "item.penguin_material": {
+      "default_source": "editor_defaults/item_penguin_material.json",
+      "name": "企鵝素材",
+      "size": 16
+    },
+    "item.polar_bear_material": {
+      "default_source": "editor_defaults/item_polar_bear_material.json",
+      "name": "北極熊素材",
+      "size": 16
+    },
+    "item.purple_spore_mushroom_material": {
+      "default_source": "editor_defaults/item_purple_spore_mushroom_material.json",
+      "name": "紫色毒蘑菇素材",
+      "size": 16
+    },
+    "item.queen_bee_material": {
+      "default_source": "editor_defaults/item_queen_bee_material.json",
+      "name": "女王蜂素材",
+      "size": 16
+    },
+    "item.rafflesia_seedling_material": {
+      "default_source": "editor_defaults/item_rafflesia_seedling_material.json",
+      "name": "霸王花怪素材",
+      "size": 16
+    },
+    "item.rainbow_feather": {
+      "default_source": "editor_defaults/item_rainbow_feather.json",
+      "name": "彩色巨羽",
+      "size": 16
+    },
+    "item.raw_fish": {
+      "default_source": "editor_defaults/item_raw_fish.json",
+      "name": "生魚肉",
+      "size": 16
+    },
+    "item.raw_meat": {
+      "default_source": "editor_defaults/item_raw_meat.json",
+      "name": "焦熱獸肉",
+      "size": 16
+    },
+    "item.resonance_dust": {
+      "default_source": "editor_defaults/item_resonance_dust.json",
+      "name": "共鳴光塵",
+      "size": 16
+    },
+    "item.resonance_fang": {
+      "default_source": "editor_defaults/item_resonance_fang.json",
+      "name": "共鳴獠牙",
+      "size": 16
+    },
+    "item.rhinoceros_material": {
+      "default_source": "editor_defaults/item_rhinoceros_material.json",
+      "name": "犀牛素材",
+      "size": 16
+    },
+    "item.river_scale": {
+      "default_source": "editor_defaults/item_river_scale.json",
+      "name": "灕江鱗片",
+      "size": 16
+    },
+    "item.root_crystal": {
+      "default_source": "editor_defaults/item_root_crystal.json",
+      "name": "根脈結晶",
+      "size": 16
+    },
+    "item.saber_tooth_tiger_material": {
+      "default_source": "editor_defaults/item_saber_tooth_tiger_material.json",
+      "name": "劍齒虎素材",
+      "size": 16
+    },
+    "item.sand": {
+      "default_source": "editor_defaults/item_sand.json",
+      "name": "sand",
+      "size": 16
+    },
+    "item.scarab_shell": {
+      "default_source": "editor_defaults/item_scarab_shell.json",
+      "name": "藍甲蟲殼",
+      "size": 16
+    },
+    "item.scorpion_tail": {
+      "default_source": "editor_defaults/item_scorpion_tail.json",
+      "name": "蠍尾",
+      "size": 16
+    },
+    "item.serpent_scale": {
+      "default_source": "editor_defaults/item_serpent_scale.json",
+      "name": "神蛇鱗片",
+      "size": 16
+    },
+    "item.shark_material": {
+      "default_source": "editor_defaults/item_shark_material.json",
+      "name": "鯊魚素材",
+      "size": 16
+    },
+    "item.silk": {
+      "default_source": "editor_defaults/item_silk.json",
+      "name": "巨蛛絲",
+      "size": 16
+    },
+    "item.sky_moth_material": {
+      "default_source": "editor_defaults/item_sky_moth_material.json",
+      "name": "虹翼雲蛾素材",
+      "size": 16
+    },
+    "item.slime_gel": {
+      "default_source": "editor_defaults/item_slime_gel.json",
+      "name": "晶化黏液",
+      "size": 16
+    },
+    "item.sloth_material": {
+      "default_source": "editor_defaults/item_sloth_material.json",
+      "name": "樹懶素材",
+      "size": 16
+    },
+    "item.snake_skin": {
+      "default_source": "editor_defaults/item_snake_skin.json",
+      "name": "蛇皮",
+      "size": 16
+    },
+    "item.snorble_fur": {
+      "default_source": "editor_defaults/item_snorble_fur.json",
+      "name": "呼嚕毛",
+      "size": 16
+    },
+    "item.snow_soil": {
+      "default_source": "editor_defaults/item_snow_soil.json",
+      "name": "snow_soil",
+      "size": 16
+    },
+    "item.soil": {
+      "default_source": "editor_defaults/item_soil.json",
+      "name": "soil",
+      "size": 16
+    },
+    "item.soul_wick": {
+      "default_source": "editor_defaults/item_soul_wick.json",
+      "name": "魂燈芯",
+      "size": 16
+    },
+    "item.speaker_core": {
+      "default_source": "editor_defaults/item_speaker_core.json",
+      "name": "音響核心",
+      "size": 16
+    },
+    "item.spinosaurus_material": {
+      "default_source": "editor_defaults/item_spinosaurus_material.json",
+      "name": "棘龍素材",
+      "size": 16
+    },
+    "item.spore_carapace": {
+      "default_source": "editor_defaults/item_spore_carapace.json",
+      "name": "孢背甲片",
+      "size": 16
+    },
+    "item.stegosaurus_material": {
+      "default_source": "editor_defaults/item_stegosaurus_material.json",
+      "name": "劍龍素材",
+      "size": 16
+    },
+    "item.stone": {
+      "default_source": "editor_defaults/item_stone.json",
+      "name": "stone",
+      "size": 16
+    },
+    "item.sulfur_powder": {
+      "default_source": "editor_defaults/item_sulfur_powder.json",
+      "name": "硫磺粉",
+      "size": 16
+    },
+    "item.swamp_soil": {
+      "default_source": "editor_defaults/item_swamp_soil.json",
+      "name": "swamp_soil",
+      "size": 16
+    },
+    "item.tempest_harpy_material": {
+      "default_source": "editor_defaults/item_tempest_harpy_material.json",
+      "name": "風羽妖鳥素材",
+      "size": 16
+    },
+    "item.tiger_material": {
+      "default_source": "editor_defaults/item_tiger_material.json",
+      "name": "老虎素材",
+      "size": 16
+    },
+    "item.tooth": {
+      "default_source": "editor_defaults/item_tooth.json",
+      "name": "利齒",
+      "size": 16
+    },
+    "item.toxic_sac": {
+      "default_source": "editor_defaults/item_toxic_sac.json",
+      "name": "大型毒囊",
+      "size": 16
+    },
+    "item.triceratops_material": {
+      "default_source": "editor_defaults/item_triceratops_material.json",
+      "name": "三角龍素材",
+      "size": 16
+    },
+    "item.tyrannosaurus_material": {
+      "default_source": "editor_defaults/item_tyrannosaurus_material.json",
+      "name": "暴龍素材",
+      "size": 16
+    },
+    "item.ufo_saucer_material": {
+      "default_source": "editor_defaults/item_ufo_saucer_material.json",
+      "name": "UFO飛碟素材",
+      "size": 16
+    },
+    "item.vampire_material": {
+      "default_source": "editor_defaults/item_vampire_material.json",
+      "name": "吸血鬼素材",
+      "size": 16
+    },
+    "item.vine_whipper_material": {
+      "default_source": "editor_defaults/item_vine_whipper_material.json",
+      "name": "藤蔓怪素材",
+      "size": 16
+    },
+    "item.water_core": {
+      "default_source": "editor_defaults/item_water_core.json",
+      "name": "水靈核",
+      "size": 16
+    },
+    "item.water_lizard_material": {
+      "default_source": "editor_defaults/item_water_lizard_material.json",
+      "name": "水蜥蜴素材",
+      "size": 16
+    },
+    "item.water_snake_material": {
+      "default_source": "editor_defaults/item_water_snake_material.json",
+      "name": "水蛇素材",
+      "size": 16
+    },
+    "item.werewolf_material": {
+      "default_source": "editor_defaults/item_werewolf_material.json",
+      "name": "狼人素材",
+      "size": 16
+    },
+    "item.white_fur": {
+      "default_source": "editor_defaults/item_white_fur.json",
+      "name": "白色毛皮",
+      "size": 16
+    },
+    "item.wing_membrane": {
+      "default_source": "editor_defaults/item_wing_membrane.json",
+      "name": "劍翼膜",
+      "size": 16
+    },
+    "item.wing_plate": {
+      "default_source": "editor_defaults/item_wing_plate.json",
+      "name": "飛翼甲片",
+      "size": 16
+    },
+    "item.wire": {
+      "default_source": "editor_defaults/item_wire.json",
+      "name": "電線",
+      "size": 16
+    },
+    "item.wisp_ash": {
+      "default_source": "editor_defaults/item_wisp_ash.json",
+      "name": "鬼火灰燼",
+      "size": 16
+    },
+    "item.wood": {
+      "default_source": "editor_defaults/item_wood.json",
+      "name": "wood",
+      "size": 16
+    },
+    "item.worker_bee_material": {
+      "default_source": "editor_defaults/item_worker_bee_material.json",
+      "name": "工蜂素材",
+      "size": 16
+    },
+    "item.world_heart_seed": {
+      "default_source": "editor_defaults/item_world_heart_seed.json",
+      "name": "星根心核種子",
+      "size": 16
+    },
+    "item.yin_cloth": {
+      "default_source": "editor_defaults/item_yin_cloth.json",
+      "name": "陰氣布",
+      "size": 16
+    },
+    "item.zombie_material": {
+      "default_source": "editor_defaults/item_zombie_material.json",
+      "name": "殭屍素材",
+      "size": 16
+    },
+    "magic.electricball": {
+      "default_source": "editor_defaults/magic_electricball.json",
+      "name": "電球彈體",
+      "size": 16
+    },
+    "magic.fireball": {
+      "default_source": "editor_defaults/magic_fireball.json",
+      "name": "火球彈體",
+      "size": 16
+    },
+    "magic.iceball": {
+      "default_source": "editor_defaults/magic_iceball.json",
+      "name": "冰球彈體",
+      "size": 16
+    },
+    "magic.steam": {
+      "default_source": "editor_defaults/magic_steam.json",
+      "name": "蒸汽圖像",
+      "size": 16
+    },
+    "magic.toxic_gas": {
+      "default_source": "editor_defaults/magic_toxic_gas.json",
+      "name": "毒氣圖像",
+      "size": 16
+    },
+    "magic.waterball": {
+      "default_source": "editor_defaults/magic_waterball.json",
+      "name": "水球彈體",
+      "size": 16
+    },
+    "plant.map_cactus": {
+      "default_source": "editor_defaults/plant_map_cactus.json",
+      "name": "仙人掌",
+      "size": 24
+    },
+    "plant.map_fern": {
+      "default_source": "editor_defaults/plant_map_fern.json",
+      "name": "蕨類",
+      "size": 16
+    },
+    "plant.map_grass": {
+      "default_source": "editor_defaults/plant_map_grass.json",
+      "name": "草",
+      "size": 16
+    },
+    "plant.map_jungle_tree": {
+      "default_source": "editor_defaults/plant_map_jungle_tree.json",
+      "name": "雨林樹",
+      "size": 32
+    },
+    "plant.map_pine": {
+      "default_source": "editor_defaults/plant_map_pine.json",
+      "name": "松樹",
+      "size": 32
+    },
+    "plant.map_reed": {
+      "default_source": "editor_defaults/plant_map_reed.json",
+      "name": "蘆葦",
+      "size": 16
+    },
+    "plant.map_tree": {
+      "default_source": "editor_defaults/plant_map_tree.json",
+      "name": "樹木",
+      "size": 32
+    },
+    "plant.moss": {
+      "default_source": "editor_defaults/plant_moss.json",
+      "name": "自然苔蘚",
+      "size": 16
+    },
+    "plant.succession_low": {
+      "default_source": "editor_defaults/plant_succession_low.json",
+      "name": "自然低草",
+      "size": 16
+    },
+    "plant.succession_mid": {
+      "default_source": "editor_defaults/plant_succession_mid.json",
+      "name": "自然灌叢",
+      "size": 16
+    },
+    "plant.succession_tree": {
+      "default_source": "editor_defaults/plant_succession_tree.json",
+      "name": "自然演替樹木",
+      "size": 24
+    },
+    "player.sword": {
+      "default_source": "editor_defaults/player_sword.json",
+      "name": "主角武器／劍",
+      "size": 16
+    },
+    "tile.ash": {
+      "default_source": "editor_defaults/tile_ash.json",
+      "name": "灰燼土壤",
+      "size": 16
+    },
+    "tile.copper_ore": {
+      "default_source": "editor_defaults/tile_copper_ore.json",
+      "name": "銅礦",
+      "size": 16
+    },
+    "tile.dirt": {
+      "default_source": "editor_defaults/tile_dirt.json",
+      "name": "一般土壤",
+      "size": 16
+    },
+    "tile.gold_ore": {
+      "default_source": "editor_defaults/tile_gold_ore.json",
+      "name": "金礦",
+      "size": 16
+    },
+    "tile.grass_dirt": {
+      "default_source": "editor_defaults/tile_grass_dirt.json",
+      "name": "草皮土壤",
+      "size": 16
+    },
+    "tile.honeycomb": {
+      "default_source": "editor_defaults/tile_honeycomb.json",
+      "name": "蜂巢圖塊",
+      "size": 16
+    },
+    "tile.ice": {
+      "default_source": "editor_defaults/tile_ice.json",
+      "name": "冰塊",
+      "size": 16
+    },
+    "tile.igneous_rock": {
+      "default_source": "editor_defaults/tile_igneous_rock.json",
+      "name": "火成岩",
+      "size": 16
+    },
+    "tile.iron_ore": {
+      "default_source": "editor_defaults/tile_iron_ore.json",
+      "name": "鐵礦",
+      "size": 16
+    },
+    "tile.jungle_soil": {
+      "default_source": "editor_defaults/tile_jungle_soil.json",
+      "name": "雨林土壤",
+      "size": 16
+    },
+    "tile.ladder": {
+      "default_source": "editor_defaults/tile_ladder.json",
+      "name": "梯子",
+      "size": 16
+    },
+    "tile.ladder_platform": {
+      "category": "tile",
+      "map_sync": true,
+      "name": "爬梯_平台",
+      "size": 16,
+      "user_authored": true
+    },
+    "tile.limestone": {
+      "default_source": "editor_defaults/tile_limestone.json",
+      "name": "灰岩石塊",
+      "size": 16
+    },
+    "tile.marble": {
+      "default_source": "editor_defaults/tile_marble.json",
+      "name": "大理石塊",
+      "size": 16
+    },
+    "tile.mud": {
+      "default_source": "editor_defaults/tile_mud.json",
+      "name": "淤泥",
+      "size": 16
+    },
+    "tile.rainforest_branches_left": {
+      "category": "tile",
+      "map_sync": true,
+      "name": "巨木枝幹_右",
+      "size": 16,
+      "user_authored": true
+    },
+    "tile.rainforest_branches_rigth": {
+      "category": "tile",
+      "map_sync": true,
+      "name": "巨木枝幹_右",
+      "size": 16,
+      "user_authored": true
+    },
+    "tile.rainforest_vine_platform": {
+      "category": "tile",
+      "map_sync": true,
+      "name": "藤蔓平台",
+      "size": 16,
+      "user_authored": true
+    },
+    "tile.sand": {
+      "default_source": "editor_defaults/tile_sand.json",
+      "name": "沙漠沙地",
+      "size": 16
+    },
+    "tile.sea_sand": {
+      "default_source": "editor_defaults/tile_sea_sand.json",
+      "name": "海沙",
+      "size": 16
+    },
+    "tile.snow_dirt": {
+      "default_source": "editor_defaults/tile_snow_dirt.json",
+      "name": "雪地土壤",
+      "size": 16
+    },
+    "tile.stone": {
+      "default_source": "editor_defaults/tile_stone.json",
+      "name": "一般石塊",
+      "size": 16
+    },
+    "tile.swamp_soil": {
+      "default_source": "editor_defaults/tile_swamp_soil.json",
+      "name": "沼澤土壤",
+      "size": 16
+    },
+    "tile.village_path": {
+      "default_source": "editor_defaults/tile_village_path.json",
+      "name": "村莊道路",
+      "size": 16
+    },
+    "tile.wood": {
+      "default_source": "editor_defaults/tile_wood.json",
+      "name": "木材圖塊",
+      "size": 16
+    },
+    "ui.action": {
+      "default_source": "editor_defaults/ui_action.json",
+      "name": "action",
+      "size": 96
+    },
+    "ui.action_unknown": {
+      "control_file": "control_icons/action_unknown.png",
+      "default_source": "editor_defaults/ui_action_unknown.json",
+      "name": "未知動作圖示",
+      "size": 96
+    },
+    "ui.attack": {
+      "default_source": "editor_defaults/ui_attack.json",
+      "name": "動作圖示",
+      "size": 96
+    },
+    "ui.control_action": {
+      "control_file": "control_icons/control_action.png",
+      "default_source": "editor_defaults/ui_control_action.json",
+      "name": "動作圖示",
+      "size": 96
+    },
+    "ui.control_aim": {
+      "control_file": "control_icons/control_aim.png",
+      "default_source": "editor_defaults/ui_control_aim.json",
+      "name": "準心圖示",
+      "size": 96
+    },
+    "ui.control_backpack": {
+      "control_file": "control_icons/control_backpack.png",
+      "default_source": "editor_defaults/ui_control_backpack.json",
+      "name": "背包圖示",
+      "size": 96
+    },
+    "ui.control_close": {
+      "control_file": "control_icons/control_close.png",
+      "default_source": "editor_defaults/ui_control_close.json",
+      "name": "關閉圖示",
+      "size": 96
+    },
+    "ui.control_crouch": {
+      "control_file": "control_icons/control_crouch.png",
+      "default_source": "editor_defaults/ui_control_crouch.json",
+      "name": "蹲趴圖示",
+      "size": 96
+    },
+    "ui.control_down": {
+      "control_file": "control_icons/control_down.png",
+      "default_source": "editor_defaults/ui_control_down.json",
+      "name": "下方向圖示",
+      "size": 96
+    },
+    "ui.control_interact": {
+      "control_file": "control_icons/control_interact.png",
+      "default_source": "editor_defaults/ui_control_interact.json",
+      "name": "互動圖示",
+      "size": 96
+    },
+    "ui.control_jump": {
+      "control_file": "control_icons/control_jump.png",
+      "default_source": "editor_defaults/ui_control_jump.json",
+      "name": "跳躍圖示",
+      "size": 96
+    },
+    "ui.control_left": {
+      "control_file": "control_icons/control_left.png",
+      "default_source": "editor_defaults/ui_control_left.json",
+      "name": "左方向圖示",
+      "size": 96
+    },
+    "ui.control_load": {
+      "control_file": "control_icons/control_load.png",
+      "default_source": "editor_defaults/ui_control_load.json",
+      "name": "讀檔圖示",
+      "size": 96
+    },
+    "ui.control_move": {
+      "control_file": "control_icons/control_move.png",
+      "default_source": "editor_defaults/ui_control_move.json",
+      "name": "移動模式圖示",
+      "size": 32
+    },
+    "ui.control_new_game": {
+      "control_file": "control_icons/control_new_game.png",
+      "default_source": "editor_defaults/ui_control_new_game.json",
+      "name": "新開遊戲圖示",
+      "size": 96
+    },
+    "ui.control_right": {
+      "control_file": "control_icons/control_right.png",
+      "default_source": "editor_defaults/ui_control_right.json",
+      "name": "右方向圖示",
+      "size": 96
+    },
+    "ui.control_roll": {
+      "control_file": "control_icons/control_roll.png",
+      "default_source": "editor_defaults/ui_control_roll.json",
+      "name": "翻滾圖示",
+      "size": 96
+    },
+    "ui.control_save": {
+      "control_file": "control_icons/control_save.png",
+      "default_source": "editor_defaults/ui_control_save.json",
+      "name": "存檔圖示",
+      "size": 96
+    },
+    "ui.control_up": {
+      "control_file": "control_icons/control_up.png",
+      "default_source": "editor_defaults/ui_control_up.json",
+      "name": "上方向圖示",
+      "size": 96
+    },
+    "ui.crouch": {
+      "default_source": "editor_defaults/ui_crouch.json",
+      "name": "蹲趴圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_air_dash_shoes": {
+      "control_file": "equipment_icons/air_dash_shoes.png",
+      "default_source": "editor_defaults/ui_equipment_icon_air_dash_shoes.json",
+      "name": "空中衝刺鞋背包圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_double_jump_shoes": {
+      "control_file": "equipment_icons/double_jump_shoes.png",
+      "default_source": "editor_defaults/ui_equipment_icon_double_jump_shoes.json",
+      "name": "二段跳鞋背包圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_electric_mouse_helmet": {
+      "control_file": "equipment_icons/electric_mouse_helmet.png",
+      "default_source": "editor_defaults/ui_equipment_icon_electric_mouse_helmet.json",
+      "name": "皮卡丘風格頭盔背包圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_hover_shoes": {
+      "control_file": "equipment_icons/hover_shoes.png",
+      "default_source": "editor_defaults/ui_equipment_icon_hover_shoes.json",
+      "name": "浮空鞋背包圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_shield_armor": {
+      "control_file": "equipment_icons/shield_armor.png",
+      "default_source": "editor_defaults/ui_equipment_icon_shield_armor.json",
+      "name": "護盾盔甲背包圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_sky_puppy_helmet": {
+      "control_file": "equipment_icons/sky_puppy_helmet.png",
+      "default_source": "editor_defaults/ui_equipment_icon_sky_puppy_helmet.json",
+      "name": "大耳狗風格頭盔背包圖示",
+      "size": 96
+    },
+    "ui.equipment_icon_wind_god_wings": {
+      "control_file": "equipment_icons/wind_god_wings.png",
+      "default_source": "editor_defaults/ui_equipment_icon_wind_god_wings.json",
+      "name": "風神翅膀背包圖示",
+      "size": 48
+    },
+    "ui.health": {
+      "default_source": "editor_defaults/ui_health.json",
+      "name": "生命條",
+      "size": 32
+    },
+    "ui.interact": {
+      "default_source": "editor_defaults/ui_interact.json",
+      "name": "互動圖示",
+      "size": 96
+    },
+    "ui.inventory": {
+      "default_source": "editor_defaults/ui_inventory.json",
+      "name": "背包圖示",
+      "size": 96
+    },
+    "ui.jump": {
+      "default_source": "editor_defaults/ui_jump.json",
+      "name": "跳躍圖示",
+      "size": 96
+    },
+    "ui.magic": {
+      "default_source": "editor_defaults/ui_magic.json",
+      "name": "magic",
+      "size": 96
+    },
+    "ui.magic_electricball": {
+      "control_file": "control_icons/magic_electricball.png",
+      "default_source": "editor_defaults/ui_magic_electricball.json",
+      "name": "電球圖示",
+      "size": 96
+    },
+    "ui.magic_fireball": {
+      "control_file": "control_icons/magic_fireball.png",
+      "default_source": "editor_defaults/ui_magic_fireball.json",
+      "name": "火球圖示",
+      "size": 96
+    },
+    "ui.magic_iceball": {
+      "control_file": "control_icons/magic_iceball.png",
+      "default_source": "editor_defaults/ui_magic_iceball.json",
+      "name": "冰球圖示",
+      "size": 96
+    },
+    "ui.magic_waterball": {
+      "control_file": "control_icons/magic_waterball.png",
+      "default_source": "editor_defaults/ui_magic_waterball.json",
+      "name": "水球圖示",
+      "size": 96
+    },
+    "ui.mana": {
+      "default_source": "editor_defaults/ui_mana.json",
+      "name": "魔力條",
+      "size": 32
+    },
+    "ui.roll": {
+      "default_source": "editor_defaults/ui_roll.json",
+      "name": "翻滾圖示",
+      "size": 96
+    },
+    "ui.stamina": {
+      "default_source": "editor_defaults/ui_stamina.json",
+      "name": "體力條",
+      "size": 32
+    },
+    "ui.tool_axe": {
+      "control_file": "control_icons/tool_axe.png",
+      "default_source": "editor_defaults/ui_tool_axe.json",
+      "name": "斧圖示",
+      "size": 96
+    },
+    "ui.tool_grapple": {
+      "control_file": "control_icons/tool_grapple.png",
+      "default_source": "editor_defaults/ui_tool_grapple.json",
+      "name": "鉤爪圖示",
+      "size": 96
+    },
+    "ui.tool_pickaxe": {
+      "control_file": "control_icons/tool_pickaxe.png",
+      "default_source": "editor_defaults/ui_tool_pickaxe.json",
+      "name": "鎬圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_alien_cannon": {
+      "control_file": "weapon_icons/alien_cannon.png",
+      "default_source": "editor_defaults/ui_weapon_icon_alien_cannon.json",
+      "name": "外星能量砲背包圖示",
+      "size": 32
+    },
+    "ui.weapon_icon_battle_axe": {
+      "control_file": "weapon_icons/battle_axe.png",
+      "default_source": "editor_defaults/ui_weapon_icon_battle_axe.json",
+      "name": "巨斧背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_battle_top": {
+      "control_file": "weapon_icons/battle_top.png",
+      "default_source": "editor_defaults/ui_weapon_icon_battle_top.json",
+      "name": "戰鬥陀螺背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_bee_swarm": {
+      "control_file": "weapon_icons/bee_swarm.png",
+      "default_source": "editor_defaults/ui_weapon_icon_bee_swarm.json",
+      "name": "群峰追擊背包圖示",
+      "size": 24
+    },
+    "ui.weapon_icon_dagger": {
+      "control_file": "weapon_icons/dagger.png",
+      "default_source": "editor_defaults/ui_weapon_icon_dagger.json",
+      "name": "獵刀背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_energy_bow": {
+      "control_file": "weapon_icons/energy_bow.png",
+      "default_source": "editor_defaults/ui_weapon_icon_energy_bow.json",
+      "name": "能量弓背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_flying_drone": {
+      "control_file": "weapon_icons/flying_drone.png",
+      "default_source": "editor_defaults/ui_weapon_icon_flying_drone.json",
+      "name": "飛行無人機背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_greatsword": {
+      "control_file": "weapon_icons/greatsword.png",
+      "default_source": "editor_defaults/ui_weapon_icon_greatsword.json",
+      "name": "巨劍背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_laser_gun": {
+      "control_file": "weapon_icons/laser_gun.png",
+      "default_source": "editor_defaults/ui_weapon_icon_laser_gun.json",
+      "name": "雷射槍背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_master_sword": {
+      "control_file": "weapon_icons/master_sword.png",
+      "default_source": "editor_defaults/ui_weapon_icon_master_sword.json",
+      "name": "宗師名劍背包圖示",
+      "size": 32
+    },
+    "ui.weapon_icon_pressure_cannon": {
+      "control_file": "weapon_icons/pressure_cannon.png",
+      "default_source": "editor_defaults/ui_weapon_icon_pressure_cannon.json",
+      "name": "高壓水槍砲背包圖示",
+      "size": 32
+    },
+    "ui.weapon_icon_quake_hammer": {
+      "control_file": "weapon_icons/quake_hammer.png",
+      "default_source": "editor_defaults/ui_weapon_icon_quake_hammer.json",
+      "name": "撼動大錘背包圖示",
+      "size": 32
+    },
+    "ui.weapon_icon_rpg_launcher": {
+      "control_file": "weapon_icons/rpg_launcher.png",
+      "default_source": "editor_defaults/ui_weapon_icon_rpg_launcher.json",
+      "name": "RPG火箭筒背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_spear": {
+      "control_file": "weapon_icons/spear.png",
+      "default_source": "editor_defaults/ui_weapon_icon_spear.json",
+      "name": "長矛背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_sword": {
+      "control_file": "weapon_icons/sword.png",
+      "default_source": "editor_defaults/ui_weapon_icon_sword.json",
+      "name": "鐵劍背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_tnt": {
+      "control_file": "weapon_icons/tnt.png",
+      "default_source": "editor_defaults/ui_weapon_icon_tnt.json",
+      "name": "TNT炸藥背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_war_hammer": {
+      "control_file": "weapon_icons/war_hammer.png",
+      "default_source": "editor_defaults/ui_weapon_icon_war_hammer.json",
+      "name": "鐵鎚背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_whip": {
+      "control_file": "weapon_icons/whip.png",
+      "default_source": "editor_defaults/ui_weapon_icon_whip.json",
+      "name": "甩鞭背包圖示",
+      "size": 96
+    },
+    "ui.weapon_icon_yoyo": {
+      "control_file": "weapon_icons/yoyo.png",
+      "default_source": "editor_defaults/ui_weapon_icon_yoyo.json",
+      "name": "溜溜球背包圖示",
+      "size": 96
+    },
+    "weapon.abyss_claw": {
+      "art_pack": "FIX116",
+      "category": "weapon",
+      "default_source": "editor_defaults/fix103_weapon_abyss_claw.json",
+      "map_sync": true,
+      "name": "深海巨鉗",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_shared_weapon_signature_vfx",
+      "size": 24,
+      "tags": [
+        "FIX116 BOSS同系武器",
+        "普攻/重攻獨立簽名特效"
+      ],
+      "logical_size": 24,
+      "export_size": 48,
+      "export_scale": 2.0,
+      "pixel_source": "pixel_sources/weapon_abyss_claw.json",
+      "thumbnail": "weapons/weapon_abyss_claw.png"
+    },
+    "weapon.earth_drill_lance": {
+      "art_pack": "FIX116",
+      "category": "weapon",
+      "default_source": "editor_defaults/fix103_weapon_earth_drill_lance.json",
+      "map_sync": true,
+      "name": "地脈鑽槍",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_shared_weapon_signature_vfx",
+      "size": 24,
+      "tags": [
+        "FIX116 BOSS同系武器",
+        "普攻/重攻獨立簽名特效"
+      ],
+      "logical_size": 24,
+      "export_size": 48,
+      "export_scale": 2.0,
+      "pixel_source": "pixel_sources/weapon_earth_drill_lance.json",
+      "thumbnail": "weapons/weapon_earth_drill_lance.png"
+    },
+    "weapon.kong_gauntlets": {
+      "category": "weapon",
+      "default_source": "editor_defaults/fix99_weapon_kong_gauntlets.json",
+      "map_sync": true,
+      "name": "金剛拳套",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "weapon.magma_core_hammer": {
+      "art_pack": "FIX116",
+      "category": "weapon",
+      "default_source": "editor_defaults/fix103_weapon_magma_core_hammer.json",
+      "map_sync": true,
+      "name": "熔核戰錘",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_shared_weapon_signature_vfx",
+      "size": 24,
+      "tags": [
+        "FIX116 BOSS同系武器",
+        "普攻/重攻獨立簽名特效"
+      ],
+      "logical_size": 24,
+      "export_size": 48,
+      "export_scale": 2.0,
+      "pixel_source": "pixel_sources/weapon_magma_core_hammer.json",
+      "thumbnail": "weapons/weapon_magma_core_hammer.png"
+    },
+    "weapon.nine_tail_fan": {
+      "art_pack": "FIX116",
+      "category": "weapon",
+      "default_source": "editor_defaults/fix103_weapon_nine_tail_fan.json",
+      "map_sync": true,
+      "name": "九尾冰扇",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_shared_weapon_signature_vfx",
+      "size": 24,
+      "tags": [
+        "FIX116 BOSS同系武器",
+        "普攻/重攻獨立簽名特效"
+      ],
+      "logical_size": 24,
+      "export_size": 48,
+      "export_scale": 2.0,
+      "pixel_source": "pixel_sources/weapon_nine_tail_fan.json",
+      "thumbnail": "weapons/weapon_nine_tail_fan.png"
+    },
+    "weapon.python_whip": {
+      "category": "weapon",
+      "default_source": "editor_defaults/fix102_weapon_python_whip.json",
+      "map_sync": true,
+      "name": "蟒蛇鞭",
+      "pack": "FIX102",
+      "size": 32,
+      "tags": [
+        "沼澤雨林地下",
+        "巨型大蟒蛇"
+      ]
+    },
+    "weapon.thunder_longbow": {
+      "art_pack": "FIX116",
+      "category": "weapon",
+      "default_source": "editor_defaults/fix103_weapon_thunder_longbow.json",
+      "map_sync": true,
+      "name": "雷神長弓",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_shared_weapon_signature_vfx",
+      "size": 24,
+      "tags": [
+        "FIX116 BOSS同系武器",
+        "普攻/重攻獨立簽名特效"
+      ],
+      "logical_size": 24,
+      "export_size": 48,
+      "export_scale": 2.0,
+      "pixel_source": "pixel_sources/weapon_thunder_longbow.json",
+      "thumbnail": "weapons/weapon_thunder_longbow.png"
+    },
+    "weapon.triple_staff": {
+      "category": "weapon",
+      "default_source": "editor_defaults/fix99_weapon_triple_staff.json",
+      "map_sync": true,
+      "name": "三重魔法杖",
+      "pack": "FIX99",
+      "size": 32
+    },
+    "weapon.world_tree_staff": {
+      "art_pack": "FIX116",
+      "category": "weapon",
+      "default_source": "editor_defaults/fix103_weapon_world_tree_staff.json",
+      "map_sync": true,
+      "name": "世界樹權杖",
+      "pack": "FIX116",
+      "pixel_style": "FIX116_shared_weapon_signature_vfx",
+      "size": 24,
+      "tags": [
+        "FIX116 BOSS同系武器",
+        "普攻/重攻獨立簽名特效"
+      ],
+      "logical_size": 24,
+      "export_size": 48,
+      "export_scale": 2.0,
+      "pixel_source": "pixel_sources/weapon_world_tree_staff.json",
+      "thumbnail": "weapons/weapon_world_tree_staff.png"
+    },
+    "effect.lava_beetle_emperor_special": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "熔岩甲蟲皇・重攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 128,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.lava_beetle_emperor"
+      ],
+      "pixel_source": "pixel_sources/effect_lava_beetle_emperor_special.json",
+      "thumbnail": "effects/effect_lava_beetle_emperor_special.png",
+      "direct_gameplay_source": true
+    },
+    "effect.crystal_nine_tail_special": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "冰晶九尾狐・重攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 128,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.crystal_nine_tail"
+      ],
+      "pixel_source": "pixel_sources/effect_crystal_nine_tail_special.json",
+      "thumbnail": "effects/effect_crystal_nine_tail_special.png",
+      "direct_gameplay_source": true
+    },
+    "effect.abyss_crab_king_special": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "深海巨螯蟹王・重攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 128,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.abyss_crab_king"
+      ],
+      "pixel_source": "pixel_sources/effect_abyss_crab_king_special.json",
+      "thumbnail": "effects/effect_abyss_crab_king_special.png",
+      "direct_gameplay_source": true
+    },
+    "effect.thunder_roc_special": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "雷霆巨鷹・重攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 128,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.thunder_roc"
+      ],
+      "pixel_source": "pixel_sources/effect_thunder_roc_special.json",
+      "thumbnail": "effects/effect_thunder_roc_special.png",
+      "direct_gameplay_source": true
+    },
+    "effect.drill_worm_special": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "地底鑽岩巨蟲・重攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 128,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.drill_worm"
+      ],
+      "pixel_source": "pixel_sources/effect_drill_worm_special.json",
+      "thumbnail": "effects/effect_drill_worm_special.png",
+      "direct_gameplay_source": true
+    },
+    "effect.ancient_tree_demon_special": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 128,
+      "map_sync": true,
+      "name": "古樹魔神・重攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 128,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 128,
+      "export_size": 128,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.ancient_tree_demon"
+      ],
+      "pixel_source": "pixel_sources/effect_ancient_tree_demon_special.json",
+      "thumbnail": "effects/effect_ancient_tree_demon_special.png",
+      "direct_gameplay_source": true
+    },
+    "effect.lava_beetle_emperor_attack": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "熔岩甲蟲皇・一般攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 96,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.lava_beetle_emperor"
+      ],
+      "pixel_source": "pixel_sources/effect_lava_beetle_emperor_attack.json",
+      "thumbnail": "effects/effect_lava_beetle_emperor_attack.png",
+      "direct_gameplay_source": true
+    },
+    "effect.crystal_nine_tail_attack": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "冰晶九尾狐・一般攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 96,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.crystal_nine_tail"
+      ],
+      "pixel_source": "pixel_sources/effect_crystal_nine_tail_attack.json",
+      "thumbnail": "effects/effect_crystal_nine_tail_attack.png",
+      "direct_gameplay_source": true
+    },
+    "effect.abyss_crab_king_attack": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "深海巨螯蟹王・一般攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 96,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.abyss_crab_king"
+      ],
+      "pixel_source": "pixel_sources/effect_abyss_crab_king_attack.json",
+      "thumbnail": "effects/effect_abyss_crab_king_attack.png",
+      "direct_gameplay_source": true
+    },
+    "effect.thunder_roc_attack": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "雷霆巨鷹・一般攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 96,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.thunder_roc"
+      ],
+      "pixel_source": "pixel_sources/effect_thunder_roc_attack.json",
+      "thumbnail": "effects/effect_thunder_roc_attack.png",
+      "direct_gameplay_source": true
+    },
+    "effect.drill_worm_attack": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "地底鑽岩巨蟲・一般攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 96,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.drill_worm"
+      ],
+      "pixel_source": "pixel_sources/effect_drill_worm_attack.json",
+      "thumbnail": "effects/effect_drill_worm_attack.png",
+      "direct_gameplay_source": true
+    },
+    "effect.ancient_tree_demon_attack": {
+      "art_pack": "FIX122",
+      "category": "effect",
+      "effect_canvas_size": 96,
+      "map_sync": true,
+      "name": "古樹魔神・一般攻擊特效",
+      "pack": "FIX122",
+      "pixel_style": "FIX122_boss_direct_fx",
+      "size": 96,
+      "tags": [
+        "BOSS專用",
+        "遊戲直連FX",
+        "逐幀可編輯"
+      ],
+      "logical_size": 96,
+      "export_size": 96,
+      "export_scale": 1.0,
+      "standalone_shared_effect": false,
+      "shared_by": [
+        "creature.ancient_tree_demon"
+      ],
+      "pixel_source": "pixel_sources/effect_ancient_tree_demon_attack.json",
+      "thumbnail": "effects/effect_ancient_tree_demon_attack.png",
+      "direct_gameplay_source": true
+    }
+  },
+  "version": "FIX116"
+}
