@@ -16,6 +16,9 @@ func run() -> void:
 	game.test_mode=true
 	root.add_child(game)
 	game.study.model.persistence=false
+	var font: Font=load("res://assets/fonts/NotoSansTC-Regular.otf")
+	for code in range(0x3105,0x312A): check(font.has_char(code),"Bundled font contains Bopomofo U+%04X" % code)
+	for code in [0x2CA,0x2C7,0x2CB,0x2D9]: check(font.has_char(code),"Bundled font contains tone mark")
 	game.change_map("control_lab")
 	game.player.set_physics_process(false)
 	for actor in game.gameplay.actors.get_children(): actor.simulation_enabled=false

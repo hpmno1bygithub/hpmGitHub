@@ -25,5 +25,5 @@ with zipfile.ZipFile(ipa) as archive:
     if 'Payload/PytoRPG.app/Info.plist' not in archive.namelist(): raise SystemExit('Invalid IPA structure')
 checksum=hashlib.sha256(ipa.read_bytes()).hexdigest()
 (output/'PytoRPG-unsigned.ipa.sha256').write_text(checksum+'  '+ipa.name+'\n',encoding='utf8')
-(output/'build-info.json').write_text(json.dumps({'commit':os.environ.get('GITHUB_SHA'),'run':os.environ.get('GITHUB_RUN_NUMBER'),'version':info.get('CFBundleShortVersionString'),'bundle_id':info.get('CFBundleIdentifier'),'device_families':info.get('UIDeviceFamily'),'sha256':checksum,'signed':False},indent=2),encoding='utf8')
+(output/'build-info.json').write_text(json.dumps({'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'workflow_commit':os.environ.get('GITHUB_SHA'),'run':os.environ.get('GITHUB_RUN_NUMBER'),'version':info.get('CFBundleShortVersionString'),'bundle_id':info.get('CFBundleIdentifier'),'device_families':info.get('UIDeviceFamily'),'sha256':checksum,'signed':False},indent=2),encoding='utf8')
 print('IPA_OK '+str(ipa),flush=True)

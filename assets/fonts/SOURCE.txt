@@ -1,0 +1,4 @@
+Noto Sans TC Regular, upstream Sans2.004, unmodified regional subset.
+https://github.com/notofonts/noto-cjk/tree/Sans2.004
+SHA256 5bab0cb3c1cf89dde07c4a95a4054b195afbcfe784d69d75c340780712237537
+License: SIL Open Font License 1.1 (OFL.txt).

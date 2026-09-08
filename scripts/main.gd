@@ -212,8 +212,7 @@ func build_ui() -> void:
 	add_child(canvas)
 	canvas.add_child(safe_ui)
 	var theme := Theme.new()
-	var font := SystemFont.new()
-	font.font_names = PackedStringArray(["Microsoft JhengHei", "PingFang TC", "Noto Sans CJK TC"])
+	var font: Font = preload("res://assets/fonts/NotoSansTC-Regular.otf")
 	theme.default_font = font
 	safe_ui.theme = theme
 	safe_ui.mouse_filter = Control.MOUSE_FILTER_IGNORE
